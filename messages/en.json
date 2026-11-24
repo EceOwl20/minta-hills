@@ -259,6 +259,34 @@
     "description": "Every room is equipped with air conditioning for comfortable summer stays.",
     "imageAlt": "Minta Hills swimming pool during summer"
   }
+},
+
+"facilities": {
+  "eyebrow": "AT OUR RESORT",
+  "title": "Beyond the doors",
+  "subtitle": "of your villa.",
+  "pool": {
+    "title": "Swimming pool",
+    "description": "Our swimming pool, maintained daily by our staff, is available for your enjoyment.",
+    "note": "DURING SUMMER",
+    "imageAlt": "Minta Hills swimming pool and villas illuminated in the evening"
+  },
+  "cafeteria": {
+    "title": "Cafeteria",
+    "description": "Our on-site cafeteria is also at your service throughout your stay.",
+    "note": "ON SITE",
+    "imageAlt": "Minta Hills cafeteria overlooking the Bey Mountains"
+  }
+},
+
+"closing": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "A holiday experience",
+  "subtitle": "you will never forget.",
+  "imageAlt": "Minta Hills at sunset",
+  "discoverVillas": "DISCOVER THE VILLAS",
+  "reservation": "MAKE A RESERVATION",
+  "whatsappMessage": "Hello Minta Hills, I would like to receive information about availability and prices."
 }
 }
 

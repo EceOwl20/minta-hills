@@ -29,3 +29,19 @@ export const aboutSeasons = [
     image: "/images/exteriors/pool-2.jpg",
   },
 ] as const;
+
+export const aboutFacilities = [
+  {
+    id: "pool",
+    image: "/images/gallery/DCSD8156.JPG",
+  },
+  {
+    id: "cafeteria",
+    image: "/images/hospitality/cafe-2.jpg",
+  },
+] as const;
+
+export const aboutClosing = {
+  image: "/images/exteriors/dusk-2.jpg",
+  villasHref: "/villas",
+} as const;

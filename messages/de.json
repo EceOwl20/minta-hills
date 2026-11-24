@@ -258,6 +258,34 @@
     "description": "Jedes Zimmer ist für einen komfortablen Sommeraufenthalt mit einer Klimaanlage ausgestattet.",
     "imageAlt": "Swimmingpool von Minta Hills im Sommer"
   }
+},
+
+"facilities": {
+  "eyebrow": "IN UNSERER ANLAGE",
+  "title": "Auch außerhalb",
+  "subtitle": "Ihrer Villa.",
+  "pool": {
+    "title": "Swimmingpool",
+    "description": "Unser Swimmingpool wird täglich von unseren Mitarbeitern gepflegt und steht Ihnen zur Verfügung.",
+    "note": "IN DEN SOMMERMONATEN",
+    "imageAlt": "Swimmingpool und Villen von Minta Hills in der Abendbeleuchtung"
+  },
+  "cafeteria": {
+    "title": "Cafeteria",
+    "description": "Unsere Cafeteria steht Ihnen während Ihres gesamten Aufenthalts zur Verfügung.",
+    "note": "IN DER ANLAGE",
+    "imageAlt": "Cafeteria von Minta Hills mit Blick auf das Beygebirge"
+  }
+},
+
+"closing": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "Ein Urlaubserlebnis,",
+  "subtitle": "das Sie nie vergessen.",
+  "imageAlt": "Minta Hills bei Sonnenuntergang",
+  "discoverVillas": "VILLEN ENTDECKEN",
+  "reservation": "JETZT RESERVIEREN",
+  "whatsappMessage": "Hallo Minta Hills, ich möchte Informationen zur Verfügbarkeit und zu den Preisen erhalten."
 }
 }
 }

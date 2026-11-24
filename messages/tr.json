@@ -258,6 +258,34 @@
     "description": "Yaz ayları konaklamaları için her odamızda klima sistemi bulunmaktadır.",
     "imageAlt": "Yaz aylarında Minta Hills yüzme havuzu"
   }
+},
+
+"facilities": {
+  "eyebrow": "TESİSİMİZDE",
+  "title": "Villanın kapısından",
+  "subtitle": "çıktığınızda.",
+  "pool": {
+    "title": "Yüzme havuzu",
+    "description": "Günlük bakımı görevlilerimizce yapılan yüzme havuzumuz hizmetinizde olacaktır.",
+    "note": "YAZ AYLARINDA",
+    "imageAlt": "Akşam ışıklarında Minta Hills havuzu ve villaları"
+  },
+  "cafeteria": {
+    "title": "Kafeterya",
+    "description": "Tesisimiz ayrıca kafeteryamız ile konaklamanız boyunca hizmetinizde olacaktır.",
+    "note": "TESİS İÇİ",
+    "imageAlt": "Beydağları manzarasına bakan Minta Hills kafeteryası"
+  }
+},
+
+"closing": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "Unutamayacağınız",
+  "subtitle": "bir tatil olanağı.",
+  "imageAlt": "Gün batımında Minta Hills",
+  "discoverVillas": "VİLLALARI KEŞFEDİN",
+  "reservation": "REZERVASYON YAP",
+  "whatsappMessage": "Merhaba Minta Hills, uygunluk ve fiyat bilgisi almak istiyorum."
 }
 }
 }
