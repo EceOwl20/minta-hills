@@ -2,5 +2,45 @@
   "HomePage": {
     "title": "Minta Hills",
     "description": "Minta Hills'e hoş geldiniz."
+  },
+  "Header": {
+    "navigation": {
+      "index": "ANA SAYFA",
+      "hakkimizda": "HİKAYEMİZ",
+      "hospitality": "AYRICALIKLAR",
+      "experiences": "DENEYİMLER",
+      "villas": "KONAKLAMA",
+      "gallery": "GALERİ",
+      "blog": "BLOG",
+      "contact": "İLETİŞİM"
+    },
+    "reservation": "REZERVASYON",
+    "skipToContent": "İçeriğe geç",
+    "homeLinkLabel": "Minta Hills ana sayfa",
+    "mainMenu": "Ana menü",
+    "mobileMenu": "Mobil menü",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "chooseLanguage": "Dil seçin",
+    "callUs": "Minta Hills'i ara"
+  },
+
+  "MainBanner": {
+  "label": "Minta Hills tanıtım",
+  "location": "KEMER · ANTALYA",
+  "title": "Doğanın kalbinde",
+  "subtitle": "kendinize ait bir dünya.",
+  "description": "Torosların eteğinde, portakal bahçelerinin içinde yalnızca sekiz özel villa.",
+  "discover": "VİLLALARI KEŞFEDİN",
+  "nextSlide": "Sonraki görsel",
+  "pauseSlider": "Slayt gösterisini duraklat",
+  "playSlider": "Slayt gösterisini başlat",
+  "scroll": "SCROLL",
+  "slides": {
+    "slide1": "Minta Hills villaları ve yüzme havuzu",
+    "slide2": "Havuz çevresindeki Minta Hills villaları",
+    "slide3": "Akşam ışıklarında Minta Hills villaları ve havuzu",
+    "slide4": "Beydağları manzaralı Minta Hills"
   }
+}
 }

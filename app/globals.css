@@ -46,57 +46,62 @@
   --color-brand-paper: var(--color-paper);
   --color-brand-mist: var(--color-mist);
   --color-brand-silver: var(--color-silver);
+  --animate-menu-enter: menu-enter 450ms cubic-bezier(0.77, 0, 0.18, 1);
+  --animate-hero-enter: hero-enter 600ms
+  cubic-bezier(0.16, 1, 0.3, 1) 100ms both;
 }
 
 /* Base styles */
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: var(--header-height);
-  -webkit-text-size-adjust: 100%;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
+    -webkit-text-size-adjust: 100%;
+  }
 
-body {
-  margin: 0;
-  background: var(--color-paper);
-  color: var(--color-ink);
-  font-family: var(--font-montserrat), Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.6;
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
-}
+  body {
+    margin: 0;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-montserrat), Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+  }
 
-button,
-input,
-select,
-textarea {
-  font: inherit;
-}
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
 
-button {
-  cursor: pointer;
-}
+  button {
+    cursor: pointer;
+  }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 
-img {
-  display: block;
-  max-width: 100%;
-}
+  img {
+    display: block;
+    max-width: 100%;
+  }
 
-:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 3px;
-}
+  :focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
 
-::selection {
-  background: var(--color-ink);
-  color: var(--color-white);
+  ::selection {
+    background: var(--color-ink);
+    color: var(--color-white);
+  }
 }
 
 /* Reduced motion accessibility */
@@ -104,5 +109,51 @@ img {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+}
+
+@media (max-width: 1050px) {
+  :root {
+    --header-height: 86px;
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --header-height: 82px;
+  }
+}
+
+@keyframes menu-enter {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (width < 80rem) {
+  :root {
+    --header-height: 86px;
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --header-height: 82px;
+  }
+}
+
+@keyframes hero-enter {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

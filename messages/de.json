@@ -2,5 +2,45 @@
   "HomePage": {
     "title": "Minta Hills",
     "description": "Willkommen bei Minta Hills."
+  },
+  "Header": {
+    "navigation": {
+      "index": "STARTSEITE",
+      "hakkimizda": "UNSERE GESCHICHTE",
+      "hospitality": "VORTEILE",
+      "experiences": "ERLEBNISSE",
+      "villas": "UNTERKUNFT",
+      "gallery": "GALERIE",
+      "blog": "BLOG",
+      "contact": "KONTAKT"
+    },
+    "reservation": "RESERVIEREN",
+    "skipToContent": "Zum Inhalt springen",
+    "homeLinkLabel": "Minta Hills Startseite",
+    "mainMenu": "Hauptmenü",
+    "mobileMenu": "Mobiles Menü",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "chooseLanguage": "Sprache wählen",
+    "callUs": "Minta Hills anrufen"
+  },
+
+  "MainBanner": {
+  "label": "Entdecken Sie Minta Hills",
+  "location": "KEMER · ANTALYA",
+  "title": "Im Herzen der Natur,",
+  "subtitle": "eine Welt ganz für Sie.",
+  "description": "Nur acht private Villen inmitten von Orangenhainen am Fuße des Taurusgebirges.",
+  "discover": "VILLEN ENTDECKEN",
+  "nextSlide": "Nächstes Bild",
+  "pauseSlider": "Diashow pausieren",
+  "playSlider": "Diashow starten",
+  "scroll": "SCROLL",
+  "slides": {
+    "slide1": "Minta Hills Villen und Swimmingpool",
+    "slide2": "Minta Hills Villen rund um den Pool",
+    "slide3": "Minta Hills Villen und Pool in der Abendbeleuchtung",
+    "slide4": "Minta Hills mit Blick auf das Beygebirge"
   }
+}
 }

@@ -5,6 +5,7 @@ import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
+import Header from "@/components/layout/Header";
 
 const montserrat = Montserrat({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -52,15 +53,17 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html
-      lang={locale}
-      className={`${montserrat.variable} ${cormorantGaramond.variable}`}
-    >
-      <body>
-        <NextIntlClientProvider>
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
-  );
+  <html
+    lang={locale}
+    className={`${montserrat.variable} ${cormorantGaramond.variable}`}
+  >
+    <body>
+      <NextIntlClientProvider>
+        <Header />
+
+        {children}
+      </NextIntlClientProvider>
+    </body>
+  </html>
+);
 }

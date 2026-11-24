@@ -1,4 +1,6 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
+
+import MainBanner from "@/components/home/MainBanner";
 
 type Props = {
   params: Promise<{
@@ -6,25 +8,22 @@ type Props = {
   }>;
 };
 
-export default async function HomePage({ params }: Props) {
+export default async function HomePage({
+  params,
+}: Props) {
   const { locale } = await params;
 
   setRequestLocale(locale);
 
-  const t = await getTranslations({
-    locale,
-    namespace: "HomePage",
-  });
-
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-4">
-      <h1 className="text-4xl font-semibold">
-        {t("title")}
-      </h1>
+    <main id="main">
+      <MainBanner />
 
-      <p className="text-lg">
-        {t("description")}
-      </p>
+      {/* Temporary section for scroll testing */}
+      <section
+        id="highlights"
+        className="min-h-screen bg-brand-paper"
+      />
     </main>
   );
 }

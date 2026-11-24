@@ -2,5 +2,45 @@
   "HomePage": {
     "title": "Minta Hills",
     "description": "Добро пожаловать в Minta Hills."
+  },
+  "Header": {
+    "navigation": {
+      "index": "ГЛАВНАЯ",
+      "hakkimizda": "О НАС",
+      "hospitality": "ПРИВИЛЕГИИ",
+      "experiences": "ВПЕЧАТЛЕНИЯ",
+      "villas": "ПРОЖИВАНИЕ",
+      "gallery": "ГАЛЕРЕЯ",
+      "blog": "БЛОГ",
+      "contact": "КОНТАКТЫ"
+    },
+    "reservation": "БРОНИРОВАНИЕ",
+    "skipToContent": "Перейти к содержанию",
+    "homeLinkLabel": "Minta Hills — главная",
+    "mainMenu": "Главное меню",
+    "mobileMenu": "Мобильное меню",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню",
+    "chooseLanguage": "Выберите язык",
+    "callUs": "Позвонить в Minta Hills"
+  },
+
+  "MainBanner": {
+  "label": "Откройте для себя Minta Hills",
+  "location": "КЕМЕР · АНТАЛЬЯ",
+  "title": "В самом сердце природы,",
+  "subtitle": "мир, принадлежащий только вам.",
+  "description": "Всего восемь частных вилл среди апельсиновых садов у подножия Таврских гор.",
+  "discover": "ОТКРОЙТЕ ДЛЯ СЕБЯ ВИЛЛЫ",
+  "nextSlide": "Следующее изображение",
+  "pauseSlider": "Приостановить слайд-шоу",
+  "playSlider": "Запустить слайд-шоу",
+  "scroll": "SCROLL",
+  "slides": {
+    "slide1": "Виллы Minta Hills и бассейн",
+    "slide2": "Виллы Minta Hills вокруг бассейна",
+    "slide3": "Виллы Minta Hills и бассейн в вечернем освещении",
+    "slide4": "Minta Hills с видом на горы Бейдаглары"
   }
+}
 }

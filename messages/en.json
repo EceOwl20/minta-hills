@@ -2,5 +2,45 @@
   "HomePage": {
     "title": "Minta Hills",
     "description": "Welcome to Minta Hills."
+  },
+  "Header": {
+    "navigation": {
+      "index": "HOME",
+      "hakkimizda": "OUR STORY",
+      "hospitality": "PRIVILEGES",
+      "experiences": "EXPERIENCES",
+      "villas": "STAY",
+      "gallery": "GALLERY",
+      "blog": "BLOG",
+      "contact": "CONTACT"
+    },
+    "reservation": "BOOK NOW",
+    "skipToContent": "Skip to content",
+    "homeLinkLabel": "Minta Hills home",
+    "mainMenu": "Main menu",
+    "mobileMenu": "Mobile menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "chooseLanguage": "Choose language",
+    "callUs": "Call Minta Hills"
+  },
+
+  "MainBanner": {
+  "label": "Discover Minta Hills",
+  "location": "KEMER · ANTALYA",
+  "title": "In the heart of nature,",
+  "subtitle": "a world of your own.",
+  "description": "Just eight private villas nestled among orange groves at the foothills of the Taurus Mountains.",
+  "discover": "DISCOVER THE VILLAS",
+  "nextSlide": "Next image",
+  "pauseSlider": "Pause slideshow",
+  "playSlider": "Play slideshow",
+  "scroll": "SCROLL",
+  "slides": {
+    "slide1": "Minta Hills villas and swimming pool",
+    "slide2": "Minta Hills villas surrounding the pool",
+    "slide3": "Minta Hills villas and pool illuminated in the evening",
+    "slide4": "Minta Hills overlooking the Bey Mountains"
   }
+}
 }
