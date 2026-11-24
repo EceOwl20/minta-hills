@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 
 import MainBanner from "@/components/home/MainBanner";
+import HighlightsSection from "@/components/home/HighlightsSection";
 
 type Props = {
   params: Promise<{
@@ -19,11 +20,7 @@ export default async function HomePage({
     <main id="main">
       <MainBanner />
 
-      {/* Temporary section for scroll testing */}
-      <section
-        id="highlights"
-        className="min-h-screen bg-brand-paper"
-      />
+      <HighlightsSection />
     </main>
   );
 }

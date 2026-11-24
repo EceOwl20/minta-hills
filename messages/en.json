@@ -42,5 +42,53 @@
     "slide3": "Minta Hills villas and pool illuminated in the evening",
     "slide4": "Minta Hills overlooking the Bey Mountains"
   }
+},
+
+"Footer": {
+  "tagline": "A world of your own,",
+  "taglineSecond": "in the heart of nature.",
+  "location": "KEMER · ANTALYA",
+  "explore": "EXPLORE",
+  "contact": "CONTACT",
+  "social": "SOCIAL MEDIA",
+  "ministry": "REPUBLIC OF TÜRKİYE — MINISTRY OF CULTURE AND TOURISM",
+  "license": "RESIDENCE PERMIT NO",
+  "directions": "CONTACT & DIRECTIONS",
+  "rights": "ALL RIGHTS RESERVED.",
+  "privacy": "PRIVACY & CONTACT",
+  "platforms": "Booking and review platforms",
+  "footerMenu": "Footer menu",
+  "instagram": "Visit our Instagram page",
+  "whatsapp": "Contact us on WhatsApp"
+},
+
+"HighlightsSection": {
+  "eyebrow": "MINTA HILLS PRIVILEGES",
+  "title": "Nature in its",
+  "subtitle": "most refined form.",
+  "description": "Away from the crowds, close to the rhythm of nature. A private retreat where every detail is designed for tranquillity, freedom and comfort.",
+  "scrollHint": "SWIPE TO DISCOVER",
+  "cards": {
+    "nature": {
+      "title": "20,000 m² of Nature",
+      "description": "A holiday with room to breathe among orange groves.",
+      "alt": "Minta Hills garden and palm trees"
+    },
+    "home": {
+      "title": "A Home of Your Own",
+      "description": "145 m² of spacious living and complete comfort.",
+      "alt": "Spacious villa living area"
+    },
+    "mediterranean": {
+      "title": "Mediterranean Rhythm",
+      "description": "Unhurried hours by the pool, entirely your own.",
+      "alt": "Minta Hills swimming pool"
+    },
+    "hospitality": {
+      "title": "Heartfelt Hospitality",
+      "description": "There whenever you need us, always discreet.",
+      "alt": "Minta Hills café"
+    }
+  }
 }
 }

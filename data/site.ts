@@ -18,4 +18,11 @@ export const siteConfig = {
     city: "Antalya",
     country: "Türkiye",
   },
+
+  tourismLicense: "07-3022",
+
+  social: {
+    instagram: "https://www.instagram.com/mintahillskemer/",
+    whatsapp: "https://wa.me/905302205996",
+  },
 } as const;

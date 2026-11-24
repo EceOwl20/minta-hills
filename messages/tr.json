@@ -42,5 +42,53 @@
     "slide3": "Akşam ışıklarında Minta Hills villaları ve havuzu",
     "slide4": "Beydağları manzaralı Minta Hills"
   }
+},
+
+"Footer": {
+  "tagline": "Doğanın içinde,",
+  "taglineSecond": "kendinize ait bir dünya.",
+  "location": "KEMER · ANTALYA",
+  "explore": "KEŞFET",
+  "contact": "İLETİŞİM",
+  "social": "SOSYAL MEDYA",
+  "ministry": "T.C. KÜLTÜR VE TURİZM BAKANLIĞI",
+  "license": "KONUT İZİN BELGE NO",
+  "directions": "İLETİŞİM & YOL TARİFİ",
+  "rights": "TÜM HAKLARI SAKLIDIR.",
+  "privacy": "GİZLİLİK & İLETİŞİM",
+  "platforms": "Rezervasyon ve değerlendirme platformları",
+  "footerMenu": "Alt menü",
+  "instagram": "Instagram sayfamızı ziyaret edin",
+  "whatsapp": "WhatsApp üzerinden iletişime geçin"
+},
+
+"HighlightsSection": {
+  "eyebrow": "MINTA HILLS AYRICALIKLARI",
+  "title": "Doğal olanın",
+  "subtitle": "en rafine hali.",
+  "description": "Kalabalıktan uzakta, doğanın ritmine yakın. Her detayın sakinlik, özgürlük ve konfor için düşünüldüğü özel bir yaşam alanı.",
+  "scrollHint": "KAYDIRARAK KEŞFEDİN",
+  "cards": {
+    "nature": {
+      "title": "20.000 m² Doğa",
+      "description": "Portakal bahçelerinin içinde nefes alan bir tatil.",
+      "alt": "Minta Hills bahçesi ve palmiyeleri"
+    },
+    "home": {
+      "title": "Size Ait Bir Ev",
+      "description": "145 m² ferah yaşam alanı ve eksiksiz konfor.",
+      "alt": "Ferah villa yaşam alanı"
+    },
+    "mediterranean": {
+      "title": "Akdeniz Ritmi",
+      "description": "Havuz başında ağır akan, size ait saatler.",
+      "alt": "Minta Hills yüzme havuzu"
+    },
+    "hospitality": {
+      "title": "İçten Misafirperverlik",
+      "description": "İhtiyacınız olduğunda yanınızda, daima ölçülü.",
+      "alt": "Minta Hills kafeterya"
+    }
+  }
 }
 }

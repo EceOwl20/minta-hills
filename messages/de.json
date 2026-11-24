@@ -42,5 +42,53 @@
     "slide3": "Minta Hills Villen und Pool in der Abendbeleuchtung",
     "slide4": "Minta Hills mit Blick auf das Beygebirge"
   }
+},
+
+"Footer": {
+  "tagline": "Eine eigene Welt,",
+  "taglineSecond": "im Herzen der Natur.",
+  "location": "KEMER · ANTALYA",
+  "explore": "ENTDECKEN",
+  "contact": "KONTAKT",
+  "social": "SOCIAL MEDIA",
+  "ministry": "REPUBLIK TÜRKEI — MINISTERIUM FÜR KULTUR UND TOURISMUS",
+  "license": "WOHNGENEHMIGUNGS-NR.",
+  "directions": "KONTAKT & ANFAHRT",
+  "rights": "ALLE RECHTE VORBEHALTEN.",
+  "privacy": "DATENSCHUTZ & KONTAKT",
+  "platforms": "Buchungs- und Bewertungsplattformen",
+  "footerMenu": "Fußzeilenmenü",
+  "instagram": "Besuchen Sie unsere Instagram-Seite",
+  "whatsapp": "Kontaktieren Sie uns über WhatsApp"
+},
+
+"HighlightsSection": {
+  "eyebrow": "MINTA HILLS VORTEILE",
+  "title": "Natürlichkeit in ihrer",
+  "subtitle": "edelsten Form.",
+  "description": "Fernab vom Trubel, ganz nah am Rhythmus der Natur. Ein privater Rückzugsort, an dem jedes Detail auf Ruhe, Freiheit und Komfort ausgerichtet ist.",
+  "scrollHint": "WISCHEN UND ENTDECKEN",
+  "cards": {
+    "nature": {
+      "title": "20.000 m² Natur",
+      "description": "Ein Urlaub zum Durchatmen inmitten von Orangenhainen.",
+      "alt": "Garten und Palmen von Minta Hills"
+    },
+    "home": {
+      "title": "Ihr eigenes Zuhause",
+      "description": "145 m² großzügiger Wohnraum und umfassender Komfort.",
+      "alt": "Großzügiger Wohnbereich der Villa"
+    },
+    "mediterranean": {
+      "title": "Mediterraner Rhythmus",
+      "description": "Entspannte Stunden am Pool, die ganz Ihnen gehören.",
+      "alt": "Swimmingpool von Minta Hills"
+    },
+    "hospitality": {
+      "title": "Herzliche Gastfreundschaft",
+      "description": "Für Sie da, wenn Sie uns brauchen, stets diskret.",
+      "alt": "Café von Minta Hills"
+    }
+  }
 }
 }

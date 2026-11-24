@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const montserrat = Montserrat({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -62,6 +63,8 @@ export default async function LocaleLayout({
         <Header />
 
         {children}
+        
+        <Footer />
       </NextIntlClientProvider>
     </body>
   </html>
