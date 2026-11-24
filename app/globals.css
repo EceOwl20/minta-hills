@@ -1,26 +1,108 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand colors */
+  --color-ink: #151515;
+  --color-charcoal: #232323;
+  --color-silver: #bfc0bd;
+  --color-mist: #e9e8e4;
+  --color-paper: #f6f4ef;
+  --color-white: #ffffff;
+
+  /* Text colors */
+  --color-text: #1c1c1a;
+  --color-text-body: #3a3a35;
+  --color-text-soft: #55554e;
+  --color-text-label: #4a4a44;
+  --color-text-note: #5a5a54;
+
+  /* Dark surface text colors */
+  --color-on-dark: rgba(255, 255, 255, 0.94);
+  --color-on-dark-soft: #d2d2cb;
+  --color-on-dark-label: #a9a9a2;
+
+  /* Borders */
+  --color-border: rgba(21, 21, 21, 0.26);
+  --color-border-dark: rgba(255, 255, 255, 0.2);
+
+  /* Layout */
+  --container-width: 1500px;
+  --header-height: 116px;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-montserrat);
+  --font-serif: var(--font-cormorant);
+
+  --color-background: var(--color-paper);
+  --color-foreground: var(--color-ink);
+
+  --color-brand-dark: var(--color-ink);
+  --color-brand-charcoal: var(--color-charcoal);
+  --color-brand-paper: var(--color-paper);
+  --color-brand-mist: var(--color-mist);
+  --color-brand-silver: var(--color-silver);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Base styles */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--header-height);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-montserrat), Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-white);
+}
+
+/* Reduced motion accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
