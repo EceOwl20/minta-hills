@@ -187,6 +187,35 @@
 "FloatingActions": {
   "backToTop": "Back to top",
   "whatsapp": "Contact us on WhatsApp"
+},
+
+"AboutPage": {
+  "hero": {
+    "breadcrumbLabel": "Breadcrumb",
+    "home": "Home",
+    "current": "Our Story",
+    "eyebrow": "ABOUT MINTA HILLS",
+    "title": "Quality is",
+    "subtitle": "our core value.",
+    "imageAlt": "Minta Hills villas and pool illuminated in the evening",
+    "foothills": "AT THE FOOTHILLS OF THE TAURUS MOUNTAINS",
+    "mountains": "BEY MOUNTAINS VIEW",
+    "garden": "20,000 M² OF ORANGE GROVES"
+  },
+  "manifesto": {
+    "eyebrow": "OUR STORY",
+    "title": "A fresh approach",
+    "subtitle": "to villa holidays.",
+    "lead": "Bringing a fresh perspective to villa rentals, Minta Hills Kemer Villas offers an unforgettable holiday at the foothills of the Taurus Mountains. With magnificent <mark>views of the Bey Mountains</mark> and <mark>20,000 square metres</mark> of orange groves, discover every shade of green, reconnect with nature and wake up to birdsong in comfortable and elegant living spaces.",
+    "description": "Our eight villas, each offering 145 square metres of living space, are designed to provide guests with a unique experience. Each villa features an open-plan kitchen, three bedrooms, three toilets, two bathrooms and three balconies, allowing you to enjoy a spacious and comfortable environment."
+  },
+  "figures": {
+    "label": "Minta Hills in numbers",
+    "garden": "M² OF ORANGE GROVES",
+    "villas": "PRIVATE VILLAS",
+    "livingArea": "M² OF LIVING SPACE",
+    "capacity": "UP TO SIX GUESTS"
+  }
 }
 
 }

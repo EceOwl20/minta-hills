@@ -9,6 +9,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import CookieConsent from "@/components/common/CookieConsent";
 import FloatingActions from "@/components/common/FloatingActions";
+import PagePreloader from "@/components/common/PagePreloader";
 
 const montserrat = Montserrat({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -62,6 +63,7 @@ export default async function LocaleLayout({
   >
     <body>
       <NextIntlClientProvider>
+           <PagePreloader />
         <Header />
 
         {children}

@@ -186,5 +186,34 @@
 "FloatingActions": {
   "backToTop": "Zurück nach oben",
   "whatsapp": "Kontaktieren Sie uns über WhatsApp"
+},
+
+"AboutPage": {
+  "hero": {
+    "breadcrumbLabel": "Navigationspfad",
+    "home": "Startseite",
+    "current": "Unsere Geschichte",
+    "eyebrow": "ÜBER MINTA HILLS",
+    "title": "Qualität ist",
+    "subtitle": "unser Anspruch.",
+    "imageAlt": "Minta Hills Villen und Pool in der Abendbeleuchtung",
+    "foothills": "AM FUSSE DES TAURUSGEBIRGES",
+    "mountains": "BLICK AUF DAS BEYGEBIRGE",
+    "garden": "20.000 M² ORANGENHAINE"
+  },
+  "manifesto": {
+    "eyebrow": "UNSERE GESCHICHTE",
+    "title": "Eine neue Perspektive",
+    "subtitle": "für Ihren Villenurlaub.",
+    "lead": "Minta Hills Kemer Villas interpretiert den Villenurlaub neu. Am Fuße des Taurusgebirges, mit einem beeindruckenden <mark>Blick auf das Beygebirge</mark> und inmitten von <mark>20.000 Quadratmetern</mark> Orangenhainen, erleben Sie die Natur in all ihren Grüntönen. Genießen Sie die Ruhe, erwachen Sie mit Vogelgesang und verbringen Sie einen unvergesslichen Urlaub in komfortablen und stilvollen Wohnräumen.",
+    "description": "Unsere acht Villen mit jeweils 145 Quadratmetern Wohnfläche bieten unseren Gästen ein einzigartiges Erlebnis. Jede Villa verfügt über eine offene Küche, drei Schlafzimmer, drei Toiletten, zwei Badezimmer und drei Balkone für einen großzügigen und komfortablen Aufenthalt."
+  },
+  "figures": {
+    "label": "Minta Hills in Zahlen",
+    "garden": "M² ORANGENHAINE",
+    "villas": "PRIVATE VILLEN",
+    "livingArea": "M² WOHNFLÄCHE",
+    "capacity": "PERSONEN MAXIMAL"
+  }
 }
 }

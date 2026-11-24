@@ -186,5 +186,34 @@
 "FloatingActions": {
   "backToTop": "Sayfanın başına dön",
   "whatsapp": "WhatsApp üzerinden iletişime geçin"
+},
+
+"AboutPage": {
+  "hero": {
+    "breadcrumbLabel": "Sayfa yolu",
+    "home": "Ana Sayfa",
+    "current": "Hikayemiz",
+    "eyebrow": "MINTA HILLS HAKKINDA",
+    "title": "Kalite bizim",
+    "subtitle": "değerimizdir.",
+    "imageAlt": "Akşam ışıklarında Minta Hills villaları ve havuzu",
+    "foothills": "TOROSLAR'IN ETEĞİNDE",
+    "mountains": "BEYDAĞLARI MANZARASI",
+    "garden": "20.000 M² PORTAKAL BAHÇESİ"
+  },
+  "manifesto": {
+    "eyebrow": "HİKAYEMİZ",
+    "title": "Villa kiralamaya",
+    "subtitle": "bambaşka bir soluk.",
+    "lead": "Villa kiralama konseptine bambaşka bir soluk getiren Minta Hills Kemer Villaları, Torosların eteğinde muhteşem <mark>Beydağları manzarası</mark> ile, <mark>20.000 metrekareye</mark> sahip portakal bahçelerimizin içerisinde yeşilin her tonuna kolaylıkla dokunabildiğiniz, doğa ile baş başa kalabildiğiniz, sabahları ise kuş seslerine uyandığınız konforlu ve şık yaşam alanları ile sizlere unutamayacağınız bir tatil olanağı sunuyor.",
+    "description": "Her biri 145 metrekare kullanım alanına sahip toplam 8 villa ile misafirlerine eşsiz bir deneyim sunmayı gaye edinen işletmemizdeki her villamız; 1 Amerikan mutfak, 3 yatak odası, 3 tuvalet, 2 banyo ve 3 balkon ile sizlere ferah bir ortamda, rahatlıkla hareket etme imkanı sağlamaktadır."
+  },
+  "figures": {
+    "label": "Minta Hills sayılarla",
+    "garden": "M² PORTAKAL BAHÇESİ",
+    "villas": "ÖZEL VİLLA",
+    "livingArea": "M² KULLANIM ALANI",
+    "capacity": "KİŞİYE KADAR KONAKLAMA"
+  }
 }
 }

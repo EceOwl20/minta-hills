@@ -46,9 +46,14 @@
   --color-brand-paper: var(--color-paper);
   --color-brand-mist: var(--color-mist);
   --color-brand-silver: var(--color-silver);
-  --animate-menu-enter: menu-enter 450ms cubic-bezier(0.77, 0, 0.18, 1);
+--animate-menu-enter: menu-enter 450ms
+  cubic-bezier(0.77, 0, 0.18, 1) both;
+
+--animate-menu-exit: menu-exit 700ms
+  cubic-bezier(0.65, 0, 0.35, 1) both;
   --animate-hero-enter: hero-enter 600ms
   cubic-bezier(0.16, 1, 0.3, 1) 100ms both;
+  --animate-preloader-safety: preloader-safety 0s linear 7s forwards;
 }
 
 /* Base styles */
@@ -155,5 +160,32 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes preloader-safety {
+  to {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+@keyframes menu-enter {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes menu-exit {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
   }
 }
