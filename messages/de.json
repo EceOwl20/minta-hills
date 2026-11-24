@@ -121,5 +121,70 @@
     }
   },
   "discover": "VILLEN ENTDECKEN"
+},
+
+"EscapeSection": {
+  "eyebrow": "IN IHREM EIGENEN RHYTHMUS",
+  "title": "Hier weicht die Hektik",
+  "subtitle": "des Tages der Ruhe.",
+  "description": "Vogelgesang am Morgen, entspannte Nachmittage am Pool und abends das Sonnenlicht, das hinter dem Beygebirge verschwindet.",
+  "discover": "ERLEBNISSE ENTDECKEN",
+  "imageAlt": "Swimmingpool von Minta Hills mit Blick auf das Beygebirge"
+},
+
+"ExperiencesSection": {
+  "eyebrow": "IN MINTA HILLS",
+  "title": "Jeden Tag ein neues",
+  "subtitle": "Wohlgefühl.",
+  "description": "Mehr als nur eine Unterkunft: authentische Erlebnisse voller Natur, Genuss und gemeinsam verbrachter Zeit.",
+  "cards": {
+    "garden": {
+      "title": "Entschleunigung im Garten",
+      "description": "Tauchen Sie auf 20.000 m² Orangenhainen in die Natur ein.",
+      "alt": "Garten und Grünflächen"
+    },
+    "pool": {
+      "title": "Ganz nah am Wasser",
+      "description": "Genießen Sie den Sommer am Pool in Ihrem eigenen Tempo.",
+      "alt": "Sommererlebnis am Pool"
+    },
+    "hospitality": {
+      "title": "Eine genussvolle Pause",
+      "description": "Eine köstliche Auszeit mit Blick auf das Beygebirge.",
+      "alt": "Gemeinschaftlicher Essbereich mit Kamin in Minta Hills"
+    }
+  }
+},
+
+"GallerySection": {
+  "eyebrow": "MINTA HILLS MEMORIES",
+  "title": "Schaffen Sie Raum",
+  "subtitle": "für Erinnerungen.",
+  "discover": "GALERIE ANSEHEN",
+  "images": {
+    "sunset": "Minta Hills Villen bei Sonnenuntergang",
+    "bedroom": "Schlafzimmer der Villa",
+    "pool": "Swimmingpool von Minta Hills"
+  }
+},
+
+"BookingSection": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "Lassen Sie uns Ihren",
+  "subtitle": "Urlaub gemeinsam planen.",
+  "contactLabel": "RESERVIERUNG & INFORMATION",
+  "whatsapp": "PER WHATSAPP SCHREIBEN",
+  "whatsappMessage": "Hallo Minta Hills, ich möchte mich über die Verfügbarkeit und Preise informieren."
+},
+
+"CookieConsent": {
+  "title": "COOKIE-HINWEIS",
+  "description": "Diese Website verwendet notwendige Speichertechnologien für grundlegende Funktionen und Ihre Einstellungen. Sie können über optionale Cookies entscheiden.",
+  "accept": "AKZEPTIEREN",
+  "reject": "ABLEHNEN"
+},
+"FloatingActions": {
+  "backToTop": "Zurück nach oben",
+  "whatsapp": "Kontaktieren Sie uns über WhatsApp"
 }
 }

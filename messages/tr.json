@@ -121,5 +121,70 @@
     }
   },
   "discover": "VİLLALARI KEŞFEDİN"
+},
+
+"EscapeSection": {
+  "eyebrow": "KENDİ RİTMİNİZDE",
+  "title": "Günün telaşı burada",
+  "subtitle": "yerini dinginliğe bırakır.",
+  "description": "Sabah kuş sesleri, öğleden sonra havuz başı, akşam Beydağları'nın ardında kaybolan gün ışığı.",
+  "discover": "DENEYİMLERİ KEŞFEDİN",
+  "imageAlt": "Beydağları manzaralı Minta Hills havuzu"
+},
+
+"ExperiencesSection": {
+  "eyebrow": "MINTA HILLS'TE",
+  "title": "Her gün başka bir",
+  "subtitle": "iyi his.",
+  "description": "Konaklamanın ötesinde; doğaya, lezzete ve birlikte geçirilen zamana açılan sade deneyimler.",
+  "cards": {
+    "garden": {
+      "title": "Bahçede Yavaşla",
+      "description": "20.000 m² portakal bahçesinde doğaya karışın.",
+      "alt": "Bahçe ve yeşil alan"
+    },
+    "pool": {
+      "title": "Suya Yakın",
+      "description": "Yazı havuz başında kendi temponuzda yaşayın.",
+      "alt": "Havuzda yaz deneyimi"
+    },
+    "hospitality": {
+      "title": "İyi Bir Mola",
+      "description": "Beydağları manzarasına karşı lezzetli bir ara.",
+      "alt": "Minta Hills şömineli ortak yemek alanı"
+    }
+  }
+},
+
+"GallerySection": {
+  "eyebrow": "MINTA HILLS MEMORIES",
+  "title": "Anı biriktirmek için",
+  "subtitle": "alan açın.",
+  "discover": "GALERİYİ GÖRÜNTÜLE",
+  "images": {
+    "sunset": "Gün batımında Minta Hills villaları",
+    "bedroom": "Villa yatak odası",
+    "pool": "Minta Hills havuzu"
+  }
+},
+
+"BookingSection": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "Tatilinizi birlikte",
+  "subtitle": "planlayalım.",
+  "contactLabel": "REZERVASYON & BİLGİ",
+  "whatsapp": "WHATSAPP'TAN YAZIN",
+  "whatsappMessage": "Merhaba Minta Hills, uygunluk ve fiyat bilgisi almak istiyorum."
+},
+
+"CookieConsent": {
+  "title": "ÇEREZ BİLDİRİMİ",
+  "description": "Bu site temel işlevler ve tercihlerinizi hatırlamak için gerekli depolamayı kullanır. İsteğe bağlı çerezlere ilişkin tercihinizi belirleyebilirsiniz.",
+  "accept": "KABUL ET",
+  "reject": "REDDET"
+},
+"FloatingActions": {
+  "backToTop": "Sayfanın başına dön",
+  "whatsapp": "WhatsApp üzerinden iletişime geçin"
 }
 }

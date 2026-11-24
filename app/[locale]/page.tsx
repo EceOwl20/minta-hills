@@ -3,6 +3,10 @@ import { setRequestLocale } from "next-intl/server";
 import MainBanner from "@/components/home/MainBanner";
 import HighlightsSection from "@/components/home/HighlightsSection";
 import VillasSection from "@/components/home/VillasSection";
+import EscapeSection from "@/components/home/EscapeSection";
+import ExperiencesSection from "@/components/home/ExperiencesSection";
+import GallerySection from "@/components/home/GallerySection";
+import BookingSection from "@/components/home/BookingSection";
 
 type Props = {
   params: Promise<{
@@ -24,6 +28,14 @@ export default async function HomePage({
       <HighlightsSection />
 
       <VillasSection />
+
+      <EscapeSection />
+
+      <ExperiencesSection />
+
+      <GallerySection />
+
+      <BookingSection />
     </main>
   );
 }

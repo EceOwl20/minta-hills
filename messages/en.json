@@ -121,5 +121,72 @@
     }
   },
   "discover": "DISCOVER THE VILLAS"
+},
+
+
+"EscapeSection": {
+  "eyebrow": "AT YOUR OWN PACE",
+  "title": "Here, the rush of the day",
+  "subtitle": "gives way to tranquillity.",
+  "description": "Birdsong in the morning, afternoons by the pool, and evening sunlight disappearing behind the Bey Mountains.",
+  "discover": "DISCOVER THE EXPERIENCES",
+  "imageAlt": "Minta Hills swimming pool overlooking the Bey Mountains"
+},
+
+"ExperiencesSection": {
+  "eyebrow": "AT MINTA HILLS",
+  "title": "Every day brings",
+  "subtitle": "a new good feeling.",
+  "description": "Beyond accommodation, simple experiences that open the door to nature, flavours and time spent together.",
+  "cards": {
+    "garden": {
+      "title": "Slow Down in the Garden",
+      "description": "Immerse yourself in nature among 20,000 m² of orange groves.",
+      "alt": "Garden and green spaces"
+    },
+    "pool": {
+      "title": "Close to the Water",
+      "description": "Enjoy summer by the pool at your own pace.",
+      "alt": "A summer experience by the pool"
+    },
+    "hospitality": {
+      "title": "A Moment to Savour",
+      "description": "A delicious break overlooking the Bey Mountains.",
+      "alt": "Minta Hills communal dining area with fireplace"
+    }
+  }
+},
+
+"GallerySection": {
+  "eyebrow": "MINTA HILLS MEMORIES",
+  "title": "Make room",
+  "subtitle": "for memories.",
+  "discover": "VIEW GALLERY",
+  "images": {
+    "sunset": "Minta Hills villas at sunset",
+    "bedroom": "Villa bedroom",
+    "pool": "Minta Hills swimming pool"
+  }
+},
+
+"BookingSection": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "Let's plan your",
+  "subtitle": "holiday together.",
+  "contactLabel": "RESERVATIONS & INFORMATION",
+  "whatsapp": "MESSAGE US ON WHATSAPP",
+  "whatsappMessage": "Hello Minta Hills, I would like to receive information about availability and prices."
+},
+
+"CookieConsent": {
+  "title": "COOKIE NOTICE",
+  "description": "This website uses essential storage for basic functionality and to remember your preferences. You can choose whether to allow optional cookies.",
+  "accept": "ACCEPT",
+  "reject": "REJECT"
+},
+"FloatingActions": {
+  "backToTop": "Back to top",
+  "whatsapp": "Contact us on WhatsApp"
 }
+
 }

@@ -7,6 +7,8 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import CookieConsent from "@/components/common/CookieConsent";
+import FloatingActions from "@/components/common/FloatingActions";
 
 const montserrat = Montserrat({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -63,8 +65,13 @@ export default async function LocaleLayout({
         <Header />
 
         {children}
-        
+
         <Footer />
+
+        <FloatingActions />
+
+        <CookieConsent />
+        
       </NextIntlClientProvider>
     </body>
   </html>
