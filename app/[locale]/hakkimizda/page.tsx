@@ -2,11 +2,11 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
-
 import PageHero from "@/components/common/PageHero";
-
 import ManifestoSection from "@/components/about/ManifestoSection";
 import FiguresSection from "@/components/about/FiguresSection";
+import VillaAnatomySection from "@/components/about/VillaAnatomySection";
+import SeasonsSection from "@/components/about/SeasonsSection";
 
 type Props = {
   params: Promise<{
@@ -14,9 +14,7 @@ type Props = {
   }>;
 };
 
-export default async function AboutPage({
-  params,
-}: Props) {
+export default async function AboutPage({ params }: Props) {
   const { locale } = await params;
 
   setRequestLocale(locale);
@@ -52,8 +50,9 @@ export default async function AboutPage({
       />
 
       <ManifestoSection />
-
       <FiguresSection />
+      <VillaAnatomySection />
+      <SeasonsSection />
     </main>
   );
 }

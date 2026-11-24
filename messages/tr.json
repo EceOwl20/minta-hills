@@ -214,6 +214,50 @@
     "villas": "ÖZEL VİLLA",
     "livingArea": "M² KULLANIM ALANI",
     "capacity": "KİŞİYE KADAR KONAKLAMA"
+  },
+
+  "anatomy": {
+  "eyebrow": "VİLLA ANATOMİSİ",
+  "title": "Ferah bir ortamda,",
+  "subtitle": "rahatlıkla hareket edin.",
+  "description": "Yatak odalarımızda {double} çift kişilik yatak ve {single} tek kişilik yatak olmak üzere toplamda {capacity} kişinin konaklama yapmasına olanak sağlanmaktadır.",
+  "imageAlt": "Minta Hills villasının ferah yaşam alanı",
+  "badge": "ÖZEL VİLLA",
+  "quantity": "{count} ADET",
+  "rooms": {
+    "kitchens": "Amerikan Mutfak",
+    "bedrooms": "Yatak Odası",
+    "toilets": "Tuvalet",
+    "bathrooms": "Banyo",
+    "balconies": "Balkon"
+  },
+  "beds": {
+    "double": "{count} ÇİFT KİŞİLİK YATAK",
+    "single": "{count} TEK KİŞİLİK YATAK"
+  },
+  "capacity": {
+    "first": "KİŞİYE KADAR",
+    "second": "KONAKLAMA"
   }
+},
+
+"seasons": {
+  "eyebrow": "DÖRT MEVSİM",
+  "title": "Yılın her günü",
+  "subtitle": "aynı konfor.",
+  "description": "Her villamızda kış ayları konaklamaları için yerden ısıtma sistemi, yaz ayları konaklamaları içinse her odamızda klima sistemi bulunmaktadır.",
+  "winter": {
+    "tag": "KIŞ",
+    "title": "Yerden ısıtma",
+    "description": "Kış ayları konaklamaları için villanın tamamında yerden ısıtma sistemi.",
+    "imageAlt": "Akşam ışıklarında Minta Hills villası"
+  },
+  "summer": {
+    "tag": "YAZ",
+    "title": "Her odada klima",
+    "description": "Yaz ayları konaklamaları için her odamızda klima sistemi bulunmaktadır.",
+    "imageAlt": "Yaz aylarında Minta Hills yüzme havuzu"
+  }
+}
 }
 }

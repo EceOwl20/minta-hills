@@ -214,6 +214,50 @@
     "villas": "PRIVATE VILLEN",
     "livingArea": "M² WOHNFLÄCHE",
     "capacity": "PERSONEN MAXIMAL"
+  },
+
+  "anatomy": {
+  "eyebrow": "VILLA IM DETAIL",
+  "title": "Großzügiger Raum,",
+  "subtitle": "viel Bewegungsfreiheit.",
+  "description": "Unsere Schlafzimmer verfügen über {double} Doppelbetten und {single} Einzelbetten und bieten Platz für insgesamt bis zu {capacity} Gäste.",
+  "imageAlt": "Großzügiger Wohnbereich einer Minta Hills Villa",
+  "badge": "PRIVATE VILLEN",
+  "quantity": "{count}",
+  "rooms": {
+    "kitchens": "Offene Küche",
+    "bedrooms": "Schlafzimmer",
+    "toilets": "Toiletten",
+    "bathrooms": "Badezimmer",
+    "balconies": "Balkone"
+  },
+  "beds": {
+    "double": "{count} DOPPELBETTEN",
+    "single": "{count} EINZELBETTEN"
+  },
+  "capacity": {
+    "first": "PERSONEN",
+    "second": "MAXIMAL"
   }
+},
+
+"seasons": {
+  "eyebrow": "VIER JAHRESZEITEN",
+  "title": "An jedem Tag des Jahres",
+  "subtitle": "derselbe Komfort.",
+  "description": "Jede unserer Villen verfügt über eine Fußbodenheizung für Aufenthalte im Winter und eine Klimaanlage in jedem Zimmer für Aufenthalte im Sommer.",
+  "winter": {
+    "tag": "WINTER",
+    "title": "Fußbodenheizung",
+    "description": "Eine Fußbodenheizung in der gesamten Villa sorgt für Komfort während Ihres Winteraufenthalts.",
+    "imageAlt": "Minta Hills Villa in der Abendbeleuchtung"
+  },
+  "summer": {
+    "tag": "SOMMER",
+    "title": "Klimaanlage in jedem Zimmer",
+    "description": "Jedes Zimmer ist für einen komfortablen Sommeraufenthalt mit einer Klimaanlage ausgestattet.",
+    "imageAlt": "Swimmingpool von Minta Hills im Sommer"
+  }
+}
 }
 }

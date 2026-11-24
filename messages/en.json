@@ -215,7 +215,51 @@
     "villas": "PRIVATE VILLAS",
     "livingArea": "M² OF LIVING SPACE",
     "capacity": "UP TO SIX GUESTS"
+  },
+
+  "anatomy": {
+  "eyebrow": "VILLA ANATOMY",
+  "title": "Space to breathe,",
+  "subtitle": "freedom to move.",
+  "description": "Our bedrooms feature {double} double beds and {single} single beds, accommodating up to {capacity} guests in total.",
+  "imageAlt": "Spacious living area of a Minta Hills villa",
+  "badge": "PRIVATE VILLAS",
+  "quantity": "{count}",
+  "rooms": {
+    "kitchens": "Open-plan Kitchen",
+    "bedrooms": "Bedrooms",
+    "toilets": "Toilets",
+    "bathrooms": "Bathrooms",
+    "balconies": "Balconies"
+  },
+  "beds": {
+    "double": "{count} DOUBLE BEDS",
+    "single": "{count} SINGLE BEDS"
+  },
+  "capacity": {
+    "first": "GUESTS",
+    "second": "MAXIMUM"
   }
+},
+
+"seasons": {
+  "eyebrow": "FOUR SEASONS",
+  "title": "Every day of the year,",
+  "subtitle": "the same comfort.",
+  "description": "Each of our villas features underfloor heating for winter stays and air conditioning in every room for summer stays.",
+  "winter": {
+    "tag": "WINTER",
+    "title": "Underfloor heating",
+    "description": "Underfloor heating throughout the villa ensures comfort during winter stays.",
+    "imageAlt": "Minta Hills villa illuminated in the evening"
+  },
+  "summer": {
+    "tag": "SUMMER",
+    "title": "Air conditioning in every room",
+    "description": "Every room is equipped with air conditioning for comfortable summer stays.",
+    "imageAlt": "Minta Hills swimming pool during summer"
+  }
+}
 }
 
 }
