@@ -2,10 +2,16 @@ import { getTranslations } from "next-intl/server";
 
 import RevealOnScroll from "@/components/common/RevealOnScroll";
 
-export default async function ManifestoSection() {
-  const t = await getTranslations(
-    "AboutPage.manifesto"
-  );
+type Props = {
+  namespace:
+    | "AboutPage.manifesto"
+    | "HospitalityPage.manifesto";
+};
+
+export default async function ManifestoSection({
+  namespace,
+}: Props) {
+  const t = await getTranslations(namespace);
 
   return (
     <section
@@ -31,47 +37,55 @@ export default async function ManifestoSection() {
         <RevealOnScroll
           className="lg:sticky lg:top-[150px]"
         >
+          {/* Section label */}
           <p
             className="
               flex items-center gap-[14px]
+
               text-[11px] font-semibold
-              leading-relaxed tracking-[0.16em]
+              uppercase leading-relaxed
+              tracking-[0.16em]
               text-text-label
             "
           >
             <span
               aria-hidden="true"
-              className="h-px w-[34px] bg-current"
+              className="h-px w-[34px] shrink-0 bg-current"
             />
 
             {t("eyebrow")}
           </p>
 
+          {/* Section title */}
           <h2
             id="manifesto-heading"
             className="
-              mt-[26px] font-serif font-normal
+              mt-[26px]
+              font-serif font-normal
               text-[clamp(26px,2.6vw,40px)]
-              leading-[1.14] tracking-[-0.035em]
+              leading-[1.14]
+              tracking-[-0.035em]
             "
           >
             {t("title")}
 
             <br />
 
-            <em className="italic">
+            <em className="font-normal italic">
               {t("subtitle")}
             </em>
           </h2>
         </RevealOnScroll>
 
-        {/* Story content */}
+        {/* Manifesto content */}
         <RevealOnScroll delay={120}>
+          {/* Lead paragraph */}
           <p
             className="
               font-serif font-normal
               text-[clamp(17px,1.5vw,22px)]
-              leading-[1.62] tracking-[-0.01em]
+              leading-[1.62]
+              tracking-[-0.01em]
               text-brand-dark
             "
           >
@@ -88,11 +102,12 @@ export default async function ManifestoSection() {
             })}
           </p>
 
+          {/* Description */}
           <p
             className="
               mt-8 max-w-[62ch]
               font-sans text-[15px]
-              font-normal leading-[1.8]
+              font-light leading-[1.8]
               text-text-body
             "
           >

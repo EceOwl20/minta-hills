@@ -288,6 +288,57 @@
   "reservation": "MAKE A RESERVATION",
   "whatsappMessage": "Hello Minta Hills, I would like to receive information about availability and prices."
 }
+},
+
+"HospitalityPage": {
+  "hero": {
+    "breadcrumbLabel": "Breadcrumb",
+    "home": "Home",
+    "current": "Privileges",
+    "eyebrow": "PRIVILEGES",
+    "title": "Surrounded by nature,",
+    "subtitle": "away from the crowds.",
+    "imageAlt": "Minta Hills villas and swimming pool at sunset",
+    "villas": "ONLY 8 VILLAS",
+    "garden": "20,000 M² OF GARDENS",
+    "facilities": "POOL & CAFETERIA"
+  },
+
+  "manifesto": {
+  "eyebrow": "WHY MINTA HILLS",
+  "title": "True distinction,",
+  "subtitle": "in the numbers.",
+  "lead": "What sets Minta Hills apart is not its promises, but the property itself: <mark>just eight villas</mark> nestled within <mark>20,000 square metres</mark> of orange groves, overlooking the Bey Mountains at the foothills of the Taurus Mountains, where each morning begins with birdsong.",
+  "description": "Discover the facilities available at our resort: a swimming pool, cafeteria, year-round comfort and fully equipped villas."
+},
+
+"pillars": {
+  "label": "Minta Hills privileges",
+  "privacy": {
+    "category": "PRIVACY",
+    "title": "Just eight villas",
+    "description": "With only eight villas on the property, you can enjoy a space of your own rather than staying at a crowded resort.",
+    "fact": "8 PRIVATE VILLAS"
+  },
+  "nature": {
+    "category": "NATURE",
+    "title": "Orange groves",
+    "description": "Open spaces where you can discover every shade of green and enjoy peaceful moments surrounded by nature.",
+    "fact": "20,000 M²"
+  },
+  "view": {
+    "category": "SCENERY",
+    "title": "The Bey Mountains",
+    "description": "Nestled at the foothills of the Taurus Mountains, overlooking the magnificent Bey Mountains, where you wake up to birdsong.",
+    "fact": "AT THE FOOTHILLS OF THE TAURUS MOUNTAINS"
+  },
+  "comfort": {
+    "category": "COMFORT",
+    "title": "Four seasons",
+    "description": "Underfloor heating in winter and air conditioning in every room in summer make our villas comfortable throughout the year.",
+    "fact": "UNDERFLOOR HEATING & AIR CONDITIONING"
+  }
+}
 }
 
 }

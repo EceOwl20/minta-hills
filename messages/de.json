@@ -287,5 +287,56 @@
   "reservation": "JETZT RESERVIEREN",
   "whatsappMessage": "Hallo Minta Hills, ich möchte Informationen zur Verfügbarkeit und zu den Preisen erhalten."
 }
+},
+
+"HospitalityPage": {
+  "hero": {
+    "breadcrumbLabel": "Navigationspfad",
+    "home": "Startseite",
+    "current": "Vorteile",
+    "eyebrow": "VORTEILE",
+    "title": "Mitten in der Natur,",
+    "subtitle": "fernab vom Trubel.",
+    "imageAlt": "Minta Hills Villen und Swimmingpool bei Sonnenuntergang",
+    "villas": "NUR 8 VILLEN",
+    "garden": "20.000 M² GARTEN",
+    "facilities": "POOL & CAFETERIA"
+  },
+
+  "manifesto": {
+  "eyebrow": "WARUM MINTA HILLS",
+  "title": "Das Besondere",
+  "subtitle": "liegt in den Zahlen.",
+  "lead": "Was Minta Hills auszeichnet, sind nicht die Versprechen, sondern die Anlage selbst: <mark>nur acht Villen</mark> inmitten von <mark>20.000 Quadratmetern</mark> Orangenhainen, am Fuße des Taurusgebirges mit Blick auf das Beygebirge und einem morgendlichen Erwachen mit Vogelgesang.",
+  "description": "Entdecken Sie die Annehmlichkeiten unserer Anlage: einen Swimmingpool, eine Cafeteria, ganzjährigen Komfort und unsere vollständig ausgestatteten Villen."
+},
+
+"pillars": {
+  "label": "Die Vorteile von Minta Hills",
+  "privacy": {
+    "category": "PRIVATSPHÄRE",
+    "title": "Nur acht Villen",
+    "description": "Mit nur acht Villen in unserer Anlage genießen Sie Ihren eigenen Rückzugsort fernab überfüllter Ferienanlagen.",
+    "fact": "8 PRIVATE VILLEN"
+  },
+  "nature": {
+    "category": "NATUR",
+    "title": "Orangenhaine",
+    "description": "Weitläufige Freiflächen, auf denen Sie die Natur in all ihren Grüntönen erleben und ungestörte Momente genießen können.",
+    "fact": "20.000 M²"
+  },
+  "view": {
+    "category": "AUSSICHT",
+    "title": "Das Beygebirge",
+    "description": "Am Fuße des Taurusgebirges, mit einem beeindruckenden Blick auf das Beygebirge, erwachen Sie morgens mit Vogelgesang.",
+    "fact": "AM FUSSE DES TAURUSGEBIRGES"
+  },
+  "comfort": {
+    "category": "KOMFORT",
+    "title": "Vier Jahreszeiten",
+    "description": "Fußbodenheizung im Winter und Klimaanlagen in jedem Zimmer im Sommer sorgen das ganze Jahr über für Komfort.",
+    "fact": "FUSSBODENHEIZUNG & KLIMAANLAGE"
+  }
+}
 }
 }

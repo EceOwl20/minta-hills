@@ -5,7 +5,7 @@ import {
 
 import PageHero from "@/components/common/PageHero";
 
-import ManifestoSection from "@/components/about/ManifestoSection";
+import ManifestoSection from "@/components/sections/ManifestoSection";
 import FiguresSection from "@/components/about/FiguresSection";
 import VillaAnatomySection from "@/components/about/VillaAnatomySection";
 import SeasonsSection from "@/components/about/SeasonsSection";
@@ -55,7 +55,7 @@ export default async function AboutPage({
         ]}
       />
 
-      <ManifestoSection />
+      <ManifestoSection namespace="AboutPage.manifesto" />
 
       <FiguresSection />
 

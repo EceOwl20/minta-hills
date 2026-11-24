@@ -287,5 +287,56 @@
   "reservation": "REZERVASYON YAP",
   "whatsappMessage": "Merhaba Minta Hills, uygunluk ve fiyat bilgisi almak istiyorum."
 }
+},
+
+"HospitalityPage": {
+  "hero": {
+    "breadcrumbLabel": "Sayfa yolu",
+    "home": "Ana Sayfa",
+    "current": "Ayrıcalıklar",
+    "eyebrow": "AYRICALIKLAR",
+    "title": "Doğa ile baş başa,",
+    "subtitle": "kalabalıktan uzakta.",
+    "imageAlt": "Gün batımında Minta Hills villaları ve havuz",
+    "villas": "YALNIZCA 8 VİLLA",
+    "garden": "20.000 M² BAHÇE",
+    "facilities": "HAVUZ & KAFETERYA"
+  },
+
+  "manifesto": {
+  "eyebrow": "NEDEN MINTA HILLS",
+  "title": "Ayrıcalık,",
+  "subtitle": "sayıların içinde.",
+  "lead": "Minta Hills'i ayıran şey vaatler değil, tesisin kendisi: <mark>20.000 metrekarelik</mark> portakal bahçesinin içine yerleştirilmiş <mark>yalnızca sekiz villa</mark>, Torosların eteğinde Beydağları manzarası ve sabahları kuş sesleriyle başlayan günler.",
+  "description": "Bu sayfada tesiste gerçekten bulunan olanakları bulacaksınız: havuz, kafeterya, dört mevsim konfor ve villalarımızın eksiksiz donanımı."
+},
+
+"pillars": {
+  "label": "Minta Hills ayrıcalıkları",
+  "privacy": {
+    "category": "MAHREMİYET",
+    "title": "Yalnızca sekiz villa",
+    "description": "Toplam sekiz villadan oluşan yerleşim düzeni; kalabalık bir tesiste değil, kendinize ait bir alanda konaklarsınız.",
+    "fact": "8 ÖZEL VİLLA"
+  },
+  "nature": {
+    "category": "DOĞA",
+    "title": "Portakal bahçesi",
+    "description": "Yeşilin her tonuna kolaylıkla dokunabildiğiniz, doğa ile baş başa kalabildiğiniz açık alanlar.",
+    "fact": "20.000 M²"
+  },
+  "view": {
+    "category": "MANZARA",
+    "title": "Beydağları",
+    "description": "Torosların eteğinde, muhteşem Beydağları manzarasına bakan bir konum; sabahları kuş sesleriyle uyanırsınız.",
+    "fact": "TOROSLAR'IN ETEĞİNDE"
+  },
+  "comfort": {
+    "category": "KONFOR",
+    "title": "Dört mevsim",
+    "description": "Kış aylarında yerden ısıtma, yaz aylarında her odada klima; villalar yılın her günü kullanılabilir.",
+    "fact": "YERDEN ISITMA & KLİMA"
+  }
+}
 }
 }
