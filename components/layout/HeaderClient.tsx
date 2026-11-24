@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 import { Link, usePathname } from "@/i18n/navigation";
@@ -16,21 +16,66 @@ export default function HeaderClient({ items, labels }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  useEffect(() => {
-    function handleScroll() {
-      setIsScrolled(window.scrollY > 50);
+  const progressRef = useRef<HTMLDivElement>(null);
+
+useEffect(() => {
+  let animationFrame: number | null = null;
+
+  function updateScroll() {
+    const scrollY = window.scrollY;
+
+    const scrollableHeight =
+      document.documentElement.scrollHeight -
+      window.innerHeight;
+
+    const progress =
+      scrollableHeight > 0
+        ? Math.min(
+            Math.max(scrollY / scrollableHeight, 0),
+            1
+          )
+        : 0;
+
+    setIsScrolled(scrollY > 50);
+
+    if (progressRef.current) {
+      progressRef.current.style.transform =
+        `scaleX(${progress})`;
     }
 
-    handleScroll();
+    animationFrame = null;
+  }
 
-    window.addEventListener("scroll", handleScroll, {
-      passive: true,
-    });
+  function handleScroll() {
+    if (animationFrame !== null) return;
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+    animationFrame =
+      window.requestAnimationFrame(updateScroll);
+  }
+
+  updateScroll();
+
+  window.addEventListener("scroll", handleScroll, {
+    passive: true,
+  });
+
+  window.addEventListener("resize", handleScroll);
+
+  const resizeObserver = new ResizeObserver(handleScroll);
+
+  resizeObserver.observe(document.body);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+    window.removeEventListener("resize", handleScroll);
+
+    resizeObserver.disconnect();
+
+    if (animationFrame !== null) {
+      window.cancelAnimationFrame(animationFrame);
+    }
+  };
+}, []);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 1280px)");
@@ -56,17 +101,33 @@ export default function HeaderClient({ items, labels }: HeaderProps) {
 
   return (
     <>
-      <header
-        className={`
-          inset-x-0 top-0 z-50
-          h-(--header-height) w-full text-white
-          ${
-            isScrolled
-              ? "fixed bg-linear-to-b from-[#070b0df0] via-[#070b0db8] to-[#070b0d3d]"
-              : "absolute bg-linear-to-b from-[#070b0de0] via-[#070b0d8f] to-transparent"
-          }
-        `}
-      >
+    {/* Scroll Progress Bar */}
+{/* Scroll Progress Bar */}
+<div
+  aria-hidden="true"
+  className="
+    pointer-events-none fixed inset-x-0 top-0
+    z-[100] h-[2px]
+  "
+>
+  <div
+    ref={progressRef}
+    className="h-full w-full origin-left bg-white"
+    style={{ transform: "scaleX(0)" }}
+  />
+</div>
+
+  <header
+  className={`
+    inset-x-0 top-0 z-50
+    h-(--header-height) w-full text-white
+    ${
+      isScrolled
+        ? "fixed bg-[linear-gradient(180deg,rgba(7,11,13,0.94)_0%,rgba(7,11,13,0.72)_64%,rgba(7,11,13,0.24)_100%)]"
+        : "absolute bg-[linear-gradient(180deg,rgba(7,11,13,0.88)_0%,rgba(7,11,13,0.56)_64%,rgba(7,11,13,0)_100%)]"
+    }
+  `}
+>
         <nav
           aria-label={labels.mainMenu}
           className="

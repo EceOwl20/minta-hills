@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 
 import MainBanner from "@/components/home/MainBanner";
 import HighlightsSection from "@/components/home/HighlightsSection";
+import VillasSection from "@/components/home/VillasSection";
 
 type Props = {
   params: Promise<{
@@ -21,6 +22,8 @@ export default async function HomePage({
       <MainBanner />
 
       <HighlightsSection />
+
+      <VillasSection />
     </main>
   );
 }

@@ -90,5 +90,36 @@
       "alt": "Minta Hills kafeterya"
     }
   }
+},
+
+"VillasSection": {
+  "eyebrow": "KONAKLAMA",
+  "title": "Evinizin rahatlığı,",
+  "subtitle": "tatilin özgürlüğü.",
+  "description": "Her biri {area} metrekare kullanım alanına sahip villalarımız; üç yatak odası, Amerikan mutfak, geniş balkonlar ve bahçeye açılan yaşam alanlarıyla altı kişiye kadar konaklama sunar.",
+  "imageAlt": "Akşam ışıklarında Minta Hills villaları",
+  "badge": {
+    "first": "ÖZEL",
+    "second": "VİLLA"
+  },
+  "specs": {
+    "livingArea": {
+      "label": "Yaşam Alanı",
+      "value": "{area} m²"
+    },
+    "capacity": {
+      "label": "Kapasite",
+      "value": "{count} Kişi"
+    },
+    "bedrooms": {
+      "label": "Yatak Odası",
+      "value": "{count} Oda"
+    },
+    "balconies": {
+      "label": "Balkon",
+      "value": "{count} Adet"
+    }
+  },
+  "discover": "VİLLALARI KEŞFEDİN"
 }
 }

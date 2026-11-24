@@ -90,5 +90,36 @@
       "alt": "Café von Minta Hills"
     }
   }
+},
+
+"VillasSection": {
+  "eyebrow": "UNTERKUNFT",
+  "title": "Der Komfort eines Zuhauses,",
+  "subtitle": "die Freiheit eines Urlaubs.",
+  "description": "Jede unserer Villen bietet {area} Quadratmeter Wohnfläche mit drei Schlafzimmern, einer offenen Küche, großzügigen Balkonen und Wohnbereichen mit Zugang zum Garten. Sie bietet Platz für bis zu sechs Gäste.",
+  "imageAlt": "Minta Hills Villen in der Abendbeleuchtung",
+  "badge": {
+    "first": "PRIVATE",
+    "second": "VILLEN"
+  },
+  "specs": {
+    "livingArea": {
+      "label": "Wohnfläche",
+      "value": "{area} m²"
+    },
+    "capacity": {
+      "label": "Kapazität",
+      "value": "{count} Personen"
+    },
+    "bedrooms": {
+      "label": "Schlafzimmer",
+      "value": "{count} Zimmer"
+    },
+    "balconies": {
+      "label": "Balkone",
+      "value": "{count}"
+    }
+  },
+  "discover": "VILLEN ENTDECKEN"
 }
 }

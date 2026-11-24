@@ -90,5 +90,36 @@
       "alt": "Minta Hills café"
     }
   }
+},
+
+"VillasSection": {
+  "eyebrow": "ACCOMMODATION",
+  "title": "The comfort of home,",
+  "subtitle": "the freedom of a holiday.",
+  "description": "Each of our villas offers {area} square metres of living space, with three bedrooms, an open-plan kitchen, spacious balconies and living areas opening onto the garden, accommodating up to six guests.",
+  "imageAlt": "Minta Hills villas illuminated in the evening",
+  "badge": {
+    "first": "PRIVATE",
+    "second": "VILLAS"
+  },
+  "specs": {
+    "livingArea": {
+      "label": "Living Area",
+      "value": "{area} m²"
+    },
+    "capacity": {
+      "label": "Capacity",
+      "value": "{count} Guests"
+    },
+    "bedrooms": {
+      "label": "Bedrooms",
+      "value": "{count} Rooms"
+    },
+    "balconies": {
+      "label": "Balconies",
+      "value": "{count}"
+    }
+  },
+  "discover": "DISCOVER THE VILLAS"
 }
 }
