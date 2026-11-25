@@ -6,11 +6,15 @@ type Props = {
   namespace:
     | "AboutPage.manifesto"
     | "HospitalityPage.manifesto"
-    | "ExperiencesPage.manifesto";
+    | "ExperiencesPage.manifesto"
+    | "VillasPage.manifesto";
+
+  values?: Record<string, string | number>;
 };
 
 export default async function ManifestoSection({
   namespace,
+  values = {},
 }: Props) {
   const t = await getTranslations(namespace);
 
@@ -35,9 +39,7 @@ export default async function ManifestoSection({
         "
       >
         {/* Section heading */}
-        <RevealOnScroll
-          className="lg:sticky lg:top-[150px]"
-        >
+        <RevealOnScroll className="lg:sticky lg:top-[150px]">
           {/* Section label */}
           <p
             className="
@@ -72,9 +74,7 @@ export default async function ManifestoSection({
 
             <br />
 
-            <em className="font-normal italic">
-              {t("subtitle")}
-            </em>
+            <em className="font-normal italic">{t("subtitle")}</em>
           </h2>
         </RevealOnScroll>
 
@@ -91,11 +91,13 @@ export default async function ManifestoSection({
             "
           >
             {t.rich("lead", {
+              ...values,
+
               mark: (chunks) => (
                 <span
                   className="
-                    shadow-[inset_0_-8px_0_rgba(191,192,189,0.45)]
-                  "
+        shadow-[inset_0_-8px_0_rgba(191,192,189,0.45)]
+      "
                 >
                   {chunks}
                 </span>
@@ -111,7 +113,7 @@ export default async function ManifestoSection({
               font-light leading-[1.8]
               text-text-body"
           >
-            {t("description")}
+           {t("description", values)}
           </p>
         </RevealOnScroll>
       </div>

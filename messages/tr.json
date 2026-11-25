@@ -387,7 +387,12 @@
     "hospitality": {
       "eyebrow": "YILIN HER GÜNÜ",
       "title": "Mevsim ne olursa olsun"
-    }
+    },
+
+     "villas": {
+  "eyebrow": "DÖRT MEVSİM",
+  "title": "Yılın her günü"
+}
   },
   "subtitle": "aynı konfor.",
   "description": "Her villamızda kış ayları konaklamaları için yerden ısıtma sistemi, yaz ayları konaklamaları içinse her odamızda klima sistemi bulunmaktadır.",
@@ -406,10 +411,20 @@
 },
 
 "VillaEquipmentSection": {
-  "eyebrow": "VİLLA İÇİ",
-  "title": "Günlük hayatınız",
-  "subtitle": "kesintiye uğramasın.",
-  "description": "Villalarımız eksiksiz donatıldı; aşağıdaki tüm ekipmanlar misafirlerimizin kullanımına sunulmaktadır.",
+  "headings": {
+  "hospitality": {
+    "eyebrow": "VİLLA İÇİ",
+    "title": "Günlük hayatınız",
+    "subtitle": "kesintiye uğramasın.",
+    "description": "Mevcut Ayrıcalıklar açıklamanız"
+  },
+  "villas": {
+    "eyebrow": "HER VİLLAMIZDA",
+    "title": "Getirmeniz gereken",
+    "subtitle": "hiçbir şey yok.",
+    "description": "Günlük hayatınızı olduğu gibi sürdürebilmeniz için villalarımız eksiksiz donatıldı; aşağıdaki tüm ekipmanlar misafirlerimizin kullanımına sunulmaktadır."
+  }
+},
   "discoverVillas": "KONAKLAMA DETAYLARI",
   "items": {
     "ledTv": "50'' Led TV",
@@ -423,7 +438,9 @@
     "teaMachineAndKettle": "Çay Makinesi ve Kettle",
     "hairDryer": "Saç Kurutma Makinesi",
     "ironAndIroningBoard": "Ütü ve Ütü Masası"
-  }
+  },
+
+   "note": "MİSAFİRLERİMİZİN KULLANIMINA SUNULMAKTADIR."
 },
 
 "DistancesSection": {
@@ -436,7 +453,13 @@
     "experiences": {
       "eyebrow": "TESİSTEN MESAFELER",
       "title": "Rotanızı <italic>buradan</italic> kurun."
-    }
+    },
+
+    "villas": {
+  "eyebrow": "TESİSİMİZ",
+  "title": "Her yere <italic>yakın,</italic>",
+  "subtitle": "kalabalıktan uzak."
+}
   },
   "distance": "{distance, number} KM",
   "places": {
@@ -471,6 +494,13 @@
   "subtitle": "akşam eve dönün.",
   "imageAlt": "Gün batımında Minta Hills",
   "villas": "KONAKLAMAYI GÖRÜN"
+},
+
+"villas": {
+  "title": "Tarihlerinizi paylaşın,",
+  "subtitle": "gerisini konuşalım.",
+  "imageAlt": "Minta Hills villaları ve havuz",
+  "gallery": "GALERİYİ GÖRÜN"
 }
   }
 },
@@ -567,5 +597,120 @@
     }
   }
 }
+},
+
+"VillasPage": {
+  "hero": {
+    "breadcrumbLabel": "Sayfa yolu",
+    "home": "Ana Sayfa",
+    "current": "Konaklama",
+    "eyebrow": "KONAKLAMA",
+    "title": "Huzur içinde konforlu bir tatil için",
+    "subtitle": "hazırlandılar.",
+    "imageAlt": "Minta Hills villa cephesi ve yüzme havuzu",
+    "villas": "{count, number} ÖZEL VİLLA",
+    "livingArea": "{area, number} M² KULLANIM ALANI",
+    "capacity": "{capacity, number} KİŞİYE KADAR"
+  },
+
+  "manifesto": {
+  "eyebrow": "VİLLALARIMIZ",
+  "title": "Konfor ve rahatlık,",
+  "subtitle": "bir arada.",
+  "lead": "Her biri <mark>{livingArea, number} metrekare</mark> kullanım alanına sahip toplam <mark>{count, number} villa</mark> ile, sizlere eşsiz bir deneyim sunmayı amaçlayan işletmemizdeki her villamız; {kitchens, number} Amerikan mutfak, {bedrooms, number} yatak odası, {toilets, number} tuvalet, {bathrooms, number} banyo ve {balconies, number} balkon ile ferah bir ortamda, konfor ve rahatlığı birlikte sunmaktadır.",
+ "description": "Villalarımızın tamamı aynı plan üzerine kuruldu. Ortak yaşam alanı mutfakla birleşir, yatak odaları birbirinden bağımsız konumlanır ve {balconies, number} balkon bahçeye açılır."
+},
+
+"tour": {
+  "eyebrow": "VİLLA TURU",
+  "title": "Kapıdan girdiğiniz andan",
+  "subtitle": "itibaren.",
+  "rooms": {
+    "living": {
+      "category": "YAŞAM ALANI",
+      "title": "Ferah bir ortak alan",
+      "description": "Mutfakla birleşen geniş oturma alanı; kalabalık misafirlikte de rahatlıkla hareket etme imkanı sağlar.",
+      "imageAlt": "Minta Hills villasının yaşam alanı",
+      "chips": {
+        "first": "{livingArea, number} M²",
+        "second": "50'' LED TV",
+        "third": "BAHÇEYE AÇILIR"
+      }
+    },
+    "kitchen": {
+      "category": "AMERİKAN MUTFAK",
+      "title": "Tam donanımlı mutfak",
+      "description": "Ankastre fırın, ankastre mikrodalga fırın ve set üstü elektrikli ocak; uzun konaklamalarda kendi düzeninizi kurmanız için eksiksiz bir mutfak.",
+      "imageAlt": "Minta Hills villasının Amerikan mutfağı",
+      "chips": {
+        "first": "{kitchens, number} ADET",
+        "second": "ANKASTRE",
+        "third": "BULAŞIK MAKİNESİ"
+      }
+    },
+    "bedrooms": {
+      "category": "YATAK ODALARI",
+      "title": "Üç bağımsız oda",
+      "description": "Yatak odalarımızda {doubleBeds, number} çift kişilik yatak ve {singleBeds, number} tek kişilik yatak olmak üzere toplamda {capacity, number} kişinin konaklama yapmasına olanak sağlanmaktadır.",
+      "imageAlt": "Minta Hills villasının yatak odası",
+      "chips": {
+        "first": "{bedrooms, number} ODA",
+        "second": "{capacity, number} KİŞİYE KADAR",
+        "third": "HER ODADA KLİMA"
+      }
+    },
+    "bathrooms": {
+      "category": "BANYO & TUVALET",
+      "title": "İki banyo, üç tuvalet",
+      "description": "Ayrılmış ıslak hacimler sayesinde kalabalık konaklamalarda sabah düzeni aksamaz.",
+      "imageAlt": "Minta Hills villasının banyosu",
+      "chips": {
+        "first": "{bathrooms, number} BANYO",
+        "second": "{toilets, number} TUVALET",
+        "third": "SAÇ KURUTMA MAKİNESİ"
+      }
+    },
+    "balconies": {
+      "category": "BALKONLAR",
+      "title": "Bahçeye açılan üç balkon",
+      "description": "Portakal bahçelerine ve havuz cephesine bakan balkonlar; sabah kahvesinden akşam serinliğine kadar günün her saatinde kullanılır.",
+      "imageAlt": "Minta Hills villasının balkonu ve havuz cephesi",
+      "chips": {
+        "first": "{balconies, number} BALKON",
+        "second": "BAHÇE CEPHESİ",
+        "third": "HAVUZ MANZARASI"
+      }
+    }
+  }
+},
+
+"capacity": {
+  "eyebrow": "UYKU DÜZENİ",
+  "title": "Altı kişiye kadar",
+  "subtitle": "rahat bir konaklama.",
+  "description": "Yatak odalarımızda {doubleBeds, number} çift kişilik yatak ve {singleBeds, number} tek kişilik yatak olmak üzere toplamda {capacity, number} kişinin konaklama yapmasına olanak sağlanmaktadır.",
+  "beds": {
+    "double": "ÇİFT KİŞİLİK YATAK",
+    "single": "TEK KİŞİLİK YATAK"
+  },
+  "guestUnit": "KİŞİ",
+  "total": "TOPLAM KONAKLAMA KAPASİTESİ"
+}
+},
+
+"FiguresSection": {
+  "labels": {
+    "about": "Rakamlarla Minta Hills",
+    "villas": "Villa planı sayılarla"
+  },
+  "items": {
+    "garden": "M² PORTAKAL BAHÇESİ",
+    "villas": "ÖZEL VİLLA",
+    "livingArea": "M² KULLANIM ALANI",
+    "capacity": "KİŞİYE KADAR KONAKLAMA",
+    "bedrooms": "YATAK ODASI",
+    "bathrooms": "BANYO · {toilets, number} TUVALET",
+    "balconies": "BALKON"
+  }
 }
 }

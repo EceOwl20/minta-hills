@@ -206,10 +206,12 @@ export default async function ClosingSection({
             return (
               <Link
                 key={action}
-                href="/villas"
+                 href={action === "gallery" ? "/gallery" : "/villas"}
                 className={className}
               >
-                {t(`variants.${variant}.villas`)}
+                {t(
+    `variants.${variant}.${action === "gallery" ? "gallery" : "villas"}`
+  )}
 
                 <span
                   aria-hidden="true"

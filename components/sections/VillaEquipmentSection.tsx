@@ -6,15 +6,16 @@ import RevealOnScroll from "@/components/common/RevealOnScroll";
 import { villaEquipment } from "@/data/villas";
 
 type Props = {
-  showCta?: boolean;
+  variant?: "hospitality" | "villas";
 };
 
 export default async function VillaEquipmentSection({
-  showCta = true,
+  variant = "hospitality",
 }: Props) {
-  const t = await getTranslations(
-    "VillaEquipmentSection"
-  );
+  const t = await getTranslations("VillaEquipmentSection");
+
+  const showCta = variant === "hospitality";
+  const showNote = variant === "villas";
 
   return (
     <section
@@ -59,7 +60,7 @@ export default async function VillaEquipmentSection({
               "
             />
 
-            {t("eyebrow")}
+          {t(`headings.${variant}.eyebrow`)}
           </p>
 
           <h2
@@ -73,12 +74,12 @@ export default async function VillaEquipmentSection({
               tracking-[-0.035em]
             "
           >
-            {t("title")}
+         {t(`headings.${variant}.title`)}
 
             <br />
 
             <em className="font-normal italic">
-              {t("subtitle")}
+              {t(`headings.${variant}.subtitle`)}
             </em>
           </h2>
         </RevealOnScroll>
@@ -91,7 +92,7 @@ export default async function VillaEquipmentSection({
               leading-[1.8]
               text-text-body"
           >
-            {t("description")}
+            {t(`headings.${variant}.description`)}
           </p>
         </RevealOnScroll>
       </div>
@@ -155,6 +156,25 @@ export default async function VillaEquipmentSection({
           </li>
         ))}
       </ul>
+
+      {/* Equipment note */}
+{showNote && (
+  <RevealOnScroll>
+    <p
+      className="
+        mt-2
+
+        font-sans text-[14px]
+        font-normal uppercase
+        leading-[1.8]
+        tracking-[0.12em]
+        text-text-body
+      "
+    >
+      {t("note")}
+    </p>
+  </RevealOnScroll>
+)}
 
       {/* Accommodation CTA */}
       {showCta && (

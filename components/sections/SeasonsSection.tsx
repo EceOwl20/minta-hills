@@ -5,7 +5,7 @@ import RevealOnScroll from "@/components/common/RevealOnScroll";
 import { seasons } from "@/data/seasons";
 
 type Props = {
-  variant?: "about" | "hospitality";
+  variant?: "about" | "hospitality"| "villas";
 };
 
 export default async function SeasonsSection({
@@ -34,11 +34,10 @@ export default async function SeasonsSection({
           <p
             className="
               flex items-center gap-[14px]
-
               text-[11px] font-semibold
               uppercase leading-relaxed
               tracking-[0.16em]
-              text-text-label
+              text-text-label text-[#4a4a44]
             "
           >
             <span

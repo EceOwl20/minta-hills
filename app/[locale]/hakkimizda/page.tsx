@@ -6,7 +6,7 @@ import {
 import PageHero from "@/components/common/PageHero";
 
 import ManifestoSection from "@/components/sections/ManifestoSection";
-import FiguresSection from "@/components/about/FiguresSection";
+import FiguresSection from "@/components/sections/FiguresSection";
 import VillaAnatomySection from "@/components/about/VillaAnatomySection";
 import SeasonsSection from "@/components/sections/SeasonsSection";
 import FacilitiesSection from "@/components/sections/FacilitiesSection";

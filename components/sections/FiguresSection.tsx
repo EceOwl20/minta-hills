@@ -1,17 +1,28 @@
 import { getTranslations } from "next-intl/server";
 
 import CountUp from "@/components/common/CountUp";
-import { aboutFigures } from "@/data/about";
+import {
+  figuresConfig,
+  type FiguresVariant,
+} from "@/data/figures";
 
-export default async function FiguresSection() {
-  const t = await getTranslations(
-    "AboutPage.figures"
-  );
+import { villaConfig } from "@/data/villas";
+
+type Props = {
+  variant?: FiguresVariant;
+};
+
+export default async function FiguresSection({
+  variant = "about",
+}: Props) {
+  const t = await getTranslations("FiguresSection");
+
+  const figures = figuresConfig[variant];
 
   return (
     <section
       id="figures"
-      aria-label={t("label")}
+      aria-label={t(`labels.${variant}`)}
       className="
         grid grid-cols-2
         border-y border-black/25
@@ -20,7 +31,7 @@ export default async function FiguresSection() {
         lg:grid-cols-4
       "
     >
-      {aboutFigures.map((item, index) => (
+     {figures.map((item, index) => (
         <div
           key={item.id}
           className={`
@@ -59,10 +70,14 @@ export default async function FiguresSection() {
             className="
               mt-4 text-[11px] font-semibold
               leading-relaxed tracking-[0.12em]
-              text-text-label
+              text-text-label text-[#4a4a44]
             "
           >
-            {t(item.id)}
+            {item.id === "bathrooms"
+  ? t("items.bathrooms", {
+      toilets: villaConfig.specs.toilets,
+    })
+  : t(`items.${item.id}`)}
           </span>
         </div>
       ))}

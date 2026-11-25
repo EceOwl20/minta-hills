@@ -1,4 +1,4 @@
-type ClosingAction = "villas" | "reservation";
+type ClosingAction = "villas" | "reservation" | "gallery";
 
 type ClosingConfig = {
   image: string;
@@ -19,6 +19,11 @@ export const closingConfig = {
   experiences: {
     image: "/images/exteriors/dusk-1.jpg",
     actions: ["reservation", "villas"],
+  },
+
+    villas: {
+    image: "/images/exteriors/hero-4.jpg",
+    actions: ["reservation", "gallery"],
   },
 } as const satisfies Record<string, ClosingConfig>;
 

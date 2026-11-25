@@ -387,7 +387,12 @@
     "hospitality": {
       "eyebrow": "DAS GANZE JAHR",
       "title": "Zu jeder Jahreszeit"
-    }
+    },
+
+      "villas": {
+  "eyebrow": "VIER JAHRESZEITEN",
+  "title": "An jedem Tag des Jahres"
+}
   },
   "subtitle": "derselbe Komfort.",
   "description": "Jede unserer Villen verfügt über eine Fußbodenheizung für Aufenthalte im Winter und eine Klimaanlage in jedem Zimmer für Aufenthalte im Sommer.",
@@ -406,10 +411,20 @@
 },
 
 "VillaEquipmentSection": {
-  "eyebrow": "IN IHRER VILLA",
-  "title": "Ihr Alltag,",
-  "subtitle": "ohne Unterbrechung.",
-  "description": "Unsere Villen sind vollständig ausgestattet. Alle folgenden Geräte stehen unseren Gästen zur Verfügung.",
+  "headings": {
+  "hospitality": {
+    "eyebrow": "IN DER VILLA",
+    "title": "Ihr gewohnter Alltag,",
+    "subtitle": "ohne Unterbrechung.",
+    "description": "Mevcut Almanca açıklamanız"
+  },
+  "villas": {
+    "eyebrow": "IN JEDER VILLA",
+    "title": "Sie brauchen",
+    "subtitle": "nichts mitzubringen.",
+    "description": "Unsere Villen sind vollständig ausgestattet, damit Sie Ihren gewohnten Alltag wie zu Hause fortführen können. Alle nachfolgend aufgeführten Geräte stehen unseren Gästen zur Verfügung."
+  }
+},
   "discoverVillas": "UNTERKUNFTSDETAILS",
   "items": {
     "ledTv": "50-Zoll-LED-Fernseher",
@@ -423,7 +438,9 @@
     "teaMachineAndKettle": "Teemaschine und Wasserkocher",
     "hairDryer": "Haartrockner",
     "ironAndIroningBoard": "Bügeleisen und Bügelbrett"
-  }
+  },
+
+  "note": "STEHT UNSEREN GÄSTEN ZUR VERFÜGUNG."
 },
 
 "DistancesSection": {
@@ -436,7 +453,13 @@
     "experiences": {
       "eyebrow": "ENTFERNUNGEN VON DER ANLAGE",
       "title": "Planen Sie Ihre Route <italic>von hier aus.</italic>"
-    }
+    },
+
+    "villas": {
+  "eyebrow": "UNSERE ANLAGE",
+  "title": "<italic>Nah</italic> an allem,",
+  "subtitle": "fernab vom Trubel."
+}
   },
   "distance": "{distance, number} KM",
   "places": {
@@ -471,6 +494,13 @@
   "subtitle": "abends nach Hause kommen.",
   "imageAlt": "Minta Hills bei Sonnenuntergang",
   "villas": "UNTERKÜNFTE ANSEHEN"
+},
+
+"villas": {
+  "title": "Teilen Sie uns Ihre Reisedaten mit,",
+  "subtitle": "alles Weitere besprechen wir.",
+  "imageAlt": "Minta Hills Villen und Swimmingpool",
+  "gallery": "GALERIE ANSEHEN"
 }
   }
 },
@@ -567,5 +597,120 @@
     }
   }
 }
+},
+
+"VillasPage": {
+  "hero": {
+    "breadcrumbLabel": "Navigationspfad",
+    "home": "Startseite",
+    "current": "Unterkunft",
+    "eyebrow": "UNTERKUNFT",
+    "title": "Geschaffen für einen erholsamen",
+    "subtitle": "und komfortablen Urlaub.",
+    "imageAlt": "Außenansicht einer Minta Hills Villa und Swimmingpool",
+    "villas": "{count, number} PRIVATE VILLEN",
+    "livingArea": "{area, number} M² WOHNFLÄCHE",
+    "capacity": "BIS ZU {capacity, number} PERSONEN"
+  },
+
+  "manifesto": {
+  "eyebrow": "UNSERE VILLEN",
+  "title": "Komfort und Entspannung,",
+  "subtitle": "vereint an einem Ort.",
+  "lead": "Unsere Anlage bietet insgesamt <mark>{count, number} Villen</mark> mit jeweils <mark>{livingArea, number} Quadratmetern</mark> Wohnfläche und wurde geschaffen, um Ihnen ein einzigartiges Urlaubserlebnis zu ermöglichen. Jede Villa verfügt über {kitchens, number} offene Küche, {bedrooms, number} Schlafzimmer, {toilets, number} Toiletten, {bathrooms, number} Badezimmer und {balconies, number} Balkone und verbindet Komfort mit einem großzügigen Raumgefühl.",
+  "description": "Alle unsere Villen verfügen über denselben Grundriss. Der gemeinsame Wohnbereich geht in die Küche über, die Schlafzimmer sind separat angeordnet und die {balconies, number} Balkone öffnen sich zum Garten."
+},
+
+"tour": {
+  "eyebrow": "VILLENRUNDGANG",
+  "title": "Vom ersten Moment an,",
+  "subtitle": "in dem Sie eintreten.",
+  "rooms": {
+    "living": {
+      "category": "WOHNBEREICH",
+      "title": "Ein großzügiger Wohnbereich",
+      "description": "Der großzügige Wohnbereich geht in die Küche über und bietet auch bei einem Aufenthalt mit mehreren Gästen ausreichend Bewegungsfreiheit.",
+      "imageAlt": "Wohnbereich einer Minta Hills Villa",
+      "chips": {
+        "first": "{livingArea, number} M²",
+        "second": "50'' LED-TV",
+        "third": "ZUGANG ZUM GARTEN"
+      }
+    },
+    "kitchen": {
+      "category": "OFFENE KÜCHE",
+      "title": "Eine voll ausgestattete Küche",
+      "description": "Mit Einbaubackofen, Einbaumikrowelle und elektrischem Kochfeld bietet die Küche alles, was Sie benötigen, um auch bei längeren Aufenthalten Ihren eigenen Alltag zu gestalten.",
+      "imageAlt": "Offene Küche einer Minta Hills Villa",
+      "chips": {
+        "first": "{kitchens, number} KÜCHE",
+        "second": "EINBAUGERÄTE",
+        "third": "GESCHIRRSPÜLER"
+      }
+    },
+    "bedrooms": {
+      "category": "SCHLAFZIMMER",
+      "title": "Drei separate Schlafzimmer",
+      "description": "Unsere Schlafzimmer sind mit {doubleBeds, number} Doppelbetten und {singleBeds, number} Einzelbetten ausgestattet und bieten Platz für bis zu {capacity, number} Personen.",
+      "imageAlt": "Schlafzimmer einer Minta Hills Villa",
+      "chips": {
+        "first": "{bedrooms, number} ZIMMER",
+        "second": "BIS ZU {capacity, number} PERSONEN",
+        "third": "KLIMAANLAGE IN JEDEM ZIMMER"
+      }
+    },
+    "bathrooms": {
+      "category": "BADEZIMMER & TOILETTEN",
+      "title": "Zwei Badezimmer, drei Toiletten",
+      "description": "Dank der getrennten Badezimmer und Toiletten bleibt der morgendliche Ablauf auch bei größeren Reisegruppen angenehm und unkompliziert.",
+      "imageAlt": "Badezimmer einer Minta Hills Villa",
+      "chips": {
+        "first": "{bathrooms, number} BADEZIMMER",
+        "second": "{toilets, number} TOILETTEN",
+        "third": "HAARTROCKNER"
+      }
+    },
+    "balconies": {
+      "category": "BALKONE",
+      "title": "Drei Balkone zum Garten",
+      "description": "Die Balkone mit Blick auf die Orangenhaine und den Swimmingpool laden zu jeder Tageszeit zum Verweilen ein, vom Morgenkaffee bis zu den kühlen Abendstunden.",
+      "imageAlt": "Balkon und Poolseite einer Minta Hills Villa",
+      "chips": {
+        "first": "{balconies, number} BALKONE",
+        "second": "GARTENSEITE",
+        "third": "POOLBLICK"
+      }
+    }
+  }
+},
+
+"capacity": {
+  "eyebrow": "SCHLAFMÖGLICHKEITEN",
+  "title": "Für bis zu sechs Personen,",
+  "subtitle": "ein komfortabler Aufenthalt.",
+  "description": "Unsere Schlafzimmer sind mit {doubleBeds, number} Doppelbetten und {singleBeds, number} Einzelbetten ausgestattet und bieten Platz für insgesamt {capacity, number} Personen.",
+  "beds": {
+    "double": "DOPPELBETTEN",
+    "single": "EINZELBETTEN"
+  },
+  "guestUnit": "PERSONEN",
+  "total": "GESAMTE BEHERBERGUNGSKAPAZITÄT"
+}
+},
+
+"FiguresSection": {
+  "labels": {
+    "about": "Minta Hills in Zahlen",
+    "villas": "Villengrundriss in Zahlen"
+  },
+  "items": {
+    "garden": "M² ORANGENGARTEN",
+    "villas": "PRIVATE VILLEN",
+    "livingArea": "M² WOHNFLÄCHE",
+    "capacity": "PERSONEN MAXIMAL",
+    "bedrooms": "SCHLAFZIMMER",
+    "bathrooms": "BADEZIMMER · {toilets, number} TOILETTEN",
+    "balconies": "BALKONE"
+  }
 }
 }
