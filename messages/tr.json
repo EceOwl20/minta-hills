@@ -427,9 +427,17 @@
 },
 
 "DistancesSection": {
-  "eyebrow": "KONUM AYRICALIĞI",
-  "title": "Her yere <italic>yakın,</italic>",
-  "subtitle": "kalabalıktan uzak.",
+  "headings": {
+    "hospitality": {
+      "eyebrow": "KONUM AYRICALIĞI",
+      "title": "Her yere <italic>yakın,</italic>",
+      "subtitle": "kalabalıktan uzak."
+    },
+    "experiences": {
+      "eyebrow": "TESİSTEN MESAFELER",
+      "title": "Rotanızı <italic>buradan</italic> kurun."
+    }
+  },
   "distance": "{distance, number} KM",
   "places": {
     "kemerCenter": "Kemer İlçe Merkezi",
@@ -456,7 +464,108 @@
       "subtitle": "size ait günler.",
       "imageAlt": "Minta Hills villaları ve havuz",
       "villas": "KONAKLAMAYI GÖRÜN"
+    },
+
+    "experiences": {
+  "title": "Gündüz keşfedin,",
+  "subtitle": "akşam eve dönün.",
+  "imageAlt": "Gün batımında Minta Hills",
+  "villas": "KONAKLAMAYI GÖRÜN"
+}
+  }
+},
+
+"ExperiencesPage": {
+  "hero": {
+    "breadcrumbLabel": "Sayfa yolu",
+    "home": "Ana Sayfa",
+    "current": "Deneyimler",
+    "eyebrow": "DENEYİMLER",
+    "title": "Denizden zirveye,",
+    "subtitle": "bir gün içinde.",
+    "imageAlt": "Kemer'de Tahtalı Dağı",
+    "cableCar": "TELEFERİK 18 KM",
+    "ancientCity": "ANTİK KENT 12 KM",
+    "beach": "PLAJ 35 KM"
+  },
+
+  "manifesto": {
+  "eyebrow": "KEMER ÇEVRESİ",
+  "title": "Villadan çıkın,",
+  "subtitle": "her şey yakın.",
+  "lead": "Minta Hills'in konumu, Akdeniz'in en yoğun rotalarından birinin tam ortasında. Sabah <mark>2.365 metrelik zirvede</mark>, öğleden sonra bir antik kentin koyunda, akşam ise <mark>sönmeyen alevlerin</mark> yanında olabilirsiniz.",
+  "description": "Aşağıdaki noktaların tamamı günübirlik gidilip dönülebilir. Rotalar ve gidiş şekilleri için konaklamanız sırasında bize danışabilirsiniz."
+},
+
+"featured": {
+  "eyebrow": "ÖNE ÇIKAN · 18 KM",
+  "title": "Tahtalı Dağı ve",
+  "subtitle": "Olympos Teleferik.",
+  "description": "Akdeniz kıyısından 2.365 metreye çıkan teleferik hattı, Kemer'in en bilinen deneyimi. Zirvede kıyı şeridinin tamamını, açık havada Toroslar'ın iç sıralarını görebilirsiniz. Yaz aylarında bile zirvede hava serindir; yanınıza bir kat fazla giysi almanız iyi olur.",
+  "imageAlt": "Olympos plajından görülen karlı Tahtalı Dağı",
+  "facts": {
+    "altitude": "2.365 METRE",
+    "cableCar": "TELEFERİK",
+    "distance": "TESİSE 18 KM"
+  }
+},
+
+"grid": {
+  "eyebrow": "YAPILACAKLAR",
+  "title": "Kemer'de <italic>bir hafta,</italic>",
+  "subtitle": "her gün başka bir rota.",
+  "description": "Antik kentlerden yürüyüş rotalarına, kumsallardan hava sporlarına; çevredeki deneyimlerin çoğu tesise bir saatten yakın mesafede.",
+  "items": {
+    "lycianWay": {
+      "badge": "YÜRÜYÜŞ",
+      "category": "LİKYA YOLU",
+      "title": "Türkiye'nin ilk uzun mesafe yürüyüş rotası",
+      "description": "Fethiye'den Antalya'ya uzanan yaklaşık 540 kilometrelik işaretli rota, Kemer çevresinden de geçiyor. Tamamını yürümek zorunda değilsiniz; Göynük, Çıralı ve Olympos etaplarını günübirlik parçalar hâlinde deneyebilirsiniz.",
+      "imageAlt": "Likya Yolu yürüyüş rotası"
+    },
+    "phaselis": {
+      "badge": "12 KM",
+      "category": "TARİH & DENİZ",
+      "title": "Phaselis Antik Kenti",
+      "description": "Üç doğal limanı olan antik liman kenti. Kalıntıların arasından geçen yol doğrudan kumsala çıkıyor; gezip aynı yerde denize girebiliyorsunuz.",
+      "imageAlt": "Phaselis Antik Kenti tiyatrosu"
+    },
+    "cirali": {
+      "badge": "35 KM",
+      "category": "PLAJ",
+      "title": "Çıralı Plajı",
+      "description": "Yaklaşık üç kilometrelik sakin kumsal. Caretta caretta kaplumbağalarının yuvalama alanı olduğu için yapılaşma sınırlı; kalabalıktan uzak bir gün geçirmek için ideal.",
+      "imageAlt": "Çıralı plajı ve sabah manzarası"
+    },
+    "chimaera": {
+      "badge": "35 KM",
+      "category": "DOĞA & EFSANE",
+      "title": "Yanartaş (Chimaera)",
+      "description": "Yerden çıkan doğal gazın yüzyıllardır sönmeden yandığı yamaç. Alevler karanlıkta çok daha etkileyici olduğu için gün batımına yakın çıkmak en iyisi.",
+      "imageAlt": "Yanartaş'ta doğal gazın oluşturduğu alevler"
+    },
+    "paragliding": {
+      "badge": "HAVA SPORU",
+      "category": "YAMAÇ PARAŞÜTÜ",
+      "title": "Zirveden Akdeniz'e uçuş",
+      "description": "Tahtalı zirvesi, bölgenin bilinen tandem uçuş noktalarından biri. Teleferikle yukarı çıkıp kıyıya doğru süzülerek iniyorsunuz. Uçuşlar hava koşullarına bağlı olarak yapılıyor.",
+      "imageAlt": "Tahtalı Dağı zirvesi"
+    },
+    "goynuk": {
+      "badge": "KANYON",
+      "category": "GÖYNÜK",
+      "title": "Göynük Kanyonu",
+      "description": "Kemer'e bağlı Göynük'te, dik kayalıklar arasından akan berrak suyla yürüyüş parkuru. Yaz sıcağında çevredeki en serin rotalardan biri.",
+      "imageAlt": "Göynük Kanyonu"
+    },
+    "kemerMarina": {
+      "badge": "4 KM",
+      "category": "KEMER MERKEZ",
+      "title": "Marina, sahil ve tekne turları",
+      "description": "Günlük ihtiyaçlar, restoranlar ve sahil hattı tesise yalnızca dört kilometre uzakta. Marinadan kalkan tekneler Phaselis ve çevre koylara günlük turlar düzenliyor.",
+      "imageAlt": "Kemer Marina ve tekneler"
     }
   }
+}
 }
 }

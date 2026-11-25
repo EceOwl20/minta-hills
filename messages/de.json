@@ -427,9 +427,17 @@
 },
 
 "DistancesSection": {
-  "eyebrow": "LAGEVORTEIL",
-  "title": "Alles ganz <italic>nah,</italic>",
-  "subtitle": "fernab vom Trubel.",
+  "headings": {
+    "hospitality": {
+      "eyebrow": "LAGEVORTEIL",
+      "title": "Alles ganz <italic>nah,</italic>",
+      "subtitle": "fernab vom Trubel."
+    },
+    "experiences": {
+      "eyebrow": "ENTFERNUNGEN VON DER ANLAGE",
+      "title": "Planen Sie Ihre Route <italic>von hier aus.</italic>"
+    }
+  },
   "distance": "{distance, number} KM",
   "places": {
     "kemerCenter": "Stadtzentrum von Kemer",
@@ -456,7 +464,108 @@
       "subtitle": "Tage ganz für Sie.",
       "imageAlt": "Villen und Swimmingpool von Minta Hills",
       "villas": "UNTERKÜNFTE ANSEHEN"
+    },
+
+    "experiences": {
+  "title": "Tagsüber entdecken,",
+  "subtitle": "abends nach Hause kommen.",
+  "imageAlt": "Minta Hills bei Sonnenuntergang",
+  "villas": "UNTERKÜNFTE ANSEHEN"
+}
+  }
+},
+
+"ExperiencesPage": {
+  "hero": {
+    "breadcrumbLabel": "Navigationspfad",
+    "home": "Startseite",
+    "current": "Erlebnisse",
+    "eyebrow": "ERLEBNISSE",
+    "title": "Vom Meer zum Gipfel,",
+    "subtitle": "an einem einzigen Tag.",
+    "imageAlt": "Der Tahtalı-Berg in Kemer",
+    "cableCar": "SEILBAHN 18 KM",
+    "ancientCity": "ANTIKE STADT 12 KM",
+    "beach": "STRAND 35 KM"
+  },
+
+  "manifesto": {
+  "eyebrow": "RUND UM KEMER",
+  "title": "Verlassen Sie Ihre Villa,",
+  "subtitle": "alles liegt ganz nah.",
+  "lead": "Minta Hills liegt mitten in einer der beliebtesten Reiseregionen des Mittelmeers. Morgens können Sie auf einem <mark>2.365 Meter hohen Gipfel</mark> stehen, nachmittags in der Bucht einer antiken Stadt entspannen und abends die <mark>ewigen Flammen</mark> erleben.",
+  "description": "Alle nachfolgend aufgeführten Ziele lassen sich bei einem Tagesausflug besuchen. Gerne beraten wir Sie während Ihres Aufenthalts zu Routen und Anreisemöglichkeiten."
+},
+
+"featured": {
+  "eyebrow": "HIGHLIGHT · 18 KM",
+  "title": "Der Tahtalı-Berg und",
+  "subtitle": "die Olympos-Seilbahn.",
+  "description": "Die Seilbahn, die von der Mittelmeerküste auf 2.365 Meter Höhe führt, zählt zu den bekanntesten Erlebnissen in Kemer. Vom Gipfel aus können Sie die gesamte Küstenlinie und bei klarem Wetter die inneren Gebirgszüge des Taurusgebirges sehen. Selbst im Sommer ist es auf dem Gipfel kühl. Daher empfehlen wir Ihnen, eine zusätzliche Kleidungsschicht mitzunehmen.",
+  "imageAlt": "Der schneebedeckte Tahtalı-Berg vom Olympos-Strand aus gesehen",
+  "facts": {
+    "altitude": "2.365 METER",
+    "cableCar": "SEILBAHN",
+    "distance": "18 KM VON DER ANLAGE"
+  }
+},
+
+"grid": {
+  "eyebrow": "AKTIVITÄTEN",
+  "title": "<italic>Eine Woche</italic> in Kemer,",
+  "subtitle": "jeden Tag eine neue Route.",
+  "description": "Von antiken Städten und Wanderwegen bis hin zu Stränden und Flugsport: Die meisten Erlebnisse in der Umgebung sind weniger als eine Stunde von unserer Anlage entfernt.",
+  "items": {
+    "lycianWay": {
+      "badge": "WANDERN",
+      "category": "LYKISCHER WEG",
+      "title": "Der erste Fernwanderweg der Türkei",
+      "description": "Der rund 540 Kilometer lange markierte Wanderweg von Fethiye nach Antalya führt auch durch die Region Kemer. Sie müssen nicht die gesamte Strecke wandern; die Etappen bei Göynük, Çıralı und Olympos lassen sich als Tagesausflüge erleben.",
+      "imageAlt": "Wanderroute auf dem Lykischen Weg"
+    },
+    "phaselis": {
+      "badge": "12 KM",
+      "category": "GESCHICHTE & MEER",
+      "title": "Antike Stadt Phaselis",
+      "description": "Eine antike Hafenstadt mit drei natürlichen Häfen. Der Weg durch die Ruinen führt direkt zum Strand, sodass Sie Kultur und Badespaß miteinander verbinden können.",
+      "imageAlt": "Theater der antiken Stadt Phaselis"
+    },
+    "cirali": {
+      "badge": "35 KM",
+      "category": "STRAND",
+      "title": "Strand von Çıralı",
+      "description": "Ein rund drei Kilometer langer, ruhiger Strand. Da hier Unechte Karettschildkröten nisten, ist die Bebauung begrenzt. Ideal für einen entspannten Tag fernab vom Trubel.",
+      "imageAlt": "Strand von Çıralı am Morgen"
+    },
+    "chimaera": {
+      "badge": "35 KM",
+      "category": "NATUR & LEGENDE",
+      "title": "Yanartaş (Chimaira)",
+      "description": "Ein Berghang, an dem seit Jahrhunderten natürlich austretendes Gas brennt. Besonders beeindruckend sind die Flammen bei Dunkelheit, weshalb sich ein Besuch zum Sonnenuntergang empfiehlt.",
+      "imageAlt": "Natürliche Gasflammen in Yanartaş"
+    },
+    "paragliding": {
+      "badge": "FLUGSPORT",
+      "category": "GLEITSCHIRMFLIEGEN",
+      "title": "Vom Gipfel zum Mittelmeer",
+      "description": "Der Gipfel des Tahtalı zählt zu den bekannten Startplätzen für Tandem-Gleitschirmflüge in der Region. Mit der Seilbahn geht es hinauf, anschließend gleiten Sie zur Küste. Die Flüge sind wetterabhängig.",
+      "imageAlt": "Gipfel des Tahtalı-Berges"
+    },
+    "goynuk": {
+      "badge": "CANYON",
+      "category": "GÖYNÜK",
+      "title": "Göynük-Canyon",
+      "description": "Ein Wanderweg in Göynük bei Kemer, wo kristallklares Wasser zwischen steilen Felswänden fließt. Eine der kühlsten Routen der Umgebung während der Sommerhitze.",
+      "imageAlt": "Göynük-Canyon"
+    },
+    "kemerMarina": {
+      "badge": "4 KM",
+      "category": "ZENTRUM VON KEMER",
+      "title": "Marina, Küste und Bootstouren",
+      "description": "Einkaufsmöglichkeiten, Restaurants und die Küste sind nur vier Kilometer von unserer Anlage entfernt. Von der Marina aus starten täglich Bootstouren nach Phaselis und in die umliegenden Buchten.",
+      "imageAlt": "Marina von Kemer mit Booten"
     }
   }
+}
 }
 }

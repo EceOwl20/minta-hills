@@ -5,7 +5,8 @@ import RevealOnScroll from "@/components/common/RevealOnScroll";
 type Props = {
   namespace:
     | "AboutPage.manifesto"
-    | "HospitalityPage.manifesto";
+    | "HospitalityPage.manifesto"
+    | "ExperiencesPage.manifesto";
 };
 
 export default async function ManifestoSection({

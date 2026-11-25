@@ -428,9 +428,17 @@
 },
 
 "DistancesSection": {
-  "eyebrow": "LOCATION ADVANTAGE",
-  "title": "<italic>Close</italic> to everything,",
-  "subtitle": "away from the crowds.",
+  "headings": {
+    "hospitality": {
+      "eyebrow": "LOCATION ADVANTAGE",
+      "title": "<italic>Close</italic> to everything,",
+      "subtitle": "away from the crowds."
+    },
+    "experiences": {
+      "eyebrow": "DISTANCES FROM THE RESORT",
+      "title": "Plan your route <italic>from here.</italic>"
+    }
+  },
   "distance": "{distance, number} KM",
   "places": {
     "kemerCenter": "Kemer Town Centre",
@@ -457,8 +465,109 @@
       "subtitle": "days to call your own.",
       "imageAlt": "Minta Hills villas and swimming pool",
       "villas": "EXPLORE ACCOMMODATION"
+    },
+
+    "experiences": {
+  "title": "Explore by day,",
+  "subtitle": "return home in the evening.",
+  "imageAlt": "Minta Hills at sunset",
+  "villas": "EXPLORE ACCOMMODATION"
+}
+  }
+},
+
+"ExperiencesPage": {
+  "hero": {
+    "breadcrumbLabel": "Breadcrumb",
+    "home": "Home",
+    "current": "Experiences",
+    "eyebrow": "EXPERIENCES",
+    "title": "From sea to summit,",
+    "subtitle": "in a single day.",
+    "imageAlt": "Mount Tahtalı in Kemer",
+    "cableCar": "CABLE CAR 18 KM",
+    "ancientCity": "ANCIENT CITY 12 KM",
+    "beach": "BEACH 35 KM"
+  },
+
+  "manifesto": {
+  "eyebrow": "AROUND KEMER",
+  "title": "Step outside your villa,",
+  "subtitle": "everything is close.",
+  "lead": "Minta Hills is situated at the heart of one of the Mediterranean's most popular travel regions. Spend your morning on a <mark>2,365-metre summit</mark>, your afternoon in the bay of an ancient city and your evening beside <mark>eternal flames</mark>.",
+  "description": "All of the destinations below can be visited on a day trip. During your stay, feel free to ask us about routes and ways to get there."
+},
+
+"featured": {
+  "eyebrow": "FEATURED · 18 KM",
+  "title": "Mount Tahtalı and",
+  "subtitle": "Olympos Cable Car.",
+  "description": "Rising from the Mediterranean coast to an altitude of 2,365 metres, the cable car is one of Kemer's best-known experiences. From the summit, you can see the entire coastline and, on clear days, the inland ranges of the Taurus Mountains. Even in summer, the summit is cool, so we recommend bringing an extra layer of clothing.",
+  "imageAlt": "Snow-covered Mount Tahtalı viewed from Olympos Beach",
+  "facts": {
+    "altitude": "2,365 METRES",
+    "cableCar": "CABLE CAR",
+    "distance": "18 KM FROM THE RESORT"
+  }
+},
+
+"grid": {
+  "eyebrow": "THINGS TO DO",
+  "title": "<italic>A week</italic> in Kemer,",
+  "subtitle": "a different route every day.",
+  "description": "From ancient cities and hiking trails to beaches and air sports, most experiences in the surrounding area are less than an hour away from the resort.",
+  "items": {
+    "lycianWay": {
+      "badge": "HIKING",
+      "category": "LYCIAN WAY",
+      "title": "Türkiye's first long-distance hiking trail",
+      "description": "Stretching approximately 540 kilometres from Fethiye to Antalya, this marked trail also passes through the Kemer region. You don't have to walk the entire route; explore the Göynük, Çıralı and Olympos sections on day trips.",
+      "imageAlt": "Lycian Way hiking trail"
+    },
+    "phaselis": {
+      "badge": "12 KM",
+      "category": "HISTORY & SEA",
+      "title": "Ancient City of Phaselis",
+      "description": "An ancient port city with three natural harbours. The path through the ruins leads directly to the beach, allowing you to combine sightseeing and swimming in one place.",
+      "imageAlt": "Theatre of the ancient city of Phaselis"
+    },
+    "cirali": {
+      "badge": "35 KM",
+      "category": "BEACH",
+      "title": "Çıralı Beach",
+      "description": "Approximately three kilometres of peaceful coastline. Development is limited because the beach is a nesting site for loggerhead sea turtles, making it ideal for a day away from the crowds.",
+      "imageAlt": "Çıralı Beach and its morning scenery"
+    },
+    "chimaera": {
+      "badge": "35 KM",
+      "category": "NATURE & LEGEND",
+      "title": "Yanartaş (Chimaera)",
+      "description": "A mountainside where natural gas emerging from the ground has been burning for centuries. The flames are particularly impressive after dark, making sunset an ideal time to visit.",
+      "imageAlt": "Natural gas flames at Yanartaş"
+    },
+    "paragliding": {
+      "badge": "AIR SPORTS",
+      "category": "PARAGLIDING",
+      "title": "From the summit to the Mediterranean",
+      "description": "The summit of Mount Tahtalı is one of the region's well-known tandem paragliding locations. Take the cable car up and glide towards the coast. Flights depend on weather conditions.",
+      "imageAlt": "Summit of Mount Tahtalı"
+    },
+    "goynuk": {
+      "badge": "CANYON",
+      "category": "GÖYNÜK",
+      "title": "Göynük Canyon",
+      "description": "A hiking trail in Göynük, near Kemer, where crystal-clear water flows between steep cliffs. One of the coolest routes in the area during the summer heat.",
+      "imageAlt": "Göynük Canyon"
+    },
+    "kemerMarina": {
+      "badge": "4 KM",
+      "category": "KEMER CENTRE",
+      "title": "Marina, coastline and boat tours",
+      "description": "Everyday essentials, restaurants and the coastline are just four kilometres from the resort. Boats departing from the marina offer daily trips to Phaselis and nearby bays.",
+      "imageAlt": "Kemer Marina and boats"
     }
   }
+}
 }
 
 }

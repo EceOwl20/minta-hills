@@ -3,7 +3,13 @@ import { getTranslations } from "next-intl/server";
 import RevealOnScroll from "@/components/common/RevealOnScroll";
 import { distances } from "@/data/distances";
 
-export default async function DistancesSection() {
+type Props = {
+  variant?: "hospitality" | "experiences";
+};
+
+export default async function DistancesSection({
+  variant = "hospitality",
+}: Props) {
   const t = await getTranslations("DistancesSection");
 
   return (
@@ -19,7 +25,9 @@ export default async function DistancesSection() {
       "
     >
       {/* Section heading */}
-      <RevealOnScroll className="mb-[clamp(40px,4vw,64px)]">
+      <RevealOnScroll
+        className="mb-[clamp(40px,4vw,64px)]"
+      >
         {/* Section label */}
         <p
           className="
@@ -39,7 +47,7 @@ export default async function DistancesSection() {
             "
           />
 
-          {t("eyebrow")}
+          {t(`headings.${variant}.eyebrow`)}
         </p>
 
         {/* Section title */}
@@ -54,22 +62,34 @@ export default async function DistancesSection() {
             tracking-[-0.035em]
           "
         >
-          {t.rich("title", {
+          {t.rich(`headings.${variant}.title`, {
             italic: (chunks) => (
-              <em className="font-normal italic">{chunks}</em>
+              <em className="font-normal italic">
+                {chunks}
+              </em>
             ),
           })}
 
-          <br />
+          {variant === "hospitality" && (
+            <>
+              <br />
 
-          {t("subtitle")}
+              {t("headings.hospitality.subtitle")}
+            </>
+          )}
         </h2>
       </RevealOnScroll>
 
       {/* Distance list */}
       <ul className="border-t border-black/25">
         {distances.map((item, index) => (
-          <li key={item.id} className="group border-b border-black/25">
+          <li
+            key={item.id}
+            className="
+              group
+              border-b border-black/25
+            "
+          >
             <RevealOnScroll
               delay={index * 60}
               className="
@@ -84,10 +104,24 @@ export default async function DistancesSection() {
               "
             >
               {/* Location name */}
-              {/* Location name */}
               <span
-                className="min-w-0 font-serif font-normal text-[clamp(18px,1.5vw,24px)] leading-[1.4] text-brand-dark transition-transform
-                        duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-[10px] motion-reduce:transition-none motion-reduce:group-hover:translate-x-0"
+                className="
+                  min-w-0
+
+                  font-serif font-normal
+                  text-[clamp(18px,1.5vw,24px)]
+                  leading-[1.4]
+                  text-brand-dark
+
+                  transition-transform
+                  duration-500
+                  ease-[cubic-bezier(0.22,1,0.36,1)]
+
+                  group-hover:translate-x-[5px]
+
+                  motion-reduce:transition-none
+                  motion-reduce:group-hover:translate-x-0
+                "
               >
                 {t(`places.${item.id}`)}
               </span>
