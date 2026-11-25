@@ -9,6 +9,8 @@ export const siteConfig = {
     whatsapp: "902422120294",
   },
 
+  email: "info@mintahills.com",
+
   reservation: {
     href: "/reservation",
   },

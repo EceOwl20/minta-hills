@@ -21,9 +21,14 @@ export const closingConfig = {
     actions: ["reservation", "villas"],
   },
 
-    villas: {
+  villas: {
     image: "/images/exteriors/hero-4.jpg",
     actions: ["reservation", "gallery"],
+  },
+
+  contact: {
+    image: "/images/exteriors/pool-2.jpg",
+    actions: ["reservation", "villas"],
   },
 } as const satisfies Record<string, ClosingConfig>;
 

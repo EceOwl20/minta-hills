@@ -459,6 +459,11 @@
   "eyebrow": "TESİSİMİZ",
   "title": "Her yere <italic>yakın,</italic>",
   "subtitle": "kalabalıktan uzak."
+},
+
+"contact": {
+  "eyebrow": "Yol tarifi",
+  "title": "Tesise <italic>ne kadar</italic> uzaktasınız?"
 }
   },
   "distance": "{distance, number} KM",
@@ -501,6 +506,15 @@
   "subtitle": "gerisini konuşalım.",
   "imageAlt": "Minta Hills villaları ve havuz",
   "gallery": "GALERİYİ GÖRÜN"
+},
+
+"contact": {
+  "title": "Tarihlerinizi paylaşın,",
+  "subtitle": "hemen dönelim.",
+  "imageAlt": "Minta Hills yüzme havuzu",
+  "whatsapp": "WhatsApp'tan yazın",
+  "villas": "Konaklamayı görün",
+  "whatsappMessage": "Merhaba Minta Hills, uygunluk ve fiyat bilgisi almak istiyorum."
 }
   }
 },
@@ -1090,5 +1104,114 @@
 
 "BlogDetailPage": {
   "backToBlog": "Tüm yazılar"
+},
+
+"ContactPage": {
+  "hero": {
+    "breadcrumbHome": "Ana Sayfa",
+    "breadcrumbCurrent": "İletişim",
+    "breadcrumbLabel": "Sayfa yolu",
+    "eyebrow": "İLETİŞİM",
+    "title": "Sizin için",
+    "subtitle": "buradayız.",
+    "imageAlt": "Minta Hills ortak yemek alanı ve şöminesi",
+    "meta": {
+      "location": "KEMER / ANTALYA",
+      "response": "WHATSAPP İLE HIZLI YANIT",
+      "airport": "HAVALİMANINA 60 KM"
+    }
+  },
+
+  "channels": {
+  "ariaLabel": "İletişim kanalları",
+  "phone": {
+    "label": "Telefon",
+    "description": "Sorularınız için doğrudan arayabilirsiniz."
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "value": "Mesaj gönderin",
+    "description": "Müsaitlik ve fiyat bilgisi için en hızlı yol.",
+    "message": "Merhaba Minta Hills, bilgi almak istiyorum."
+  },
+  "email": {
+    "label": "E-posta",
+    "description": "Detaylı talepleriniz için yazabilirsiniz."
+  },
+  "instagram": {
+    "label": "Instagram",
+    "description": "Tesisten güncel fotoğraflar ve paylaşımlar."
+  }
+},
+
+"form": {
+  "eyebrow": "Mesaj bırakın",
+  "title": "Konaklamanızı",
+  "subtitle": "birlikte planlayalım.",
+  "description": "Tarihlerinizi, misafir sayınızı ve merak ettiklerinizi yazın; en kısa sürede size dönüş yapalım.",
+  "details": {
+    "address": "Adres",
+    "phone": "Telefon & WhatsApp",
+    "license": "Turizm belge no"
+  },
+  "fields": {
+    "name": "Adınız",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "subject": "Konu",
+    "message": "Mesajınız"
+  },
+  "subjects": {
+    "reservation": "Rezervasyon",
+    "villaInformation": "Villa bilgisi",
+    "availabilityAndPrice": "Müsaitlik ve fiyat",
+    "directions": "Yol tarifi",
+    "other": "Diğer"
+  },
+  "submit": "Mesajı gönder",
+  "sending": "Gönderiliyor...",
+  "note": "Mesajınız Minta Hills iletişim sistemine kaydedilir. Acil talepleriniz için WhatsApp daha hızlıdır.",
+  "unavailable": "Mesaj gönderimi şu anda kullanılamıyor. Bizimle WhatsApp üzerinden iletişime geçebilirsiniz.",
+  "success": "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
+  "errors": {
+    "name": "Lütfen adınızı girin.",
+    "email": "Lütfen geçerli bir e-posta adresi girin.",
+    "phone": "Lütfen geçerli bir telefon numarası girin.",
+    "subject": "Lütfen geçerli bir konu seçin.",
+    "message": "Lütfen mesajınızı girin.",
+    "general": "Mesajınız gönderilemedi. Lütfen tekrar deneyin.",
+    "rateLimit": "Çok fazla gönderim yaptınız. Lütfen daha sonra tekrar deneyin."
+  }
+},
+
+"map": {
+  "ariaLabel": "Konum haritası",
+  "title": "Minta Hills konumu — Kemer / Antalya",
+  "location": "Arslanbucak Mah. · Kemer / Antalya",
+  "directions": "Yol tarifi alın"
+},
+
+"distances": {
+  "eyebrow": "Yol tarifi",
+  "title": "Tesise <em>ne kadar</em> uzaktasınız?",
+  "unit": "KM",
+  "items": {
+    "kemerCenter": "Kemer İlçe Merkezi",
+    "phaselis": "Phaselis Antik Kenti",
+    "olymposCableCar": "Olympos Teleferik",
+    "ciraliYanartas": "Çıralı Yanartaş",
+    "antalyaAirport": "Antalya Havalimanı"
+  }
+},
+
+"closing": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "Tarihlerinizi paylaşın,",
+  "subtitle": "hemen dönelim.",
+  "imageAlt": "Minta Hills yüzme havuzu",
+  "whatsapp": "WhatsApp'tan yazın",
+  "villas": "Konaklamayı görün",
+  "whatsappMessage": "Merhaba Minta Hills, uygunluk ve fiyat bilgisi almak istiyorum."
+}
 }
 }

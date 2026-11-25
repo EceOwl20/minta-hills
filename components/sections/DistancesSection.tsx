@@ -4,7 +4,7 @@ import RevealOnScroll from "@/components/common/RevealOnScroll";
 import { distances } from "@/data/distances";
 
 type Props = {
-  variant?: "hospitality" | "experiences" | "villas";
+  variant?: "hospitality" | "experiences" | "villas" | "contact";
 };
 
 export default async function DistancesSection({
@@ -12,7 +12,9 @@ export default async function DistancesSection({
 }: Props) {
   const t = await getTranslations("DistancesSection");
 
-  const showSubtitle = variant !== "experiences";
+  const showSubtitle =
+  variant !== "experiences" &&
+  variant !== "contact";
 
   return (
     <section

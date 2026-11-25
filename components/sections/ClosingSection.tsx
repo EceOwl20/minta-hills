@@ -64,9 +64,18 @@ export default async function ClosingSection({
 
   const config = closingConfig[variant];
 
-  const whatsappHref =
-    `${siteConfig.social.whatsapp}?text=` +
-    encodeURIComponent(t("whatsappMessage"));
+const whatsappUrl = new URL(
+  siteConfig.social.whatsapp
+);
+
+whatsappUrl.searchParams.set(
+  "text",
+  variant === "contact"
+    ? t("variants.contact.whatsappMessage")
+    : t("whatsappMessage")
+);
+
+const whatsappHref = whatsappUrl.toString();
 
   return (
     <section
@@ -188,7 +197,9 @@ export default async function ClosingSection({
                   rel="noopener noreferrer"
                   className={className}
                 >
-                  {t("reservation")}
+                  {variant === "contact"
+  ? t("variants.contact.whatsapp")
+  : t("reservation")}
 
                   <span
                     aria-hidden="true"

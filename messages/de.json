@@ -459,6 +459,11 @@
   "eyebrow": "UNSERE ANLAGE",
   "title": "<italic>Nah</italic> an allem,",
   "subtitle": "fernab vom Trubel."
+},
+
+"contact": {
+  "eyebrow": "Anfahrt",
+  "title": "<italic>Wie weit</italic> ist Minta Hills entfernt?"
 }
   },
   "distance": "{distance, number} KM",
@@ -501,6 +506,15 @@
   "subtitle": "alles Weitere besprechen wir.",
   "imageAlt": "Minta Hills Villen und Swimmingpool",
   "gallery": "GALERIE ANSEHEN"
+},
+
+"contact": {
+  "title": "Teilen Sie uns Ihre Reisedaten mit,",
+  "subtitle": "wir melden uns bei Ihnen.",
+  "imageAlt": "Swimmingpool von Minta Hills",
+  "whatsapp": "Per WhatsApp schreiben",
+  "villas": "Unterkünfte entdecken",
+  "whatsappMessage": "Hallo Minta Hills, ich möchte mich über Verfügbarkeit und Preise informieren."
 }
   }
 },
@@ -1091,5 +1105,114 @@
 
 "BlogDetailPage": {
   "backToBlog": "Alle Artikel"
+},
+
+"ContactPage": {
+  "hero": {
+    "breadcrumbHome": "Startseite",
+    "breadcrumbCurrent": "Kontakt",
+    "breadcrumbLabel": "Brotkrümelnavigation",
+    "eyebrow": "KONTAKT",
+    "title": "Wir sind",
+    "subtitle": "für Sie da.",
+    "imageAlt": "Gemeinschaftlicher Essbereich mit Kamin bei Minta Hills",
+    "meta": {
+      "location": "KEMER / ANTALYA",
+      "response": "SCHNELLE ANTWORT PER WHATSAPP",
+      "airport": "60 KM ZUM FLUGHAFEN"
+    }
+  },
+
+  "channels": {
+  "ariaLabel": "Kontaktmöglichkeiten",
+  "phone": {
+    "label": "Telefon",
+    "description": "Bei Fragen können Sie uns direkt anrufen."
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "value": "Nachricht senden",
+    "description": "Der schnellste Weg zu Informationen über Verfügbarkeit und Preise.",
+    "message": "Hallo Minta Hills, ich möchte gerne weitere Informationen erhalten."
+  },
+  "email": {
+    "label": "E-Mail",
+    "description": "Schreiben Sie uns bei ausführlichen Anfragen."
+  },
+  "instagram": {
+    "label": "Instagram",
+    "description": "Entdecken Sie aktuelle Fotos und Neuigkeiten von Minta Hills."
+  }
+},
+
+"form": {
+  "eyebrow": "Hinterlassen Sie eine Nachricht",
+  "title": "Planen wir Ihren Aufenthalt",
+  "subtitle": "gemeinsam.",
+  "description": "Teilen Sie uns Ihren Reisezeitraum, die Anzahl der Gäste und Ihre Fragen mit. Wir melden uns so schnell wie möglich bei Ihnen.",
+  "details": {
+    "address": "Adresse",
+    "phone": "Telefon & WhatsApp",
+    "license": "Tourismusgenehmigungsnummer"
+  },
+  "fields": {
+    "name": "Ihr Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "subject": "Betreff",
+    "message": "Ihre Nachricht"
+  },
+  "subjects": {
+    "reservation": "Reservierung",
+    "villaInformation": "Informationen zur Villa",
+    "availabilityAndPrice": "Verfügbarkeit und Preise",
+    "directions": "Anfahrtsbeschreibung",
+    "other": "Sonstiges"
+  },
+  "submit": "Nachricht senden",
+  "sending": "Wird gesendet...",
+  "note": "Ihre Nachricht wird im Kontaktsystem von Minta Hills gespeichert. Bei dringenden Anfragen erreichen Sie uns am schnellsten über WhatsApp.",
+  "unavailable": "Das Senden von Nachrichten ist derzeit nicht verfügbar. Sie können uns über WhatsApp kontaktieren.",
+  "success": "Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns so schnell wie möglich bei Ihnen.",
+  "errors": {
+    "name": "Bitte geben Sie Ihren Namen ein.",
+    "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "phone": "Bitte geben Sie eine gültige Telefonnummer ein.",
+    "subject": "Bitte wählen Sie einen gültigen Betreff aus.",
+    "message": "Bitte geben Sie Ihre Nachricht ein.",
+    "general": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "rateLimit": "Sie haben zu viele Anfragen gesendet. Bitte versuchen Sie es später erneut."
+  }
+},
+
+"map": {
+  "ariaLabel": "Standortkarte",
+  "title": "Standort von Minta Hills — Kemer / Antalya",
+  "location": "Arslanbucak · Kemer / Antalya",
+  "directions": "Route planen"
+},
+
+"distances": {
+  "eyebrow": "Anfahrt",
+  "title": "<em>Wie weit</em> ist Minta Hills entfernt?",
+  "unit": "KM",
+  "items": {
+    "kemerCenter": "Stadtzentrum von Kemer",
+    "phaselis": "Antike Stadt Phaselis",
+    "olymposCableCar": "Olympos Seilbahn",
+    "ciraliYanartas": "Çıralı Yanartaş",
+    "antalyaAirport": "Flughafen Antalya"
+  }
+},
+
+"closing": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "Teilen Sie uns Ihre Reisedaten mit,",
+  "subtitle": "wir melden uns bei Ihnen.",
+  "imageAlt": "Swimmingpool von Minta Hills",
+  "whatsapp": "Per WhatsApp schreiben",
+  "villas": "Unterkünfte entdecken",
+  "whatsappMessage": "Hallo Minta Hills, ich möchte mich über Verfügbarkeit und Preise informieren."
+}
 }
 }

@@ -458,6 +458,11 @@
   "eyebrow": "OUR PROPERTY",
   "title": "Close to <italic>everything,</italic>",
   "subtitle": "away from the crowds."
+},
+
+"contact": {
+  "eyebrow": "Yol tarifi",
+  "title": "Tesise <italic>ne kadar</italic> uzaktasınız?"
 }
   },
   "distance": "{distance, number} KM",
@@ -500,6 +505,15 @@
   "subtitle": "let’s talk about the rest.",
   "imageAlt": "Minta Hills villas and swimming pool",
   "gallery": "VIEW THE GALLERY"
+},
+
+"contact": {
+  "title": "Share your dates,",
+  "subtitle": "we'll get back to you.",
+  "imageAlt": "Minta Hills swimming pool",
+  "whatsapp": "Message us on WhatsApp",
+  "villas": "Explore our accommodation",
+  "whatsappMessage": "Hello Minta Hills, I would like to check availability and prices."
 }
   }
 },
@@ -1090,6 +1104,115 @@
 
 "BlogDetailPage": {
   "backToBlog": "All articles"
+},
+
+"ContactPage": {
+  "hero": {
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Contact",
+    "breadcrumbLabel": "Breadcrumb navigation",
+    "eyebrow": "CONTACT",
+    "title": "We are here",
+    "subtitle": "for you.",
+    "imageAlt": "Minta Hills communal dining area and fireplace",
+    "meta": {
+      "location": "KEMER / ANTALYA",
+      "response": "QUICK RESPONSE VIA WHATSAPP",
+      "airport": "60 KM FROM THE AIRPORT"
+    }
+  },
+
+  "channels": {
+  "ariaLabel": "Contact channels",
+  "phone": {
+    "label": "Phone",
+    "description": "Call us directly with any questions."
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "value": "Send a message",
+    "description": "The quickest way to check availability and prices.",
+    "message": "Hello Minta Hills, I would like to receive more information."
+  },
+  "email": {
+    "label": "Email",
+    "description": "Email us with your detailed enquiries."
+  },
+  "instagram": {
+    "label": "Instagram",
+    "description": "Discover the latest photos and updates from Minta Hills."
+  }
+},
+
+"form": {
+  "eyebrow": "Leave a message",
+  "title": "Let's plan your stay",
+  "subtitle": "together.",
+  "description": "Share your dates, number of guests and any questions you may have, and we will get back to you as soon as possible.",
+  "details": {
+    "address": "Address",
+    "phone": "Phone & WhatsApp",
+    "license": "Tourism licence no."
+  },
+  "fields": {
+    "name": "Your name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Your message"
+  },
+  "subjects": {
+    "reservation": "Reservation",
+    "villaInformation": "Villa information",
+    "availabilityAndPrice": "Availability and prices",
+    "directions": "Directions",
+    "other": "Other"
+  },
+  "submit": "Send message",
+  "sending": "Sending...",
+  "note": "Your message will be recorded in the Minta Hills contact system. For urgent enquiries, WhatsApp is the quickest option.",
+  "unavailable": "Message submission is currently unavailable. You can contact us via WhatsApp.",
+  "success": "Your message has been sent successfully. We will get back to you as soon as possible.",
+  "errors": {
+    "name": "Please enter your name.",
+    "email": "Please enter a valid email address.",
+    "phone": "Please enter a valid phone number.",
+    "subject": "Please select a valid subject.",
+    "message": "Please enter your message.",
+    "general": "Your message could not be sent. Please try again.",
+    "rateLimit": "You have submitted too many requests. Please try again later."
+  }
+},
+
+"map": {
+  "ariaLabel": "Location map",
+  "title": "Minta Hills location — Kemer / Antalya",
+  "location": "Arslanbucak District · Kemer / Antalya",
+  "directions": "Get directions"
+},
+
+"distances": {
+  "eyebrow": "Directions",
+  "title": "<em>How far</em> are you from Minta Hills?",
+  "unit": "KM",
+  "items": {
+    "kemerCenter": "Kemer Town Centre",
+    "phaselis": "Phaselis Ancient City",
+    "olymposCableCar": "Olympos Cable Car",
+    "ciraliYanartas": "Çıralı Yanartaş",
+    "antalyaAirport": "Antalya Airport"
+  }
+},
+
+"closing": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "title": "Share your dates,",
+  "subtitle": "we'll get back to you.",
+  "imageAlt": "Minta Hills swimming pool",
+  "whatsapp": "Message us on WhatsApp",
+  "villas": "Explore our accommodation",
+  "whatsappMessage": "Hello Minta Hills, I would like to check availability and prices."
+}
 }
 
 }
