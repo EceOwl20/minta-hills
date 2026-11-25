@@ -338,7 +338,127 @@
     "description": "Underfloor heating in winter and air conditioning in every room in summer make our villas comfortable throughout the year.",
     "fact": "UNDERFLOOR HEATING & AIR CONDITIONING"
   }
+},
+
+"contact": {
+  "eyebrow": "FOR YOUR QUESTIONS",
+  "title": "Whatever is on your mind,",
+  "subtitle": "just ask us.",
+  "description": "Feel free to contact us directly with any questions before your stay. We respond to your messages via WhatsApp.",
+  "topics": {
+    "availability": "AVAILABILITY",
+    "pricing": "PRICING",
+    "directions": "DIRECTIONS",
+    "villaDetails": "VILLA DETAILS",
+    "checkInOut": "CHECK-IN & CHECK-OUT TIMES"
+  },
+  "card": {
+    "eyebrow": "PHONE & WHATSAPP",
+    "whatsapp": "MESSAGE US ON WHATSAPP",
+    "whatsappMessage": "Hello Minta Hills, I would like some information."
+  }
 }
+},
+
+"FacilitiesSection": {
+  "eyebrow": "AT OUR RESORT",
+  "title": "Beyond the doors",
+  "subtitle": "of your villa.",
+  "pool": {
+    "title": "Swimming pool",
+    "description": "Our swimming pool, maintained daily by our staff, is available for your enjoyment.",
+    "note": "DURING SUMMER",
+    "extendedNote": "DURING SUMMER · DAILY MAINTENANCE",
+    "imageAlt": "Minta Hills swimming pool and villas illuminated in the evening"
+  },
+  "cafeteria": {
+    "title": "Cafeteria",
+    "description": "Our on-site cafeteria is also at your service throughout your stay.",
+    "note": "ON SITE",
+    "imageAlt": "Minta Hills cafeteria overlooking the Bey Mountains"
+  }
+},
+
+"SeasonsSection": {
+  "headings": {
+    "about": {
+      "eyebrow": "FOUR SEASONS",
+      "title": "Every day of the year,"
+    },
+    "hospitality": {
+      "eyebrow": "ALL YEAR ROUND",
+      "title": "Whatever the season,"
+    }
+  },
+  "subtitle": "the same comfort.",
+  "description": "Each of our villas features underfloor heating for winter stays and air conditioning in every room for summer stays.",
+  "winter": {
+    "tag": "WINTER",
+    "title": "Underfloor heating",
+    "description": "Underfloor heating throughout the villa ensures comfort during winter stays.",
+    "imageAlt": "Minta Hills villa illuminated in the evening"
+  },
+  "summer": {
+    "tag": "SUMMER",
+    "title": "Air conditioning in every room",
+    "description": "Every room is equipped with air conditioning for comfortable summer stays.",
+    "imageAlt": "Minta Hills swimming pool during summer"
+  }
+},
+
+"VillaEquipmentSection": {
+  "eyebrow": "INSIDE YOUR VILLA",
+  "title": "Your everyday life,",
+  "subtitle": "without interruption.",
+  "description": "Our villas are fully equipped, with all of the following amenities available for our guests to use.",
+  "discoverVillas": "ACCOMMODATION DETAILS",
+  "items": {
+    "ledTv": "50-inch LED TV",
+    "refrigerator": "Refrigerator",
+    "dishwasher": "Dishwasher",
+    "washingMachine": "Washing Machine",
+    "builtInOven": "Built-in Oven",
+    "builtInMicrowave": "Built-in Microwave",
+    "electricCooktop": "Electric Cooktop",
+    "filterCoffeeMachine": "Filter Coffee Machine",
+    "teaMachineAndKettle": "Tea Maker and Kettle",
+    "hairDryer": "Hair Dryer",
+    "ironAndIroningBoard": "Iron and Ironing Board"
+  }
+},
+
+"DistancesSection": {
+  "eyebrow": "LOCATION ADVANTAGE",
+  "title": "<italic>Close</italic> to everything,",
+  "subtitle": "away from the crowds.",
+  "distance": "{distance, number} KM",
+  "places": {
+    "kemerCenter": "Kemer Town Centre",
+    "phaselis": "Ancient City of Phaselis",
+    "olymposCableCar": "Olympos Cable Car",
+    "ciraliChimaera": "Çıralı Chimaera",
+    "antalyaAirport": "Antalya Airport"
+  }
+},
+
+"ClosingSection": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "reservation": "MAKE A RESERVATION",
+  "whatsappMessage": "Hello Minta Hills, I would like to receive information about availability and prices.",
+  "variants": {
+    "about": {
+      "title": "A holiday experience",
+      "subtitle": "you will never forget.",
+      "imageAlt": "Minta Hills at sunset",
+      "villas": "DISCOVER THE VILLAS"
+    },
+    "hospitality": {
+      "title": "Away from the crowds,",
+      "subtitle": "days to call your own.",
+      "imageAlt": "Minta Hills villas and swimming pool",
+      "villas": "EXPLORE ACCOMMODATION"
+    }
+  }
 }
 
 }

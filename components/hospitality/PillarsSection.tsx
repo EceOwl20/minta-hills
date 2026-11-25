@@ -62,12 +62,10 @@ export default async function PillarsSection() {
               <span
                 className="
                   mb-[clamp(28px,3vw,46px)]
-
                   text-[11px] font-semibold
                   uppercase leading-relaxed
                   tracking-[0.16em]
-                  text-text-label
-                "
+                  text-text-label text-[#4a4a44]"
               >
                 <span aria-hidden="true">
                   {String(index + 1).padStart(2, "0")}

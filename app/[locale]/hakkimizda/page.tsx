@@ -8,9 +8,9 @@ import PageHero from "@/components/common/PageHero";
 import ManifestoSection from "@/components/sections/ManifestoSection";
 import FiguresSection from "@/components/about/FiguresSection";
 import VillaAnatomySection from "@/components/about/VillaAnatomySection";
-import SeasonsSection from "@/components/about/SeasonsSection";
-import FacilitiesSection from "@/components/about/FacilitiesSection";
-import ClosingSection from "@/components/about/ClosingSection";
+import SeasonsSection from "@/components/sections/SeasonsSection";
+import FacilitiesSection from "@/components/sections/FacilitiesSection";
+import ClosingSection from "@/components/sections/ClosingSection";
 
 type Props = {
   params: Promise<{

@@ -337,6 +337,126 @@
     "description": "Kış aylarında yerden ısıtma, yaz aylarında her odada klima; villalar yılın her günü kullanılabilir.",
     "fact": "YERDEN ISITMA & KLİMA"
   }
+},
+
+"contact": {
+  "eyebrow": "SORULARINIZ İÇİN",
+  "title": "Aklınıza takılan",
+  "subtitle": "her şeyi sorun.",
+  "description": "Konaklama öncesinde merak ettiklerinizi doğrudan bize iletebilirsiniz. Mesajınızı WhatsApp üzerinden yanıtlıyoruz.",
+  "topics": {
+    "availability": "MÜSAİTLİK",
+    "pricing": "FİYAT BİLGİSİ",
+    "directions": "YOL TARİFİ",
+    "villaDetails": "VİLLA DETAYLARI",
+    "checkInOut": "GİRİŞ & ÇIKIŞ SAATLERİ"
+  },
+  "card": {
+    "eyebrow": "TELEFON & WHATSAPP",
+    "whatsapp": "WHATSAPP'TAN YAZIN",
+    "whatsappMessage": "Merhaba Minta Hills, bilgi almak istiyorum."
+  }
 }
+},
+
+"FacilitiesSection": {
+  "eyebrow": "TESİSİMİZDE",
+  "title": "Villanın kapısından",
+  "subtitle": "çıktığınızda.",
+  "pool": {
+    "title": "Yüzme havuzu",
+    "description": "Günlük bakımı görevlilerimizce yapılan yüzme havuzumuz hizmetinizde olacaktır.",
+    "note": "YAZ AYLARINDA",
+    "extendedNote": "YAZ AYLARINDA · GÜNLÜK BAKIM",
+    "imageAlt": "Akşam ışıklarında Minta Hills havuzu ve villaları"
+  },
+  "cafeteria": {
+    "title": "Kafeterya",
+    "description": "Tesisimiz ayrıca kafeteryamız ile konaklamanız boyunca hizmetinizde olacaktır.",
+    "note": "TESİS İÇİ",
+    "imageAlt": "Beydağları manzarasına bakan Minta Hills kafeteryası"
+  }
+},
+
+"SeasonsSection": {
+  "headings": {
+    "about": {
+      "eyebrow": "DÖRT MEVSİM",
+      "title": "Yılın her günü"
+    },
+    "hospitality": {
+      "eyebrow": "YILIN HER GÜNÜ",
+      "title": "Mevsim ne olursa olsun"
+    }
+  },
+  "subtitle": "aynı konfor.",
+  "description": "Her villamızda kış ayları konaklamaları için yerden ısıtma sistemi, yaz ayları konaklamaları içinse her odamızda klima sistemi bulunmaktadır.",
+  "winter": {
+    "tag": "KIŞ",
+    "title": "Yerden ısıtma",
+    "description": "Kış ayları konaklamaları için villanın tamamında yerden ısıtma sistemi.",
+    "imageAlt": "Akşam ışıklarında Minta Hills villası"
+  },
+  "summer": {
+    "tag": "YAZ",
+    "title": "Her odada klima",
+    "description": "Yaz ayları konaklamaları için her odamızda klima sistemi bulunmaktadır.",
+    "imageAlt": "Yaz aylarında Minta Hills yüzme havuzu"
+  }
+},
+
+"VillaEquipmentSection": {
+  "eyebrow": "VİLLA İÇİ",
+  "title": "Günlük hayatınız",
+  "subtitle": "kesintiye uğramasın.",
+  "description": "Villalarımız eksiksiz donatıldı; aşağıdaki tüm ekipmanlar misafirlerimizin kullanımına sunulmaktadır.",
+  "discoverVillas": "KONAKLAMA DETAYLARI",
+  "items": {
+    "ledTv": "50'' Led TV",
+    "refrigerator": "Buzdolabı",
+    "dishwasher": "Bulaşık Makinesi",
+    "washingMachine": "Çamaşır Makinesi",
+    "builtInOven": "Ankastre Fırın",
+    "builtInMicrowave": "Ankastre Mikrodalga Fırın",
+    "electricCooktop": "Set Üstü Elektrikli Ocak",
+    "filterCoffeeMachine": "Filtre Kahve Makinesi",
+    "teaMachineAndKettle": "Çay Makinesi ve Kettle",
+    "hairDryer": "Saç Kurutma Makinesi",
+    "ironAndIroningBoard": "Ütü ve Ütü Masası"
+  }
+},
+
+"DistancesSection": {
+  "eyebrow": "KONUM AYRICALIĞI",
+  "title": "Her yere <italic>yakın,</italic>",
+  "subtitle": "kalabalıktan uzak.",
+  "distance": "{distance, number} KM",
+  "places": {
+    "kemerCenter": "Kemer İlçe Merkezi",
+    "phaselis": "Phaselis Antik Kenti",
+    "olymposCableCar": "Olympos Teleferik",
+    "ciraliChimaera": "Çıralı Yanartaş",
+    "antalyaAirport": "Antalya Havalimanı"
+  }
+},
+
+"ClosingSection": {
+  "eyebrow": "MINTA HILLS · KEMER",
+  "reservation": "REZERVASYON YAP",
+  "whatsappMessage": "Merhaba Minta Hills, uygunluk ve fiyat bilgisi almak istiyorum.",
+  "variants": {
+    "about": {
+      "title": "Unutamayacağınız",
+      "subtitle": "bir tatil olanağı.",
+      "imageAlt": "Gün batımında Minta Hills",
+      "villas": "VİLLALARI KEŞFEDİN"
+    },
+    "hospitality": {
+      "title": "Kalabalıktan uzakta,",
+      "subtitle": "size ait günler.",
+      "imageAlt": "Minta Hills villaları ve havuz",
+      "villas": "KONAKLAMAYI GÖRÜN"
+    }
+  }
 }
 }

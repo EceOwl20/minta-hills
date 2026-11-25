@@ -26,14 +26,11 @@ type Props = {
 };
 
 const heightClasses = {
-  default:
-    "min-h-[min(76svh,560px)] md:min-h-[min(72svh,620px)]",
+  default: "min-h-[min(76svh,560px)] md:min-h-[min(72svh,620px)]",
 
-  compact:
-    "min-h-[380px] md:min-h-[460px]",
+  compact: "min-h-[380px] md:min-h-[460px]",
 
-  large:
-    "min-h-[75svh] md:min-h-[85svh]",
+  large: "min-h-[75svh] md:min-h-[85svh]",
 } as const;
 
 const imagePositionClasses = {
@@ -84,54 +81,38 @@ export default function PageHero({
         aria-hidden="true"
         className="
           pointer-events-none absolute inset-0 z-10
-
           bg-[linear-gradient(180deg,rgba(0,0,0,0.52)_0%,rgba(0,0,0,0.18)_38%,rgba(0,0,0,0.58)_74%,rgba(0,0,0,0.8)_100%),linear-gradient(90deg,rgba(0,0,0,0.6),rgba(0,0,0,0.14)_60%,rgba(0,0,0,0)_80%)]
         "
       />
 
       {/* Hero content */}
       <div
-        className="
-  relative z-20 w-full
+        className="relative z-20 w-full
   px-6 pb-10 pt-[calc(var(--header-height)+40px)]
-
   animate-hero-enter
   motion-reduce:animate-none
-
   md:pb-[clamp(65px,9vw,180px)]
   lg:px-[7.5%]
-
-  [text-shadow:0_1px_14px_rgba(0,0,0,0.45)]
-"
+  [text-shadow:0_1px_14px_rgba(0,0,0,0.45)]"
       >
         {/* Breadcrumb navigation */}
         {breadcrumbs && breadcrumbs.length > 0 && (
-          <nav
-            aria-label={breadcrumbLabel}
-            className="mb-6"
-          >
+          <nav aria-label={breadcrumbLabel} className="mb-6">
             <ol
               className="
-                flex flex-wrap items-center gap-x-3 gap-y-2
-                text-[11px] font-medium uppercase
+                flex flex-wrap items-center gap-x-2.5 gap-y-2
+                text-[11px] font-semibold uppercase
                 leading-relaxed tracking-[0.14em]
                 text-white/70
               "
             >
               {breadcrumbs.map((item, index) => {
-                const isLast =
-                  index === breadcrumbs.length - 1;
+                const isLast = index === breadcrumbs.length - 1;
 
                 return (
-                  <li
-                    key={index}
-                    className="flex items-center gap-3"
-                  >
+                  <li key={index} className="flex items-center gap-2 font-semibold text-[#a9a9a1]">
                     {index > 0 && (
-                      <span
-                        aria-hidden="true"
-                        className="text-white/50"
-                      >
+                      <span aria-hidden="true" className="text-white/50">
                         /
                       </span>
                     )}
@@ -147,11 +128,7 @@ export default function PageHero({
                         {item.label}
                       </Link>
                     ) : (
-                      <span
-                        aria-current={
-                          isLast ? "page" : undefined
-                        }
-                      >
+                      <span aria-current={isLast ? "page" : undefined}>
                         {item.label}
                       </span>
                     )}
@@ -177,9 +154,9 @@ export default function PageHero({
         )}
 
         {/* Page heading */}
-   <h1
-  id="page-hero-heading"
-  className="
+        <h1
+          id="page-hero-heading"
+          className="
     max-w-[850px]
     font-serif font-normal
     text-[clamp(30px,8vw,40px)]
@@ -188,18 +165,16 @@ export default function PageHero({
 
     md:text-[clamp(34px,4.2vw,58px)]
   "
->
-  {title}
+        >
+          {title}
 
-  {subtitle && (
-    <>
-      <br />
-      <em className="font-normal italic">
-        {subtitle}
-      </em>
-    </>
-  )}
-</h1>
+          {subtitle && (
+            <>
+              <br />
+              <em className="font-normal italic">{subtitle}</em>
+            </>
+          )}
+        </h1>
 
         {/* Description */}
         {description && (
@@ -219,7 +194,7 @@ export default function PageHero({
         {/* Additional information */}
         {meta && meta.length > 0 && (
           <ul
-           className="
+            className="
   mt-[30px] flex max-w-[720px]
   flex-wrap items-center
   gap-x-[22px] gap-y-4

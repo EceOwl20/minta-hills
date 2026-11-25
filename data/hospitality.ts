@@ -16,3 +16,11 @@ export const hospitalityPillars = [
     id: "comfort",
   },
 ] as const;
+
+export const hospitalityContactTopics = [
+  "availability",
+  "pricing",
+  "directions",
+  "villaDetails",
+  "checkInOut",
+] as const;

@@ -5,8 +5,16 @@ import { Link } from "@/i18n/navigation";
 
 import RevealOnScroll from "@/components/common/RevealOnScroll";
 
-import { aboutClosing } from "@/data/about";
+import {
+  closingConfig,
+  type ClosingVariant,
+} from "@/data/closing";
+
 import { siteConfig } from "@/data/site";
+
+type Props = {
+  variant?: ClosingVariant;
+};
 
 const buttonClasses = `
   inline-flex min-h-[48px]
@@ -32,8 +40,29 @@ const buttonClasses = `
   min-[761px]:gap-[30px]
 `;
 
-export default async function ClosingSection() {
-  const t = await getTranslations("AboutPage.closing");
+const buttonVariants = {
+  solid: `
+    border-white bg-white
+    text-brand-dark
+
+    hover:bg-transparent
+    hover:text-white
+  `,
+  ghost: `
+    border-white bg-transparent
+    text-white
+
+    hover:bg-white
+    hover:text-brand-dark
+  `,
+} as const;
+
+export default async function ClosingSection({
+  variant = "about",
+}: Props) {
+  const t = await getTranslations("ClosingSection");
+
+  const config = closingConfig[variant];
 
   const whatsappHref =
     `${siteConfig.social.whatsapp}?text=` +
@@ -41,8 +70,8 @@ export default async function ClosingSection() {
 
   return (
     <section
-      id="about-closing"
-      aria-labelledby="about-closing-heading"
+      id="closing"
+      aria-labelledby="closing-heading"
       className="
         relative isolate flex
         min-h-[clamp(340px,36vw,440px)]
@@ -58,8 +87,8 @@ export default async function ClosingSection() {
     >
       {/* Background image */}
       <Image
-        src={aboutClosing.image}
-        alt={t("imageAlt")}
+        src={config.image}
+        alt={t(`variants.${variant}.imageAlt`)}
         fill
         sizes="100vw"
         className="object-cover object-center"
@@ -87,15 +116,19 @@ export default async function ClosingSection() {
           className="
             flex items-center justify-center
             gap-[14px]
+
             text-[11px] font-semibold
             uppercase leading-relaxed
             tracking-[0.16em]
-            !text-[#a2a199]
+            text-white/85
           "
         >
           <span
             aria-hidden="true"
-            className="h-px w-[34px] shrink-0 bg-white/60"
+            className="
+              h-px w-[34px] shrink-0
+              bg-white/60
+            "
           />
 
           {t("eyebrow")}
@@ -103,7 +136,7 @@ export default async function ClosingSection() {
 
         {/* Section heading */}
         <h2
-          id="about-closing-heading"
+          id="closing-heading"
           className="
             mx-auto mt-6 mb-[30px]
             max-w-[700px]
@@ -115,12 +148,12 @@ export default async function ClosingSection() {
             text-white
           "
         >
-          {t("title")}
+          {t(`variants.${variant}.title`)}
 
           <br />
 
           <em className="font-normal italic">
-            {t("subtitle")}
+            {t(`variants.${variant}.subtitle`)}
           </em>
         </h2>
 
@@ -136,53 +169,60 @@ export default async function ClosingSection() {
             min-[761px]:flex-wrap
           "
         >
-          {/* Discover villas */}
-          <Link
-            href={aboutClosing.villasHref}
-            className={`
+          {config.actions.map((action, index) => {
+            const className = `
               ${buttonClasses}
+              ${
+                index === 0
+                  ? buttonVariants.solid
+                  : buttonVariants.ghost
+              }
+            `;
 
-              border-white bg-white
-              text-brand-dark
+            if (action === "reservation") {
+              return (
+                <a
+                  key={action}
+                  href={whatsappHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={className}
+                >
+                  {t("reservation")}
 
-              hover:bg-transparent
-              hover:text-white
-            `}
-          >
-            {t("discoverVillas")}
+                  <span
+                    aria-hidden="true"
+                    className="
+                      shrink-0
+                      text-[16px] leading-none
+                    "
+                  >
+                    ↗
+                  </span>
+                </a>
+              );
+            }
 
-            <span
-              aria-hidden="true"
-              className="shrink-0 text-[16px] leading-none"
-            >
-              ↗
-            </span>
-          </Link>
+            return (
+              <Link
+                key={action}
+                href="/villas"
+                className={className}
+              >
+                {t(`variants.${variant}.villas`)}
 
-          {/* WhatsApp reservation */}
-          <a
-            href={whatsappHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`
-              ${buttonClasses}
-
-              border-white bg-transparent
-              text-white
-
-              hover:bg-white
-              hover:text-brand-dark
-            `}
-          >
-            {t("reservation")}
-
-            <span
-              aria-hidden="true"
-              className="shrink-0 text-[16px] leading-none"
-            >
-              ↗
-            </span>
-          </a>
+                <span
+                  aria-hidden="true"
+                  className="
+                    shrink-0
+                    text-[16px] leading-none
+                  "
+                >
+                  ↗
+                </span>
+              </Link>
+            );
+          })}
         </div>
       </RevealOnScroll>
     </section>

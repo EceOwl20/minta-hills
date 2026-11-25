@@ -20,3 +20,20 @@ export const villaConfig = {
     single: 2,
   },
 } as const;
+
+export const villaEquipment = [
+  "ledTv",
+  "refrigerator",
+  "dishwasher",
+  "washingMachine",
+  "builtInOven",
+  "builtInMicrowave",
+  "electricCooktop",
+  "filterCoffeeMachine",
+  "teaMachineAndKettle",
+  "hairDryer",
+  "ironAndIroningBoard",
+] as const;
+
+export type VillaEquipmentId =
+  (typeof villaEquipment)[number];

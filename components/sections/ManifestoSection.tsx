@@ -45,7 +45,7 @@ export default async function ManifestoSection({
               text-[11px] font-semibold
               uppercase leading-relaxed
               tracking-[0.16em]
-              text-text-label
+              text-text-label text-[#4a4a44]
             "
           >
             <span
@@ -106,10 +106,9 @@ export default async function ManifestoSection({
           <p
             className="
               mt-8 max-w-[62ch]
-              font-sans text-[15px]
+              font-sans text-[14px]
               font-light leading-[1.8]
-              text-text-body
-            "
+              text-text-body"
           >
             {t("description")}
           </p>

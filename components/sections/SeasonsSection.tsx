@@ -2,10 +2,16 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
 import RevealOnScroll from "@/components/common/RevealOnScroll";
-import { aboutSeasons } from "@/data/about";
+import { seasons } from "@/data/seasons";
 
-export default async function SeasonsSection() {
-  const t = await getTranslations("AboutPage.seasons");
+type Props = {
+  variant?: "about" | "hospitality";
+};
+
+export default async function SeasonsSection({
+  variant = "about",
+}: Props) {
+  const t = await getTranslations("SeasonsSection");
 
   return (
     <section
@@ -40,7 +46,7 @@ export default async function SeasonsSection() {
               className="h-px w-[34px] shrink-0 bg-current"
             />
 
-            {t("eyebrow")}
+            {t(`headings.${variant}.eyebrow`)}
           </p>
 
           {/* Section title */}
@@ -54,7 +60,7 @@ export default async function SeasonsSection() {
               tracking-[-0.035em]
             "
           >
-            {t("title")}
+            {t(`headings.${variant}.title`)}
 
             <br />
 
@@ -84,7 +90,7 @@ export default async function SeasonsSection() {
           min-[761px]:grid-cols-2
         "
       >
-        {aboutSeasons.map((item, index) => (
+        {seasons.map((item, index) => (
           <RevealOnScroll
             key={item.id}
             delay={index * 120}

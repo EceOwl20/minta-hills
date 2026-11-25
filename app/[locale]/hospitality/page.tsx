@@ -6,6 +6,12 @@ import PageHero from "@/components/common/PageHero";
 import ManifestoSection from "@/components/sections/ManifestoSection";
 import { hospitalityHero } from "@/data/hospitality";
 import PillarsSection from "@/components/hospitality/PillarsSection";
+import FacilitiesSection from "@/components/sections/FacilitiesSection";
+import SeasonsSection from "@/components/sections/SeasonsSection";
+import VillaEquipmentSection from "@/components/sections/VillaEquipmentSection";
+import DistancesSection from "@/components/sections/DistancesSection";
+import ContactSection from "@/components/hospitality/ContactSection";
+import ClosingSection from "@/components/sections/ClosingSection";
 
 type Props = {
   params: Promise<{
@@ -52,6 +58,12 @@ export default async function HospitalityPage({
 
       <ManifestoSection namespace="HospitalityPage.manifesto" />
        <PillarsSection />
+       <FacilitiesSection showExtendedPoolNote />
+       <SeasonsSection variant="hospitality" />
+       <VillaEquipmentSection />
+       <DistancesSection />
+       <ContactSection />
+       <ClosingSection variant="hospitality" />
     </main>
   );
 }
