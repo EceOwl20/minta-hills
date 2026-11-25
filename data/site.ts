@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Minta Hills",
   logo: "/images/branding/logo-crest.png",
+   url: "https://mintahills.com",
 
   phone: {
     display: "+90 242 212 02 94",

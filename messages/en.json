@@ -788,6 +788,308 @@
   "gardenPath": "Walking path through the garden",
   "villaPath": "Walking path alongside the villas"
 }
+},
+
+"BlogPage": {
+  "hero": {
+    "eyebrow": "Minta Hills · Kemer",
+    "title": "Journal",
+    "description": "Notes from Kemer, local routes and ideas for staying close to nature."
+  },
+
+  "readArticle": "Read article",
+  "empty": "No published articles yet.",
+  "gridLabel": "Blog articles",
+
+  "seo": {
+  "title": "Kemer Travel Guide and Villa Holiday Blog | Minta Hills",
+  "description": "Discover places to visit in Kemer, including Phaselis, Çıralı, Yanartaş and Tahtalı Mountain. Plan your villa holiday with Minta Hills Journal."
+},
+
+"breadcrumbs": {
+    "home": "Homepage",
+    "blog": "Blog"
+  }
+},
+
+"BlogPosts": {
+  "ciraliYanartasOlympos": {
+  "title": "Çıralı, Yanartaş and Olympos: A One-Day Nature and History Itinerary",
+  "excerpt": "A guide to combining a peaceful beach, an ancient city and natural flames after dark in a single itinerary.",
+  "imageAlt": "Çıralı beach and surrounding mountains",
+  "content": {
+    "intro": "Çıralı, Olympos and Yanartaş reveal three different faces of the same landscape: a peaceful Mediterranean beach, an ancient city blending into the forest and natural flames emerging from rocky ground. By planning your itinerary in the right order, you can enjoy a memorable experience of nature and history in a single day without feeling rushed.",
+    "sections": [
+      {
+        "id": "morning",
+        "title": "Morning: Olympos and a Walk Through the Ancient City",
+        "paragraphs": [
+          "Start your day early and explore the ruins and riverside around Olympos during the cooler hours. The ground within the ancient site can be uneven in places, so choose closed-toe shoes with good grip. Check visiting hours and ticket conditions on the official MüzeKart website."
+        ]
+      },
+      {
+        "id": "noon",
+        "title": "Midday: Slow Down on Çıralı Beach",
+        "paragraphs": [
+          "Spend the midday hours relaxing on Çıralı Beach. GoTürkiye identifies Çıralı Beach and Yanartaş as important stops within Beydağları Coastal National Park. To preserve the natural character of the beach, use designated areas, leave no litter and follow local guidance."
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Evening: Hiking to Yanartaş",
+        "paragraphs": [
+          "The flames at Yanartaş are formed when natural gas reaches the surface through cracks in the rocks and burns. Many visitors choose the evening hours because the flames are more visible after dark. However, this also means walking along the trail in darkness. Make sure each person has a torch, enough water and sturdy footwear."
+        ]
+      },
+      {
+        "id": "preparation",
+        "title": "Preparing for Yanartaş",
+        "list": [
+          "Carry a separate torch rather than relying on your phone's light.",
+          "Avoid open-toe slippers on rocky and sloping terrain.",
+          "Bring enough water for the walk, even in summer.",
+          "Do not interfere with the flames or the natural terrain.",
+          "When travelling with children, assess the steepness of the route and your return time in advance."
+        ]
+      },
+      {
+        "id": "completeRoute",
+        "title": "How to Complete Your Itinerary",
+        "paragraphs": [
+          "If you expect to return late, avoid planning a busy schedule for the following morning. One of the advantages of a villa holiday is the freedom to plan your day without being tied to fixed meal or activity times. Our <villaGuide>Kemer villa holiday checklist</villaGuide> can help you choose your accommodation.",
+          "For other places to visit around Kemer, return to our <travelGuide>comprehensive Kemer travel guide</travelGuide>. You can also contact <contact>Minta Hills</contact> for local transport recommendations."
+        ]
+      }
+    ],
+    "sources": "Sources: GoTürkiye Kemer and Mediterranean National Parks guide. Cover photograph: September9, Wikimedia Commons, public domain."
+  }
+},
+  "tahtaliCableCar": {
+  "title": "Tahtalı Mountain and Olympos Cable Car Guide: Preparing for the Summit",
+  "excerpt": "Weather, clothing, timing and route tips for enjoying views of Kemer from 2,365 metres.",
+  "imageAlt": "View of Tahtalı Mountain from Kemer",
+  "content": {
+    "intro": "Tahtalı Mountain adds an entirely different perspective to a seaside holiday in Kemer. The Olympos Cable Car takes visitors to the summit at an altitude of 2,365 metres. Even on a warm and apparently clear day along the coast, conditions at the summit can be different, so it is worth making a few preparations before your visit.",
+    "sections": [
+      {
+        "id": "summitExperience",
+        "title": "What Can You Experience at the Summit?",
+        "paragraphs": [
+          "On clear days, the summit terraces offer views of the Mediterranean coastline, forested slopes and the Beydağları Mountains. Passing clouds can change visibility quickly, making the scenery different on every visit. When taking photographs, do not focus solely on wide-angle views; the textures of the mountains and the layers of landscape stretching towards the coast can also create striking images."
+        ]
+      },
+      {
+        "id": "whatToWear",
+        "title": "What Should You Wear?",
+        "paragraphs": [
+          "Due to the altitude, temperatures and wind conditions can differ considerably from those along the coast. In summer, bring a light jacket, sunglasses and closed-toe shoes; during cooler months, opt for layered clothing. If you are visiting with children, carrying an extra layer is particularly useful."
+        ]
+      },
+      {
+        "id": "bestTime",
+        "title": "What Is the Best Time to Visit?",
+        "paragraphs": [
+          "Morning visits generally allow more flexibility when planning the rest of your day. If you are hoping to watch the sunset, make sure to confirm the last descent time in advance. As cable car services and operating conditions may change depending on the weather, check the official cable car website on the day of your visit."
+        ]
+      },
+      {
+        "id": "combineWithPhaselis",
+        "title": "Can You Visit Phaselis on the Same Day?",
+        "paragraphs": [
+          "If you start early, it is technically possible to fit both routes into a single day. However, separate days are a better choice for a slow and relaxing holiday. Devoting one day to Tahtalı and another to the <phaselisGuide>ruins and bays of Phaselis</phaselisGuide> gives you more time for photography, walking and taking breaks."
+        ]
+      },
+      {
+        "id": "checklist",
+        "title": "Practical Checklist",
+        "list": [
+          "Check cable car operating hours and weather conditions through the official channel.",
+          "Bring a light jacket and closed-toe shoes for the summit.",
+          "Fully charge your phone and camera.",
+          "Carry sunscreen and water.",
+          "Avoid adding too many activities to your return journey."
+        ]
+      }
+    ],
+    "outro": "Allowing time to relax after a day at the summit helps maintain a balanced pace throughout your holiday. <villas>Minta Hills villas</villas> combine access to Kemer's travel routes with a peaceful stay surrounded by nature.",
+    "sources": "Source: Official Olympos Cable Car website. Cover photograph: Tatyana, Wikimedia Commons, CC BY 2.0."
+  }
+},
+  "phaselisGuide": {
+  "title": "Phaselis Ancient City Travel Guide: Bays, Ruins and Tips",
+  "excerpt": "Route, preparation and visiting tips for exploring Phaselis at your own pace.",
+  "imageAlt": "Natural coastal scenery of Phaselis",
+  "content": {
+    "intro": "Phaselis is one of the most rewarding destinations around Kemer where you can experience history and the sea in a single day. The ancient road winding through pine trees, bays opening onto historic harbours and Roman-era ruins make this site different from an ordinary museum visit. For the best experience, come prepared not only for swimming but also for a comfortable walk.",
+    "sections": [
+      {
+        "id": "whatToSee",
+        "title": "What Can You See in Phaselis?",
+        "paragraphs": [
+          "As you follow the main route through the ancient city, you will encounter structures such as the theatre, three agoras, the remains of baths and an aqueduct. According to the Ministry of Culture and Tourism, one of the agoras contains the remains of a small Byzantine basilica, while the small bathhouse preserves traces of the Roman heating system. Reading the information boards as you explore the ruins helps you better understand the city's identity as a harbour and trading centre."
+        ]
+      },
+      {
+        "id": "swimming",
+        "title": "Can You Swim in the Bays of Phaselis?",
+        "paragraphs": [
+          "The ancient site is surrounded by several harbour bays, and when conditions are suitable, visitors can combine their historical walk with a swimming break. As coastal and access conditions may vary depending on the season, follow the current guidance at the site. Bringing water shoes, sunscreen and a refillable water bottle will make your visit more comfortable."
+        ]
+      },
+      {
+        "id": "visitDuration",
+        "title": "How Much Time Should You Allow?",
+        "paragraphs": [
+          "Allow two to three hours to explore the ruins and take a short break, or half a day if you plan to combine walking, photography and swimming. During the summer months, early morning visits may be more comfortable in terms of both temperature and visitor numbers. As ticket office closing times, admission fees and MüzeKart validity may change, check the official website on the day of your visit."
+        ]
+      },
+      {
+        "id": "whatToBring",
+        "title": "What Should You Bring?",
+        "list": [
+          "Comfortable walking shoes with good grip",
+          "Water, a hat and high-SPF sunscreen",
+          "A towel and water shoes for a swimming break",
+          "A lightweight day bag suitable for visiting an archaeological site"
+        ]
+      },
+      {
+        "id": "combineRoutes",
+        "title": "Which Route Should You Combine with Phaselis?",
+        "paragraphs": [
+          "Rather than squeezing too many stops into a single day, complete your visit to Phaselis with a relaxing lunch break around Tekirova. Leaving Tahtalı Mountain for another day allows you to enjoy both experiences without rushing. For a more comprehensive itinerary, you can use our <travelGuide>guide to places to visit in Kemer</travelGuide>.",
+          "Guests departing from Minta Hills can consult our <contact>contact team</contact> for route suggestions and up-to-date transport recommendations. Relaxing in the peaceful living spaces of your villa upon returning provides a pleasant balance to a day spent exploring history and enjoying the sea."
+        ]
+      }
+    ],
+    "sources": "Source: Republic of Türkiye Ministry of Culture and Tourism – Phaselis Archaeological Site. Cover photograph: Zamir94, Wikimedia Commons, CC BY-SA 4.0."
+  }
+},
+  "kemerVillaHoliday": {
+  "title": "Villa Holidays in Kemer: 10 Things to Consider When Choosing a Villa",
+  "excerpt": "A villa holiday checklist covering privacy, location, living spaces and booking details.",
+  "imageAlt": "Villa swimming pool and terrace surrounded by greenery",
+  "content": {
+    "intro": "A villa holiday means more than simply staying in a larger room. It is a different way of travelling, where you set your own daily schedule and share living spaces only with your loved ones. When choosing a villa in Kemer, it is important to look beyond attractive photographs and consider the location, accessibility and practical details of your stay.",
+    "sections": [
+      {
+        "id": "location",
+        "title": "1. Evaluate the Location According to Your Daily Plans",
+        "paragraphs": [
+          "If you intend to explore a different route every day, access to main roads is important. If you are looking for peace and quiet, choose a location away from the busy town centre but within reach of supermarkets, restaurants and healthcare services. If your itinerary includes destinations such as Phaselis, Tahtalı Mountain and Çıralı, check approximate driving times in advance."
+        ]
+      },
+      {
+        "id": "livingSpace",
+        "title": "2. Consider Living Space as Well as Guest Capacity",
+        "paragraphs": [
+          "The description “sleeps eight” is not sufficient on its own. Consider the bedroom layout, the number of bathrooms and whether the dining table and living room are suitable for your group. Spacious communal areas directly affect the comfort of your holiday, particularly during longer stays."
+        ]
+      },
+      {
+        "id": "poolUsage",
+        "title": "3. Find Out How the Swimming Pool Is Used",
+        "paragraphs": [
+          "Before booking, clarify whether the swimming pool is shared or private, its opening hours, the conditions for use with children and the surrounding relaxation areas. Make sure the photographs are up to date and match the property's description."
+        ]
+      },
+      {
+        "id": "longStayFacilities",
+        "title": "4. Check Kitchen Facilities and Amenities for Longer Stays",
+        "paragraphs": [
+          "A well-equipped kitchen, washing machine, reliable internet connection and sufficient storage space are particularly important for families. For those who prefer not to eat out at every meal, a kitchen is one of the most noticeable advantages of a villa holiday."
+        ]
+      },
+      {
+        "id": "bookingDetails",
+        "title": "5. Obtain Direct Booking Details in Writing",
+        "paragraphs": [
+          "Check-in and check-out times, cancellation conditions, the total price, cleaning arrangements and any applicable deposit should be clearly stated. Choose accommodation providers that hold a tourism permit and provide clear contact information. Minta Hills displays its accommodation permit number and contact channels in the website footer."
+        ]
+      },
+      {
+        "id": "additionalDetails",
+        "title": "6–10: Small but Important Details",
+        "list": [
+          "Ask about parking facilities and the final access road to the property.",
+          "Assess the stairs and pool surroundings when travelling with children.",
+          "Find out which rooms are equipped with air conditioning.",
+          "Compare genuine guest reviews across several platforms.",
+          "Review the photo gallery together with the room layout."
+        ]
+      },
+      {
+        "id": "balancedHoliday",
+        "title": "Plan a Balanced Villa Holiday in Kemer",
+        "paragraphs": [
+          "Rather than creating a busy sightseeing itinerary, alternate days of exploration with days of relaxation to experience the benefits of staying in a villa. Visit <phaselisGuide>Phaselis</phaselisGuide> one day and enjoy a slower pace around the garden and swimming pool the next. You can explore the <gallery>Minta Hills photo gallery</gallery> and <contact>contact us directly</contact> with any questions."
+        ]
+      }
+    ],
+    "sources": "Cover photograph: Vincent Rivaud, Pexels. The photograph is used under the free Pexels licence."
+  }
+},
+ "kemerTravelGuide": {
+  "title": "Things to Do in Kemer: A Travel Guide to Nature, History and the Sea",
+  "excerpt": "A balanced Kemer itinerary stretching from Phaselis to Çıralı, from Tahtalı Mountain to hidden bays.",
+  "imageAlt": "Kemer coastline, marina and forested coastal scenery",
+  "content": {
+    "intro": "Kemer is one of the few holiday destinations where the Mediterranean coastline and the striking silhouette of the Beydağları Mountains come together in a single view. You can easily spend an entire day at the beach, but what makes Kemer truly special is the ability to reach ancient cities, forest trails and impressive mountain viewpoints within a short journey from the sea. Rather than simply offering a long list of places to visit in Kemer, this guide provides a practical itinerary.",
+    "sections": [
+      {
+        "id": "kemerCenter",
+        "title": "Kemer Town Centre and Moonlight Bay",
+        "paragraphs": [
+          "Kemer town centre is a good starting point for your first day. You can walk around the marina, swim in Moonlight Bay and explore the coastline towards sunset. With easy access to restaurants and everyday essentials, the town centre is a convenient stop on the quieter days of your holiday."
+        ]
+      },
+      {
+        "id": "phaselis",
+        "title": "Phaselis: Where History Meets the Sea",
+        "paragraphs": [
+          "Located south of Kemer, the <phaselisGuide>ancient city of Phaselis</phaselisGuide> is one of the region's most distinctive destinations, with its theatre, agoras, bathhouse ruins and harbours. After exploring the ruins among the pine trees, you can take a break in one of the bays. As visiting hours and ticket conditions may change, it is advisable to check the MüzeKart website before setting off."
+        ]
+      },
+      {
+        "id": "tahtaliMountain",
+        "title": "Tahtalı Mountain and Panoramic Views of Kemer",
+        "paragraphs": [
+          "Rising to 2,365 metres above sea level, Tahtalı Mountain offers one of the most impressive ways to appreciate the geography of the coastline. On clear days, the summit provides sweeping views of the coast and surrounding mountain ranges. As temperatures at the summit can be considerably lower than those at the coast, bringing a light extra layer is useful even in summer. For more detailed preparation, see our <tahtaliGuide>Tahtalı Mountain guide</tahtaliGuide>."
+        ]
+      },
+      {
+        "id": "ciraliOlymposYanartas",
+        "title": "Çıralı, Olympos and Yanartaş",
+        "paragraphs": [
+          "For a slower-paced day, combine a visit to Çıralı Beach with the surrounding area of Olympos. Spending the evening at Yanartaş gives you the opportunity to see the flames produced by natural gas escaping from the ground after dark. As the trail is rocky and sloping, prepare closed-toe shoes, water and a torch. Our <ciraliGuide>Çıralı and Yanartaş itinerary</ciraliGuide> provides further details for this day."
+        ]
+      },
+      {
+        "id": "itinerary",
+        "title": "3-Day and 5-Day Kemer Itineraries",
+        "list": [
+          "<strong>Day 1:</strong> Kemer town centre, the marina and Moonlight Bay.",
+          "<strong>Day 2:</strong> Phaselis, the Tekirova area and a relaxing evening.",
+          "<strong>Day 3:</strong> Tahtalı Mountain or Göynük Canyon.",
+          "<strong>Day 4:</strong> Çıralı, Olympos and Yanartaş after sunset.",
+          "<strong>Day 5:</strong> Relaxation, swimming in the pool and free time in a bay of your choice."
+        ]
+      },
+      {
+        "id": "accommodation",
+        "title": "Where to Stay in Kemer",
+        "paragraphs": [
+          "Choosing a peaceful base away from the crowds and easily accessible by car can change the rhythm of your holiday when exploring different destinations each day. Minta Hills' <villas>villa accommodation options</villas> combine independent living spaces with proximity to nature. You can submit a <reservation>reservation request</reservation> to check availability for your preferred dates."
+        ]
+      }
+    ],
+    "sources": "Sources: GoTürkiye Kemer guide and Kemer Municipality's guide to places to visit. Cover photograph: Crymaker, Wikimedia Commons, CC BY-SA 2.5."
+  }
+}
+},
+
+"BlogDetailPage": {
+  "backToBlog": "All articles"
 }
 
 }

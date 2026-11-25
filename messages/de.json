@@ -789,5 +789,307 @@
   "gardenPath": "Spazierweg durch den Garten",
   "villaPath": "Spazierweg entlang der Villen"
 }
+},
+
+"BlogPage": {
+  "hero": {
+    "eyebrow": "Minta Hills · Kemer",
+    "title": "Journal",
+    "description": "Notizen aus Kemer, lokale Routen und Ideen für naturnahes Wohnen."
+  },
+
+  "readArticle": "Artikel lesen",
+  "empty": "Noch keine veröffentlichten Artikel vorhanden.",
+  "gridLabel": "Blogartikel",
+
+  "seo": {
+  "title": "Kemer Reiseführer und Villenurlaub Blog | Minta Hills",
+  "description": "Entdecken Sie Kemer, Phaselis, Çıralı, Yanartaş und den Tahtalı-Berg. Planen Sie Ihren Villenurlaub mit dem Minta Hills Journal."
+},
+
+"breadcrumbs": {
+    "home": "Homepage",
+    "blog": "Blog"
+  }
+},
+
+"BlogPosts": {
+  "ciraliYanartasOlympos": {
+  "title": "Çıralı, Yanartaş und Olympos: Eine Tagesroute durch Natur und Geschichte",
+  "excerpt": "Ein Reiseführer, der einen ruhigen Strand, eine antike Stadt und natürliche Flammen bei Nacht auf einer Route verbindet.",
+  "imageAlt": "Strand von Çıralı und umliegende Berge",
+  "content": {
+    "intro": "Çıralı, Olympos und Yanartaş zeigen drei unterschiedliche Facetten derselben Landschaft: einen ruhigen Mittelmeerstrand, eine antike Stadt, die mit dem Wald verschmilzt, und natürliche Flammen, die aus dem felsigen Boden aufsteigen. Wenn Sie Ihre Route in der richtigen Reihenfolge planen, können Sie an einem einzigen Tag ein eindrucksvolles Natur- und Kulturerlebnis genießen, ohne sich beeilen zu müssen.",
+    "sections": [
+      {
+        "id": "morning",
+        "title": "Morgens: Olympos und ein Spaziergang durch die antike Stadt",
+        "paragraphs": [
+          "Beginnen Sie Ihren Tag früh und erkunden Sie die Ruinen und den Flusslauf rund um Olympos in den kühleren Stunden. Der Boden innerhalb der antiken Stätte kann stellenweise uneben sein. Tragen Sie daher geschlossene Schuhe mit rutschfester Sohle. Informieren Sie sich auf der offiziellen MüzeKart-Website über Besuchszeiten und Ticketbedingungen."
+        ]
+      },
+      {
+        "id": "noon",
+        "title": "Mittags: Entspannung am Strand von Çıralı",
+        "paragraphs": [
+          "Verbringen Sie die Mittagsstunden entspannt am Strand von Çıralı. GoTürkiye zählt den Strand von Çıralı und Yanartaş zu den bedeutenden Stationen im Küstennationalpark Beydağları. Um den natürlichen Charakter des Strandes zu bewahren, nutzen Sie die ausgewiesenen Bereiche, hinterlassen Sie keinen Abfall und beachten Sie die örtlichen Hinweise."
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Abends: Wanderung nach Yanartaş",
+        "paragraphs": [
+          "Die Flammen von Yanartaş entstehen durch natürliches Gas, das durch Felsspalten an die Oberfläche gelangt und verbrennt. Viele Besucher entscheiden sich für die Abendstunden, da die Flammen im Dunkeln besser sichtbar sind. Das bedeutet jedoch auch, dass Sie den Wanderweg im Dunkeln zurücklegen. Achten Sie darauf, dass jede Person eine Taschenlampe, ausreichend Wasser und festes Schuhwerk dabeihat."
+        ]
+      },
+      {
+        "id": "preparation",
+        "title": "Vorbereitung auf Yanartaş",
+        "list": [
+          "Nehmen Sie eine separate Taschenlampe mit, statt sich auf das Licht Ihres Mobiltelefons zu verlassen.",
+          "Vermeiden Sie offene Badeschlappen auf steinigem und abschüssigem Gelände.",
+          "Nehmen Sie auch im Sommer ausreichend Wasser für die Wanderung mit.",
+          "Greifen Sie weder in die Flammen noch in die natürliche Bodenbeschaffenheit ein.",
+          "Wenn Sie mit Kindern unterwegs sind, berücksichtigen Sie vorab die Steigung der Route und die geplante Rückkehrzeit."
+        ]
+      },
+      {
+        "id": "completeRoute",
+        "title": "Wie lässt sich die Tagesroute abrunden?",
+        "paragraphs": [
+          "Wenn Sie erst spät zurückkehren, planen Sie für den nächsten Morgen kein allzu dichtes Programm. Ein Vorteil des Villenurlaubs besteht darin, dass Sie Ihren Tag unabhängig von festen Essens- und Veranstaltungszeiten gestalten können. Unsere <villaGuide>Checkliste für den Villenurlaub in Kemer</villaGuide> erleichtert Ihnen die Wahl Ihrer Unterkunft.",
+          "Weitere Ausflugsziele rund um Kemer finden Sie in unserem <travelGuide>ausführlichen Kemer-Reiseführer</travelGuide>. Für lokale Empfehlungen zu Transportmöglichkeiten können Sie sich an <contact>Minta Hills</contact> wenden."
+        ]
+      }
+    ],
+    "sources": "Quellen: GoTürkiye-Reiseführer zu Kemer und den Nationalparks der Mittelmeerregion. Titelfoto: September9, Wikimedia Commons, gemeinfrei."
+  }
+},
+ "tahtaliCableCar": {
+  "title": "Tahtalı-Berg und Olympos-Seilbahn: Vorbereitung auf den Gipfel",
+  "excerpt": "Tipps zu Wetter, Kleidung, Reisezeit und Route für den Ausblick auf Kemer aus 2.365 Metern Höhe.",
+  "imageAlt": "Blick von Kemer auf den Tahtalı-Berg",
+  "content": {
+    "intro": "Der Tahtalı-Berg eröffnet eine ganz neue Perspektive auf einen Urlaub an der Küste von Kemer. Die Olympos-Seilbahn bringt Besucher auf den 2.365 Meter hohen Gipfel. Selbst an einem warmen und scheinbar wolkenlosen Tag an der Küste können auf dem Gipfel andere Bedingungen herrschen. Daher empfiehlt es sich, den Besuch mit einigen Vorbereitungen zu planen.",
+    "sections": [
+      {
+        "id": "summitExperience",
+        "title": "Was erwartet Sie auf dem Gipfel?",
+        "paragraphs": [
+          "Bei klarem Wetter bieten die Gipfelterrassen einen Blick auf die Mittelmeerküste, bewaldete Berghänge und das Beydağları-Gebirge. Vorüberziehende Wolken können die Sicht schnell verändern, sodass jeder Besuch eine andere Aussicht bietet. Konzentrieren Sie sich beim Fotografieren nicht ausschließlich auf Weitwinkelaufnahmen. Auch die Strukturen der Berge und die sich bis zur Küste erstreckenden Landschaftsebenen ermöglichen eindrucksvolle Bilder."
+        ]
+      },
+      {
+        "id": "whatToWear",
+        "title": "Welche Kleidung ist empfehlenswert?",
+        "paragraphs": [
+          "Aufgrund der Höhenlage können sich Temperaturen und Windverhältnisse deutlich von denen an der Küste unterscheiden. Im Sommer empfehlen sich eine leichte Jacke, eine Sonnenbrille und geschlossene Schuhe. In den kühleren Monaten sollten Sie Kleidung in mehreren Schichten tragen. Wenn Sie mit Kindern unterwegs sind, ist eine zusätzliche Kleidungsschicht besonders hilfreich."
+        ]
+      },
+      {
+        "id": "bestTime",
+        "title": "Wann ist die beste Besuchszeit?",
+        "paragraphs": [
+          "Ein Besuch am Morgen bietet in der Regel mehr Flexibilität bei der weiteren Tagesplanung. Wenn Sie den Sonnenuntergang erleben möchten, sollten Sie unbedingt vorab die Uhrzeit der letzten Talfahrt überprüfen. Da Fahrzeiten und Betriebsbedingungen wetterabhängig sein können, informieren Sie sich am Tag Ihres Besuchs auf der offiziellen Website der Seilbahn."
+        ]
+      },
+      {
+        "id": "combineWithPhaselis",
+        "title": "Lässt sich der Besuch mit Phaselis am selben Tag verbinden?",
+        "paragraphs": [
+          "Wenn Sie früh aufbrechen, lassen sich beide Ausflugsziele grundsätzlich an einem einzigen Tag besuchen. Für einen entschleunigten und erholsamen Urlaub sind jedoch getrennte Tage die bessere Wahl. Wenn Sie einen Tag dem Tahtalı-Berg und einen weiteren den <phaselisGuide>Ruinen und Buchten von Phaselis</phaselisGuide> widmen, bleibt mehr Zeit für Fotos, Spaziergänge und Pausen."
+        ]
+      },
+      {
+        "id": "checklist",
+        "title": "Praktische Checkliste",
+        "list": [
+          "Überprüfen Sie die Betriebszeiten der Seilbahn und die Wetterbedingungen über die offiziellen Informationskanäle.",
+          "Nehmen Sie eine leichte Jacke und geschlossene Schuhe für den Gipfel mit.",
+          "Laden Sie Ihr Mobiltelefon und Ihre Kamera vollständig auf.",
+          "Nehmen Sie Sonnenschutzmittel und ausreichend Wasser mit.",
+          "Planen Sie für den Rückweg nicht zu viele zusätzliche Aktivitäten ein."
+        ]
+      }
+    ],
+    "outro": "Wenn Sie sich nach einem Tag auf dem Gipfel Zeit zur Erholung nehmen, bleibt das Reisetempo angenehm ausgeglichen. Die <villas>Villen von Minta Hills</villas> verbinden den Zugang zu den Ausflugszielen rund um Kemer mit einem ruhigen Aufenthalt inmitten der Natur.",
+    "sources": "Quelle: Offizielle Website der Olympos-Seilbahn. Titelfoto: Tatyana, Wikimedia Commons, CC BY 2.0."
+  }
+},
+"phaselisGuide": {
+  "title": "Reiseführer zur antiken Stadt Phaselis: Buchten, Ruinen und Tipps",
+  "excerpt": "Empfehlungen zur Route, Vorbereitung und Besichtigung, um Phaselis in Ruhe zu entdecken.",
+  "imageAlt": "Natürliche Küstenlandschaft von Phaselis",
+  "content": {
+    "intro": "Phaselis gehört zu den eindrucksvollsten Ausflugszielen rund um Kemer, an denen Sie Geschichte und Meer an einem einzigen Tag erleben können. Die antike Straße zwischen Pinien, die Buchten mit ihren historischen Häfen und die Überreste aus der Römerzeit machen diesen Ort zu einem besonderen Erlebnis, das sich von einem gewöhnlichen Museumsbesuch unterscheidet. Bereiten Sie sich für ein möglichst schönes Erlebnis nicht nur auf das Baden, sondern auch auf einen angenehmen Spaziergang vor.",
+    "sections": [
+      {
+        "id": "whatToSee",
+        "title": "Was gibt es in Phaselis zu sehen?",
+        "paragraphs": [
+          "Entlang der Hauptachse der antiken Stadt begegnen Ihnen Bauwerke wie das Theater, drei Agoren, Überreste von Badeanlagen und ein Aquädukt. Laut den Informationen des Ministeriums für Kultur und Tourismus befinden sich in einer der Agoren die Überreste einer kleinen byzantinischen Basilika, während das kleine Badehaus Spuren des römischen Heizsystems aufweist. Wenn Sie bei Ihrem Rundgang die Informationstafeln zwischen den Ruinen lesen, können Sie die Bedeutung der Stadt als Hafen- und Handelszentrum besser verstehen."
+        ]
+      },
+      {
+        "id": "swimming",
+        "title": "Kann man in den Buchten von Phaselis baden?",
+        "paragraphs": [
+          "Die antike Stätte ist von mehreren Hafenbuchten umgeben. Bei geeigneten Bedingungen können Besucher ihren historischen Rundgang mit einer Badepause verbinden. Da sich die Küsten- und Zugangsbedingungen je nach Jahreszeit ändern können, beachten Sie die aktuellen Hinweise vor Ort. Badeschuhe, Sonnenschutzmittel und eine wiederbefüllbare Wasserflasche sorgen für zusätzlichen Komfort."
+        ]
+      },
+      {
+        "id": "visitDuration",
+        "title": "Wie viel Zeit sollte man einplanen?",
+        "paragraphs": [
+          "Planen Sie zwei bis drei Stunden ein, um die Ruinen zu besichtigen und eine kurze Pause einzulegen. Wenn Sie Spaziergänge, Fotografie und eine Badepause miteinander verbinden möchten, sollten Sie sich einen halben Tag Zeit nehmen. In den Sommermonaten können die frühen Morgenstunden sowohl hinsichtlich der Temperaturen als auch des Besucheraufkommens angenehmer sein. Da sich die Schließzeiten der Kasse, die Eintrittspreise und die Gültigkeit der MüzeKart ändern können, informieren Sie sich am Tag Ihres Besuchs auf der offiziellen Website."
+        ]
+      },
+      {
+        "id": "whatToBring",
+        "title": "Was sollten Sie mitnehmen?",
+        "list": [
+          "Bequeme Wanderschuhe mit rutschfester Sohle",
+          "Wasser, einen Sonnenhut und Sonnencreme mit hohem Lichtschutzfaktor",
+          "Ein Handtuch und Badeschuhe für eine Badepause",
+          "Eine leichte Tagestasche, die sich für den Besuch einer archäologischen Stätte eignet"
+        ]
+      },
+      {
+        "id": "combineRoutes",
+        "title": "Mit welcher Route lässt sich Phaselis verbinden?",
+        "paragraphs": [
+          "Anstatt zu viele Ausflugsziele an einem einzigen Tag einzuplanen, können Sie Ihren Besuch in Phaselis mit einer entspannten Mittagspause in der Umgebung von Tekirova abrunden. Wenn Sie den Tahtalı-Berg an einem anderen Tag besuchen, können Sie beide Erlebnisse ohne Zeitdruck genießen. Für eine umfassendere Reiseplanung steht Ihnen unser <travelGuide>Reiseführer zu den Sehenswürdigkeiten in Kemer</travelGuide> zur Verfügung.",
+          "Gäste, die von Minta Hills aus starten, können sich für Routenvorschläge und aktuelle Transportempfehlungen an unser <contact>Kontaktteam</contact> wenden. Nach der Rückkehr bietet die Entspannung im ruhigen Wohnbereich Ihrer Villa einen angenehmen Ausgleich zu einem Tag voller Geschichte und Erlebnisse am Meer."
+        ]
+      }
+    ],
+    "sources": "Quelle: Ministerium für Kultur und Tourismus der Republik Türkiye – Archäologische Stätte Phaselis. Titelfoto: Zamir94, Wikimedia Commons, CC BY-SA 4.0."
+  }
+},
+  "kemerVillaHoliday": {
+  "title": "Villenurlaub in Kemer: 10 Tipps zur Wahl der richtigen Villa",
+  "excerpt": "Eine Checkliste für den Villenurlaub mit Privatsphäre, Lage, Wohnbereichen und Buchungsdetails.",
+  "imageAlt": "Swimmingpool und Terrasse einer Villa inmitten grüner Pflanzen",
+  "content": {
+    "intro": "Ein Villenurlaub bedeutet mehr, als lediglich in einem größeren Zimmer zu übernachten. Es ist eine andere Art des Reisens, bei der Sie Ihren Tagesablauf selbst bestimmen und die gemeinsamen Wohnbereiche nur mit Ihren Liebsten teilen. Bei der Wahl einer Villa in Kemer sollten Sie über schöne Fotos hinausblicken und die Lage, Erreichbarkeit und praktischen Aspekte des Aufenthalts berücksichtigen.",
+    "sections": [
+      {
+        "id": "location",
+        "title": "1. Bewerten Sie die Lage anhand Ihrer Tagesplanung",
+        "paragraphs": [
+          "Wenn Sie jeden Tag ein anderes Ausflugsziel entdecken möchten, ist eine gute Anbindung an die Hauptverkehrsstraßen wichtig. Wenn Sie Ruhe suchen, wählen Sie eine Lage abseits des geschäftigen Ortszentrums, von der aus Supermärkte, Restaurants und medizinische Einrichtungen dennoch gut erreichbar sind. Falls Sie Ausflugsziele wie Phaselis, den Tahtalı-Berg und Çıralı eingeplant haben, informieren Sie sich vorab über die ungefähren Fahrzeiten."
+        ]
+      },
+      {
+        "id": "livingSpace",
+        "title": "2. Achten Sie neben der Personenkapazität auch auf den Wohnraum",
+        "paragraphs": [
+          "Die Angabe „für acht Personen“ allein reicht nicht aus. Prüfen Sie die Aufteilung der Schlafzimmer, die Anzahl der Badezimmer sowie die Eignung des Esstisches und des Wohnzimmers für Ihre Reisegruppe. Besonders bei längeren Aufenthalten wirken sich großzügige Gemeinschaftsbereiche unmittelbar auf den Urlaubskomfort aus."
+        ]
+      },
+      {
+        "id": "poolUsage",
+        "title": "3. Informieren Sie sich über die Nutzung des Pools",
+        "paragraphs": [
+          "Vor der Buchung sollte geklärt werden, ob es sich um einen Gemeinschaftspool oder einen privaten Pool handelt, welche Nutzungszeiten gelten, welche Bedingungen für Kinder bestehen und welche Entspannungsbereiche rund um den Pool vorhanden sind. Achten Sie darauf, dass die Fotos aktuell sind und mit der Beschreibung der Unterkunft übereinstimmen."
+        ]
+      },
+      {
+        "id": "longStayFacilities",
+        "title": "4. Prüfen Sie die Küchenausstattung und die Möglichkeiten für längere Aufenthalte",
+        "paragraphs": [
+          "Eine gut ausgestattete Küche, eine Waschmaschine, eine zuverlässige Internetverbindung und ausreichend Stauraum sind besonders für Familien wichtig. Für Reisende, die nicht jede Mahlzeit außer Haus einnehmen möchten, ist eine Küche einer der größten Vorteile eines Villenurlaubs."
+        ]
+      },
+      {
+        "id": "bookingDetails",
+        "title": "5. Lassen Sie sich die Details der Direktbuchung schriftlich bestätigen",
+        "paragraphs": [
+          "Check-in- und Check-out-Zeiten, Stornierungsbedingungen, der Gesamtpreis, die Reinigungsregelung und eine gegebenenfalls erforderliche Kaution sollten klar angegeben werden. Bevorzugen Sie Anbieter mit einer touristischen Vermietungsgenehmigung und transparenten Kontaktinformationen. Die Nummer der Vermietungsgenehmigung von Minta Hills sowie die Kontaktmöglichkeiten sind im unteren Bereich der Website deutlich angegeben."
+        ]
+      },
+      {
+        "id": "additionalDetails",
+        "title": "6–10: Kleine, aber wichtige Details",
+        "list": [
+          "Erkundigen Sie sich nach Parkmöglichkeiten und der Zufahrtsstraße zur Unterkunft.",
+          "Prüfen Sie bei einem Aufenthalt mit Kindern die Treppen und den Bereich rund um den Pool.",
+          "Informieren Sie sich darüber, welche Zimmer über eine Klimaanlage verfügen.",
+          "Vergleichen Sie authentische Gästebewertungen auf mehreren Plattformen.",
+          "Betrachten Sie die Fotogalerie zusammen mit der Raumaufteilung."
+        ]
+      },
+      {
+        "id": "balancedHoliday",
+        "title": "Planen Sie einen ausgewogenen Villenurlaub in Kemer",
+        "paragraphs": [
+          "Anstatt ein dichtes Besichtigungsprogramm zu erstellen, sollten Sie Entdeckungstage und Erholungstage abwechseln, um die Vorteile eines Villenurlaubs zu genießen. Besuchen Sie an einem Tag <phaselisGuide>Phaselis</phaselisGuide> und verbringen Sie den nächsten Tag entspannt im Garten und am Pool. Entdecken Sie die <gallery>Fotogalerie von Minta Hills</gallery> und nehmen Sie bei Fragen <contact>direkt Kontakt mit uns auf</contact>."
+        ]
+      }
+    ],
+    "sources": "Titelfoto: Vincent Rivaud, Pexels. Das Foto wird im Rahmen der kostenlosen Pexels-Lizenz verwendet."
+  }
+},
+ "kemerTravelGuide": {
+  "title": "Sehenswürdigkeiten in Kemer: Ein Reiseführer für Natur, Geschichte und Meer",
+  "excerpt": "Eine abwechslungsreiche Route durch Kemer, von Phaselis bis Çıralı und vom Tahtalı-Berg bis zu versteckten Buchten.",
+  "imageAlt": "Küste, Yachthafen und bewaldete Küstenlandschaft von Kemer",
+  "content": {
+    "intro": "Kemer gehört zu den wenigen Urlaubsregionen, in denen die Mittelmeerküste und die eindrucksvolle Silhouette des Beydağları-Gebirges in einem einzigen Panorama zusammenkommen. Hier können Sie problemlos einen ganzen Tag am Strand verbringen. Was Kemer jedoch besonders macht, ist die Möglichkeit, vom Meer aus innerhalb kurzer Zeit antike Städte, Waldwege und beeindruckende Bergpanoramen zu erreichen. Dieser Reiseführer bietet Ihnen nicht nur eine lange Liste von Sehenswürdigkeiten in Kemer, sondern auch einen praktisch umsetzbaren Routenvorschlag.",
+    "sections": [
+      {
+        "id": "kemerCenter",
+        "title": "Das Zentrum von Kemer und die Mondscheinbucht",
+        "paragraphs": [
+          "Das Zentrum von Kemer ist ein guter Ausgangspunkt für Ihren ersten Urlaubstag. Sie können rund um den Yachthafen spazieren, in der Mondscheinbucht baden und gegen Sonnenuntergang die Küste erkunden. Dank der guten Erreichbarkeit von Restaurants und Einkaufsmöglichkeiten für den täglichen Bedarf ist das Zentrum auch an ruhigeren Urlaubstagen ein praktisches Ausflugsziel."
+        ]
+      },
+      {
+        "id": "phaselis",
+        "title": "Phaselis: Wo Geschichte und Meer aufeinandertreffen",
+        "paragraphs": [
+          "Die südlich von Kemer gelegene <phaselisGuide>antike Stadt Phaselis</phaselisGuide> zählt mit ihrem Theater, den Agoren, den Überresten der Badeanlagen und ihren Häfen zu den charakteristischsten Ausflugszielen der Region. Nach einem Rundgang durch die Ruinen zwischen den Pinien können Sie in einer der Buchten eine Pause einlegen. Da sich Besuchszeiten und Ticketbedingungen ändern können, empfiehlt es sich, vor der Abfahrt die MüzeKart-Website zu überprüfen."
+        ]
+      },
+      {
+        "id": "tahtaliMountain",
+        "title": "Der Tahtalı-Berg und der Panoramablick auf Kemer",
+        "paragraphs": [
+          "Der Tahtalı-Berg erhebt sich bis auf 2.365 Meter über dem Meeresspiegel und bietet eine der eindrucksvollsten Möglichkeiten, die Geografie der Küstenregion zu verstehen. Bei klarem Wetter eröffnet sich vom Gipfel ein weiter Blick auf die Küstenlinie und die umliegenden Gebirgszüge. Da die Temperaturen auf dem Gipfel deutlich niedriger sein können als an der Küste, empfiehlt es sich, selbst im Sommer eine leichte zusätzliche Kleidungsschicht mitzunehmen. Weitere Vorbereitungstipps finden Sie in unserem <tahtaliGuide>Reiseführer zum Tahtalı-Berg</tahtaliGuide>."
+        ]
+      },
+      {
+        "id": "ciraliOlymposYanartas",
+        "title": "Çıralı, Olympos und Yanartaş",
+        "paragraphs": [
+          "Für einen entspannteren Urlaubstag empfiehlt es sich, den Strand von Çıralı mit einem Besuch der Umgebung von Olympos zu verbinden. Wenn Sie den Abend in Yanartaş verbringen, können Sie die durch austretendes Erdgas entstehenden Flammen im Dunkeln beobachten. Da der Wanderweg steinig und abschüssig ist, sollten Sie geschlossene Schuhe, Wasser und eine Taschenlampe mitnehmen. Unser <ciraliGuide>Routenvorschlag für Çıralı und Yanartaş</ciraliGuide> enthält weitere Einzelheiten für diesen Tag."
+        ]
+      },
+      {
+        "id": "itinerary",
+        "title": "Reiseplanung für 3 und 5 Tage in Kemer",
+        "list": [
+          "<strong>Tag 1:</strong> Das Zentrum von Kemer, der Yachthafen und die Mondscheinbucht.",
+          "<strong>Tag 2:</strong> Phaselis, die Umgebung von Tekirova und ein entspannter Abend.",
+          "<strong>Tag 3:</strong> Der Tahtalı-Berg oder der Göynük-Canyon.",
+          "<strong>Tag 4:</strong> Çıralı, Olympos und Yanartaş nach Sonnenuntergang.",
+          "<strong>Tag 5:</strong> Erholung, Zeit am Pool und freie Zeit in einer Bucht Ihrer Wahl."
+        ]
+      },
+      {
+        "id": "accommodation",
+        "title": "Wo sollte man in Kemer übernachten?",
+        "paragraphs": [
+          "Wenn Sie täglich verschiedene Ausflugsziele besuchen möchten, kann eine ruhige, abseits der Menschenmengen gelegene und mit dem Auto gut erreichbare Unterkunft den Rhythmus Ihrer Reise positiv verändern. Die <villas>Villen und Unterkunftsmöglichkeiten</villas> von Minta Hills verbinden unabhängige Wohnbereiche mit der Nähe zur Natur. Um die Verfügbarkeit für Ihren gewünschten Reisezeitraum zu prüfen, können Sie eine <reservation>Reservierungsanfrage</reservation> stellen."
+        ]
+      }
+    ],
+    "sources": "Quellen: GoTürkiye-Reiseführer zu Kemer und Sehenswürdigkeiten der Gemeinde Kemer. Titelfoto: Crymaker, Wikimedia Commons, CC BY-SA 2.5."
+  }
+}
+},
+
+"BlogDetailPage": {
+  "backToBlog": "Alle Artikel"
 }
 }

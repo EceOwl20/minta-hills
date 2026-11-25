@@ -789,5 +789,306 @@
   "gardenPath": "Bahçe içerisindeki yürüyüş yolu",
   "villaPath": "Villaların yanındaki yürüyüş yolu"
 }
+},
+
+"BlogPage": {
+  "hero": {
+    "eyebrow": "Minta Hills · Kemer",
+    "title": "Journal",
+    "description": "Kemer’den notlar, yerel rotalar ve doğanın içinde konaklama fikirleri."
+  },
+  "readArticle": "Yazıyı oku",
+  "empty": "Henüz yayınlanmış yazı bulunmuyor.",
+  "gridLabel": "Blog yazıları",
+
+  "seo": {
+  "title": "Kemer Gezi Rehberi ve Villa Tatili Blogu | Minta Hills",
+  "description": "Kemer’de gezilecek yerleri, Phaselis, Çıralı, Yanartaş ve Tahtalı Dağı rotalarını keşfedin. Minta Hills Journal ile villa tatilinizi planlayın."
+},
+
+"breadcrumbs": {
+    "home": "Ana Sayfa",
+    "blog": "Blog"
+  }
+},
+
+"BlogPosts": {
+  "ciraliYanartasOlympos": {
+  "title": "Çıralı, Yanartaş ve Olympos: Bir Günlük Doğa ve Tarih Rotası",
+  "excerpt": "Sakin sahil, antik kent ve gece görülen doğal alevleri aynı rotada planlama rehberi.",
+  "imageAlt": "Çıralı sahili ve çevresindeki dağlar",
+  "content": {
+    "intro": "Çıralı, Olympos ve Yanartaş aynı coğrafyanın üç farklı yüzünü gösterir: sakin bir Akdeniz sahili, ormanın içine karışan antik kent ve kayalık zeminden çıkan doğal alevler. Rotayı doğru sırayla planladığınızda acele etmeden tek gün içinde güçlü bir doğa ve tarih deneyimi yaşayabilirsiniz.",
+    "sections": [
+      {
+        "id": "morning",
+        "title": "Sabah: Olympos ve antik kent yürüyüşü",
+        "paragraphs": [
+          "Güne erken başlayarak Olympos çevresindeki kalıntıları ve nehir hattını daha serin saatlerde gezin. Antik alanın zemini yer yer düzensiz olabilir; kapalı ve kaymayan ayakkabı tercih edin. Ziyaret saatleri ile bilet koşullarını resmi MüzeKart sayfasından kontrol edin."
+        ]
+      },
+      {
+        "id": "noon",
+        "title": "Öğle: Çıralı sahilinde yavaşlayın",
+        "paragraphs": [
+          "Öğle saatlerini Çıralı sahilinde dinlenmeye ayırın. GoTürkiye, Çıralı sahilini ve Yanartaş’ı Beydağları Sahil Milli Parkı içindeki önemli duraklar arasında gösterir. Sahilin doğal karakterini korumak için belirlenmiş alanları kullanın, atık bırakmayın ve yerel yönlendirmelere uyun."
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Akşam: Yanartaş yürüyüşü",
+        "paragraphs": [
+          "Yanartaş’taki alevler, kayalardaki çatlaklardan yüzeye ulaşan doğal gazın yanmasıyla oluşur. Karanlıkta daha belirgin görüldükleri için birçok ziyaretçi akşam saatlerini seçer. Ancak bu seçim patika yürüyüşünü de karanlıkta yapacağınız anlamına gelir. Kişi başına el feneri, yeterli su ve sağlam ayakkabı bulundurun."
+        ]
+      },
+      {
+        "id": "preparation",
+        "title": "Yanartaş için hazırlık",
+        "list": [
+          "Telefon ışığına güvenmek yerine ayrı bir el feneri taşıyın.",
+          "Taşlık ve eğimli zemin için açık terlik kullanmayın.",
+          "Yazın dahi yürüyüş için yeterli su alın.",
+          "Alevlere ve doğal zemine müdahale etmeyin.",
+          "Çocuklarla rotanın eğimini ve dönüş saatini önceden değerlendirin."
+        ]
+      },
+      {
+        "id": "completeRoute",
+        "title": "Rotayı nasıl tamamlamalı?",
+        "paragraphs": [
+          "Dönüşü geç saate bırakacaksanız ertesi sabaha yoğun bir program koymayın. Villa tatilinin avantajı, günü sabit yemek ve etkinlik saatlerine bağlı kalmadan planlayabilmektir. <villaGuide>Kemer villa tatili kontrol listesi</villaGuide> konaklama seçiminizi kolaylaştırır.",
+          "Kemer çevresindeki diğer duraklar için <travelGuide>kapsamlı Kemer gezi rehberimize</travelGuide> dönebilir; ulaşım konusunda yerel öneri almak için <contact>Minta Hills’e</contact> ulaşabilirsiniz."
+        ]
+      }
+    ],
+    "sources": "Kaynaklar: GoTürkiye Kemer ve Akdeniz Milli Parkları rehberi. Kapak fotoğrafı: September9, Wikimedia Commons, kamu malı."
+  }
+},
+  "tahtaliCableCar": {
+  "title": "Tahtalı Dağı ve Olympos Teleferik Rehberi: Zirveye Hazırlık",
+  "excerpt": "2.365 metrede Kemer manzarası için hava, kıyafet, zamanlama ve rota önerileri.",
+  "imageAlt": "Kemer'den Tahtalı Dağı manzarası",
+  "content": {
+    "intro": "Tahtalı Dağı, sahilde geçen bir Kemer tatiline bambaşka bir perspektif ekler. Olympos Teleferik, ziyaretçileri 2.365 metre yüksekliğindeki zirveye taşır. Kıyıda sıcak ve açık görünen bir günde bile zirve koşulları farklı olabileceğinden ziyaretin küçük bir hazırlıkla planlanması gerekir.",
+    "sections": [
+      {
+        "id": "summitExperience",
+        "title": "Zirvede nasıl bir deneyim var?",
+        "paragraphs": [
+          "Hava açık olduğunda zirve teraslarından Akdeniz kıyısı, ormanlık yamaçlar ve Beydağları izlenebilir. Bulut geçişleri görüşü hızla değiştirebilir; bu da her ziyaretin manzarasını farklı kılar. Fotoğraf için yalnızca geniş açıya odaklanmayın, dağ dokusu ve kıyıya uzanan katmanlar da güçlü kareler verir."
+        ]
+      },
+      {
+        "id": "whatToWear",
+        "title": "Ne giymeli?",
+        "paragraphs": [
+          "Yükseklik nedeniyle sıcaklık ve rüzgâr sahilden belirgin biçimde farklı olabilir. Yazın ince bir ceket, güneş gözlüğü ve kapalı ayakkabı; serin aylarda ise katmanlı kıyafet tercih edin. Çocuklarla çıkıyorsanız yedek bir üst katman taşımak özellikle faydalıdır."
+        ]
+      },
+      {
+        "id": "bestTime",
+        "title": "Hangi saatte gidilmeli?",
+        "paragraphs": [
+          "Sabah saatleri genellikle günü planlamak için daha fazla esneklik bırakır. Gün batımı hedefleniyorsa son iniş saati mutlaka önceden doğrulanmalıdır. Seferler ve çalışma koşulları hava durumuna göre değişebileceğinden resmi teleferik sitesini ziyaret günü kontrol edin."
+        ]
+      },
+      {
+        "id": "combineWithPhaselis",
+        "title": "Phaselis ile aynı gün olur mu?",
+        "paragraphs": [
+          "Erken başlarsanız iki rota teknik olarak aynı güne sığabilir; ancak yavaş ve dinlendirici bir tatil için ayrı günler daha iyi sonuç verir. Bir günü Tahtalı’ya, diğerini <phaselisGuide>Phaselis’in kalıntıları ve koylarına</phaselisGuide> ayırmak fotoğraf, yürüyüş ve mola için alan yaratır."
+        ]
+      },
+      {
+        "id": "checklist",
+        "title": "Pratik kontrol listesi",
+        "list": [
+          "Sefer saatleri ile hava durumunu resmi kanaldan kontrol edin.",
+          "Zirve için ince ceket ve kapalı ayakkabı alın.",
+          "Telefon ve fotoğraf makinesi şarjını tamamlayın.",
+          "Güneş koruyucu ile su bulundurun.",
+          "Dönüş yoluna gereğinden fazla aktivite eklemeyin."
+        ]
+      }
+    ],
+    "outro": "Zirve gününün ardından dinlenmeye zaman bırakmak seyahatin temposunu dengeler. <villas>Minta Hills villaları</villas>, Kemer rotalarına erişim ile doğanın içinde sakin bir konaklamayı birleştirir.",
+    "sources": "Kaynak: Olympos Teleferik resmi sitesi. Kapak fotoğrafı: Tatyana, Wikimedia Commons, CC BY 2.0."
+  }
+},
+ "phaselisGuide": {
+  "title": "Phaselis Antik Kenti Gezi Rehberi: Koylar, Kalıntılar ve İpuçları",
+  "excerpt": "Phaselis’i acele etmeden keşfetmek için rota, hazırlık ve ziyaret önerileri.",
+  "imageAlt": "Phaselis'in doğal kıyı manzarası",
+  "content": {
+    "intro": "Phaselis, Kemer çevresinde tarih ile denizi aynı gün içinde deneyimleyebileceğiniz en güçlü rotalardan biridir. Çam ağaçları arasındaki antik yol, limanlara açılan koylar ve Roma dönemi kalıntıları alanı sıradan bir müze ziyaretinden farklılaştırır. En iyi deneyim için yalnızca yüzme planıyla değil, rahat bir yürüyüşe hazırlanarak gelin.",
+    "sections": [
+      {
+        "id": "whatToSee",
+        "title": "Phaselis’te neler görülür?",
+        "paragraphs": [
+          "Kentin ana aksında ilerlerken tiyatro, üç agora, hamam kalıntıları ve su kemeri gibi yapılarla karşılaşırsınız. Kültür ve Turizm Bakanlığı’nın tanıtımında, agoralardan birinde Bizans dönemine ait küçük bazilika kalıntısının bulunduğu ve küçük hamamın Roma ısıtma sistemi hakkında izler taşıdığı belirtilir. Kalıntıların arasındaki açıklama levhalarını okuyarak ilerlemek kentin liman ve ticaret kimliğini daha anlaşılır kılar."
+        ]
+      },
+      {
+        "id": "swimming",
+        "title": "Phaselis koylarında denize girilir mi?",
+        "paragraphs": [
+          "Antik alan, farklı liman koylarıyla çevrilidir ve uygun koşullarda ziyaretçiler tarih yürüyüşünü deniz molasıyla birleştirir. Kıyı ve erişim koşulları mevsime göre değişebileceği için alandaki güncel yönlendirmelere uyun. Deniz ayakkabısı, güneş koruyucu ve tekrar doldurulabilir su şişesi taşımak rahatlık sağlar."
+        ]
+      },
+      {
+        "id": "visitDuration",
+        "title": "Ne kadar zaman ayırmalı?",
+        "paragraphs": [
+          "Kalıntıları görüp kısa bir mola vermek için iki–üç saat; yürüyüş, fotoğraf ve deniz molasını birlikte düşünüyorsanız yarım gün ayırın. Yaz aylarında sabah erken saatler hem sıcaklık hem de yoğunluk açısından daha konforlu olabilir. Gişe kapanışı, ücretler ve MüzeKart geçerliliği değişebileceğinden ziyaret günü resmi sayfayı kontrol edin."
+        ]
+      },
+      {
+        "id": "whatToBring",
+        "title": "Yanınıza ne almalısınız?",
+        "list": [
+          "Kaymayan rahat yürüyüş ayakkabısı",
+          "Su, şapka ve yüksek korumalı güneş kremi",
+          "Deniz molası için havlu ve deniz ayakkabısı",
+          "Antik alana saygılı, hafif bir günlük çanta"
+        ]
+      },
+      {
+        "id": "combineRoutes",
+        "title": "Phaselis’i hangi rotayla birleştirmeli?",
+        "paragraphs": [
+          "Aynı güne çok fazla durak sıkıştırmak yerine Phaselis’i Tekirova çevresindeki sakin bir öğle molasıyla tamamlayın. Tahtalı Dağı’nı ayrı güne bırakmak, her iki deneyimi de aceleye getirmemenizi sağlar. Daha geniş plan için <travelGuide>Kemer’de gezilecek yerler rehberini</travelGuide> kullanabilirsiniz.",
+          "Minta Hills’ten hareket edecek misafirler güzergâh ve güncel ulaşım önerileri için <contact>iletişim ekibimize</contact> danışabilir. Dönüşte villanın sakin yaşam alanında dinlenmek, tarih ve denizle geçen günü dengeler."
+        ]
+      }
+    ],
+    "sources": "Kaynak: T.C. Kültür ve Turizm Bakanlığı – Phaselis Örenyeri. Kapak fotoğrafı: Zamir94, Wikimedia Commons, CC BY-SA 4.0."
+  }
+},
+  "kemerVillaHoliday": {
+  "title": "Kemer’de Villa Tatili: Doğru Villayı Seçmek İçin 10 Nokta",
+  "excerpt": "Mahremiyet, konum, yaşam alanı ve rezervasyon detaylarıyla iyi bir villa tatilinin kontrol listesi.",
+  "imageAlt": "Yeşil bitkilerle çevrili villa havuzu ve teras alanı",
+  "content": {
+    "intro": "Villa tatili, yalnızca daha geniş bir odada kalmak anlamına gelmez. Günün programını kendinizin belirlediği, ortak yaşam alanlarını yalnızca sevdiklerinizle paylaştığınız farklı bir seyahat biçimidir. Kemer’de villa seçerken güzel fotoğrafların ötesine geçip konum, erişim ve gerçek kullanım ayrıntılarına bakmak gerekir.",
+    "sections": [
+      {
+        "id": "location",
+        "title": "1. Konumu günlük planınıza göre değerlendirin",
+        "paragraphs": [
+          "Her gün farklı bir rota keşfedecekseniz ana yollara erişim önemlidir. Sakinlik arıyorsanız merkezin yoğun hattından uzak fakat market, restoran ve sağlık hizmetlerine ulaşılabilir bir konum seçin. Phaselis, Tahtalı Dağı ve Çıralı gibi durakları planınıza eklediyseniz yaklaşık sürüş sürelerini önceden inceleyin."
+        ]
+      },
+      {
+        "id": "livingSpace",
+        "title": "2. Kişi kapasitesi kadar yaşam alanına da bakın",
+        "paragraphs": [
+          "“Sekiz kişilik” ifadesi tek başına yeterli değildir. Yatak odası dağılımını, banyo sayısını, yemek masasını ve salonun grubunuz için uygunluğunu değerlendirin. Özellikle uzun konaklamalarda ferah ortak alanlar tatilin konforunu doğrudan etkiler."
+        ]
+      },
+      {
+        "id": "poolUsage",
+        "title": "3. Havuzun kullanım biçimini öğrenin",
+        "paragraphs": [
+          "Havuzun ortak mı özel mi olduğu, kullanım saatleri, çocuklarla kullanım koşulları ve çevresindeki dinlenme alanları rezervasyondan önce netleşmelidir. Fotoğrafların güncel olmasına ve tesis açıklamasıyla eşleşmesine dikkat edin."
+        ]
+      },
+      {
+        "id": "longStayFacilities",
+        "title": "4. Mutfak ve uzun konaklama olanaklarını kontrol edin",
+        "paragraphs": [
+          "Donanımlı mutfak, çamaşır makinesi, güçlü internet ve yeterli depolama alanı özellikle aileler için önemlidir. Her öğünü dışarıda yemek istemeyenler için mutfak, villa tatilinin en belirgin avantajlarından biridir."
+        ]
+      },
+      {
+        "id": "bookingDetails",
+        "title": "5. Doğrudan rezervasyon ayrıntılarını yazılı alın",
+        "paragraphs": [
+          "Giriş–çıkış saatleri, iptal koşulları, toplam ücret, temizlik düzeni ve varsa depozito açıkça belirtilmelidir. Turizm izin belgesi bulunan, açık iletişim bilgileri sunan işletmeleri tercih edin. Minta Hills’in konut izin belge numarası ve iletişim kanalları sitenin alt bölümünde açıkça yer alır."
+        ]
+      },
+      {
+        "id": "additionalDetails",
+        "title": "6–10: Küçük görünen önemli ayrıntılar",
+        "list": [
+          "Araç parkı ve tesise son erişim yolunu sorun.",
+          "Çocuklu konaklamalarda merdiven ve havuz çevresini değerlendirin.",
+          "Klima sisteminin hangi odalarda bulunduğunu öğrenin.",
+          "Gerçek kullanıcı yorumlarını birden fazla platformda karşılaştırın.",
+          "Fotoğraf galerisi ile oda yerleşimini birlikte inceleyin."
+        ]
+      },
+      {
+        "id": "balancedHoliday",
+        "title": "Kemer villa tatilini dengeli planlayın",
+        "paragraphs": [
+          "Yoğun bir gezi listesi yerine keşif ve dinlenme günlerini dönüşümlü planlamak villanın avantajını hissettirir. Bir gün <phaselisGuide>Phaselis’i</phaselisGuide> gezin; ertesi günü bahçe ve havuz çevresinde yavaşlatın. <gallery>Minta Hills galerisini</gallery> inceleyebilir, sorularınız için <contact>doğrudan iletişime</contact> geçebilirsiniz."
+        ]
+      }
+    ],
+    "sources": "Kapak fotoğrafı: Vincent Rivaud, Pexels. Fotoğraf ücretsiz Pexels lisansı kapsamında kullanılmıştır."
+  }
+},
+  "kemerTravelGuide": {
+  "title": "Kemer’de Gezilecek Yerler: Doğa, Tarih ve Deniz İçin Gezi Rehberi",
+  "excerpt": "Phaselis’ten Çıralı’ya, Tahtalı Dağı’ndan saklı koylara uzanan dengeli bir Kemer rotası.",
+  "imageAlt": "Kemer sahili, marina ve ormanlık kıyı manzarası",
+  "content": {
+    "intro": "Kemer, Akdeniz kıyısını Beydağları’nın güçlü siluetiyle aynı kadraja sığdıran ender tatil bölgelerinden biri. Burada bir günü yalnızca plajda geçirmek mümkün; fakat Kemer’i asıl özel yapan, denizden kısa sürede antik kentlere, orman yollarına ve yüksek dağ manzaralarına ulaşabilmenizdir. Bu rehber, “Kemer’de gezilecek yerler” aramasına yalnızca uzun bir listeyle değil, uygulanabilir bir rota önerisiyle cevap veriyor.",
+    "sections": [
+      {
+        "id": "kemerCenter",
+        "title": "Kemer merkez ve Ayışığı Koyu",
+        "paragraphs": [
+          "İlk gün için Kemer merkezi iyi bir başlangıçtır. Marina çevresinde yürüyebilir, Ayışığı Koyu’nda denize girebilir ve gün batımına yakın sahil hattını keşfedebilirsiniz. Merkez, restoran ve günlük ihtiyaçlara kolay erişim sağladığı için seyahatin daha sakin günlerinde pratik bir duraktır."
+        ]
+      },
+      {
+        "id": "phaselis",
+        "title": "Phaselis: tarih ile denizin buluştuğu rota",
+        "paragraphs": [
+          "Kemer’in güneyindeki <phaselisGuide>Phaselis Antik Kenti</phaselisGuide>, tiyatro, agoralar, hamam kalıntıları ve limanlarıyla bölgenin en karakterli duraklarından biridir. Çamların arasındaki kalıntıları gezdikten sonra koylarda mola verebilirsiniz. Güncel ziyaret saatleri ve bilet koşulları değişebildiği için yola çıkmadan önce MüzeKart sayfasını kontrol etmek doğru olur."
+        ]
+      },
+      {
+        "id": "tahtaliMountain",
+        "title": "Tahtalı Dağı ve panoramik Kemer manzarası",
+        "paragraphs": [
+          "Deniz seviyesinden 2.365 metreye uzanan Tahtalı Dağı, kıyının coğrafyasını anlamanın en etkileyici yollarından biridir. Hava açık olduğunda zirvede kıyı şeridi ve dağ sıraları geniş bir görüş sunar. Zirve sıcaklığı sahilden belirgin biçimde düşük olabileceğinden yazın bile ince bir üst katman taşımak faydalıdır. Ayrıntılı hazırlık için <tahtaliGuide>Tahtalı Dağı rehberimize</tahtaliGuide> bakabilirsiniz."
+        ]
+      },
+      {
+        "id": "ciraliOlymposYanartas",
+        "title": "Çıralı, Olympos ve Yanartaş",
+        "paragraphs": [
+          "Daha yavaş bir gün için Çıralı sahili ile Olympos çevresini birlikte değerlendirin. Akşamı Yanartaş’a ayırmak, doğal gaz çıkışlarının oluşturduğu alevleri karanlıkta görme imkânı verir. Patika taşlık ve eğimli olduğundan kapalı ayakkabı, su ve el feneri hazırlayın. <ciraliGuide>Çıralı ve Yanartaş planı</ciraliGuide> bu günün ayrıntılarını içeriyor."
+        ]
+      },
+      {
+        "id": "itinerary",
+        "title": "3 günlük ve 5 günlük Kemer planı",
+        "list": [
+          "<strong>1. gün:</strong> Kemer merkez, marina ve Ayışığı Koyu.",
+          "<strong>2. gün:</strong> Phaselis, Tekirova çevresi ve sakin bir akşam.",
+          "<strong>3. gün:</strong> Tahtalı Dağı veya Göynük Kanyonu.",
+          "<strong>4. gün:</strong> Çıralı, Olympos ve gün batımından sonra Yanartaş.",
+          "<strong>5. gün:</strong> Dinlenme, havuz ve seçtiğiniz bir koyda serbest zaman."
+        ]
+      },
+      {
+        "id": "accommodation",
+        "title": "Kemer’de nerede konaklanır?",
+        "paragraphs": [
+          "Günlük rotalara çıkarken kalabalıktan uzak, araçla erişimi kolay bir üs seçmek seyahatin ritmini değiştirir. Minta Hills’in <villas>villa ve konaklama seçenekleri</villas>, bağımsız yaşam alanı ile doğaya yakınlığı bir araya getirir. Tarihlerinize uygunluk için <reservation>rezervasyon talebi</reservation> oluşturabilirsiniz."
+        ]
+      }
+    ],
+    "sources": "Kaynaklar: GoTürkiye Kemer rehberi ve Kemer Belediyesi görülecek yerler. Kapak fotoğrafı: Crymaker, Wikimedia Commons, CC BY-SA 2.5."
+  }
+}
+},
+
+"BlogDetailPage": {
+  "backToBlog": "Tüm yazılar"
 }
 }

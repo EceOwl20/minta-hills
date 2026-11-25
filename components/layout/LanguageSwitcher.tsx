@@ -1,10 +1,12 @@
 "use client";
 
 import { useTransition } from "react";
-import { useLocale } from "next-intl";
+import { hasLocale, useLocale } from "next-intl";
 
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { routing, type Locale } from "@/i18n/routing";
+import { routing } from "@/i18n/routing";
+
+import { getLocalizedBlogPathname } from "@/lib/blogRouting";
 
 type Props = {
   label: string;
@@ -18,13 +20,23 @@ export default function LanguageSwitcher({ label }: Props) {
   const [isPending, startTransition] = useTransition();
 
   function handleLanguageChange(value: string) {
-    if (!routing.locales.includes(value as Locale)) return;
+    if (!hasLocale(routing.locales, value)) return;
+    if (!hasLocale(routing.locales, locale)) return;
 
-    const nextLocale = value as Locale;
+    const nextLocale = value;
 
     if (nextLocale === locale) return;
 
-    const currentUrl = pathname + window.location.search + window.location.hash;
+    const localizedPathname = getLocalizedBlogPathname(
+      pathname,
+      locale,
+      nextLocale
+    );
+
+    const currentUrl =
+      localizedPathname +
+      window.location.search +
+      window.location.hash;
 
     startTransition(() => {
       router.replace(currentUrl, {
@@ -67,9 +79,9 @@ export default function LanguageSwitcher({ label }: Props) {
         viewBox="0 0 16 16"
         fill="none"
         className="
-    pointer-events-none absolute right-2 top-1/2
-    h-[10px] w-[10px] -translate-y-1/2
-  "
+          pointer-events-none absolute right-2 top-1/2
+          h-[10px] w-[10px] -translate-y-1/2
+        "
       >
         <path
           d="M4 6L8 10L12 6"
