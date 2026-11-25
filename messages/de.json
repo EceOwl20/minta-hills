@@ -712,5 +712,82 @@
     "bathrooms": "BADEZIMMER · {toilets, number} TOILETTEN",
     "balconies": "BALKONE"
   }
+},
+
+"GalleryPage": {
+  "hero": {
+    "eyebrow": "Minta Hills · Kemer",
+    "title": "Entdecken Sie Ihre Villa schon vor der Anreise.",
+    "imageAlt": "Blick auf den Swimmingpool und die Villen von Minta Hills",
+    "photoCount": "{count, plural, one {# echtes Foto} other {# echte Fotos}}",
+    "villa": "Villa mit Pool",
+    "location": "Kemer · Antalya"
+  },
+
+  "filters": {
+  "label": "Fotokategorien",
+  "all": "Alle",
+  "activities": "Aktivitäten",
+  "garden": "Garten",
+  "gardenEvening": "Garten & Abendstimmung",
+  "pool": "Pool",
+  "poolOutdoor": "Pool & Außenbereiche",
+  "cafeteria": "Cafeteria",
+  "socialArea": "Gemeinschaftsbereiche",
+  "villaExterior": "Villa Außenansicht",
+  "villaInterior": "Villa Innenbereich",
+  "walkingPaths": "Spazierwege"
+},
+
+"intro": {
+  "title": "Was Sie auf den Fotos sehen, erwartet Sie auch vor Ort.",
+  "description": "Entdecken Sie die Wohnbereiche Ihrer Villa, den Swimmingpool, den Garten und die Gemeinschaftsbereiche nach Kategorien. Klicken Sie auf ein Foto, um es im Vollbildmodus anzusehen."
+},
+
+"groups": {
+  "description": "Fotos: {category}.",
+  "photoCount": "{count, plural, one {# Foto} other {# Fotos}}",
+  "viewImage": "{caption} — vergrößern"
+},
+
+"lightbox": {
+  "label": "Fotoanzeige",
+  "close": "Schließen",
+  "previous": "Vorheriges Foto",
+  "next": "Nächstes Foto",
+  "counter": "{current, number} / {total, number}",
+   "position": "Foto {current, number} von {total, number}"
+},
+
+"captions": {
+  "outdoorActivity": "Aktivitätsbereich im Freien bei Minta Hills",
+  "villaGarden": "Villengarten von Minta Hills",
+  "gardenLawn": "Rasenfläche im Villengarten",
+  "palmGarden": "Garten mit Palmen",
+  "gardenFlowers": "Blumen und Gartengestaltung",
+  "gardenPlants": "Gartenpflanzen von Minta Hills",
+  "gardenAtDusk": "Garten von Minta Hills in der Abenddämmerung",
+  "illuminatedGarden": "Beleuchteter Villengarten",
+  "villaAtNight": "Villen von Minta Hills bei Nacht",
+  "illuminatedPath": "Beleuchteter Spazierweg",
+  "poolAtNight": "Swimmingpool mit Nachtbeleuchtung",
+  "outdoorPool": "Außenpool von Minta Hills",
+  "poolDetail": "Blick auf den Swimmingpool",
+  "poolAndVillas": "Blick auf den Swimmingpool und die Villen",
+  "poolGarden": "Grünfläche rund um den Pool",
+  "cafeteria": "Cafeteria-Bereich von Minta Hills",
+  "cafeteriaBuilding": "Cafeteria-Gebäude von Minta Hills",
+  "outdoorSeating": "Sitzbereich im Freien",
+  "eveningSeating": "Sitzbereich am Abend",
+  "villaExterior": "Außenansicht einer Villa von Minta Hills",
+  "villaTerrace": "Terrasse der Villa",
+  "villaEntrance": "Eingangsbereich der Villa",
+  "livingRoom": "Wohnbereich der Villa",
+  "villaKitchen": "Küche der Villa",
+  "villaBedroom": "Schlafzimmer der Villa",
+  "villaBathroom": "Badezimmer der Villa",
+  "gardenPath": "Spazierweg durch den Garten",
+  "villaPath": "Spazierweg entlang der Villen"
+}
 }
 }

@@ -711,6 +711,83 @@
     "bathrooms": "BATHROOMS · {toilets, number} TOILETS",
     "balconies": "BALCONIES"
   }
+},
+
+"GalleryPage": {
+  "hero": {
+    "eyebrow": "Minta Hills · Kemer",
+    "title": "Discover your villa before you arrive.",
+    "imageAlt": "View of the swimming pool and villas at Minta Hills",
+    "photoCount": "{count, plural, one {# real photograph} other {# real photographs}}",
+    "villa": "Villa with a pool",
+    "location": "Kemer · Antalya"
+  },
+
+  "filters": {
+  "label": "Photo categories",
+  "all": "All",
+  "activities": "Activities",
+  "garden": "Garden",
+  "gardenEvening": "Garden & Evening",
+  "pool": "Pool",
+  "poolOutdoor": "Pool & Outdoor Areas",
+  "cafeteria": "Cafeteria",
+  "socialArea": "Social Areas",
+  "villaExterior": "Villa Exterior",
+  "villaInterior": "Villa Interior",
+  "walkingPaths": "Walking Paths"
+},
+
+"intro": {
+  "title": "What you see in the photos is what you'll find here.",
+  "description": "Explore the living spaces of your villa, the swimming pool, garden and shared areas by category. Click on any photo to view it in full screen."
+},
+
+"groups": {
+  "description": "Photos: {category}.",
+  "photoCount": "{count, plural, one {# photo} other {# photos}}",
+  "viewImage": "{caption} — enlarge"
+},
+
+"lightbox": {
+  "label": "Photo viewer",
+  "close": "Close",
+  "previous": "Previous photo",
+  "next": "Next photo",
+  "counter": "{current, number} / {total, number}",
+  "position": "Photo {current, number} of {total, number}"
+},
+
+"captions": {
+  "outdoorActivity": "Minta Hills outdoor activity area",
+  "villaGarden": "Minta Hills villa garden",
+  "gardenLawn": "Villa garden lawn",
+  "palmGarden": "Garden surrounded by palm trees",
+  "gardenFlowers": "Garden flowers and landscaping",
+  "gardenPlants": "Minta Hills garden plants",
+  "gardenAtDusk": "Minta Hills garden at dusk",
+  "illuminatedGarden": "Illuminated villa garden",
+  "villaAtNight": "Minta Hills villas at night",
+  "illuminatedPath": "Illuminated walking path",
+  "poolAtNight": "Swimming pool with nighttime lighting",
+  "outdoorPool": "Minta Hills outdoor swimming pool",
+  "poolDetail": "View of the swimming pool",
+  "poolAndVillas": "View of the swimming pool and villas",
+  "poolGarden": "Green area surrounding the pool",
+  "cafeteria": "Minta Hills cafeteria area",
+  "cafeteriaBuilding": "Minta Hills cafeteria building",
+  "outdoorSeating": "Outdoor seating area",
+  "eveningSeating": "Seating area in the evening",
+  "villaExterior": "Minta Hills villa exterior",
+  "villaTerrace": "Villa terrace",
+  "villaEntrance": "Villa entrance",
+  "livingRoom": "Villa living area",
+  "villaKitchen": "Villa kitchen",
+  "villaBedroom": "Villa bedroom",
+  "villaBathroom": "Villa bathroom",
+  "gardenPath": "Walking path through the garden",
+  "villaPath": "Walking path alongside the villas"
+}
 }
 
 }

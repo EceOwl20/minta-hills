@@ -712,5 +712,82 @@
     "bathrooms": "ВАННЫЕ КОМНАТЫ · {toilets, number} ТУАЛЕТА",
     "balconies": "БАЛКОНА"
   }
+},
+
+"GalleryPage": {
+  "hero": {
+    "eyebrow": "Minta Hills · Kemer",
+    "title": "Познакомьтесь с виллой ещё до приезда.",
+    "imageAlt": "Вид на бассейн и виллы Minta Hills",
+    "photoCount": "{count, plural, one {# реальная фотография} few {# реальные фотографии} many {# реальных фотографий} other {# реальной фотографии}}",
+    "villa": "Вилла с бассейном",
+    "location": "Кемер · Анталья"
+  },
+
+  "filters": {
+  "label": "Категории фотографий",
+  "all": "Все",
+  "activities": "Активный отдых",
+  "garden": "Сад",
+  "gardenEvening": "Сад и вечерняя атмосфера",
+  "pool": "Бассейн",
+  "poolOutdoor": "Бассейн и открытые зоны",
+  "cafeteria": "Кафетерий",
+  "socialArea": "Общие зоны",
+  "villaExterior": "Внешний вид виллы",
+  "villaInterior": "Интерьер виллы",
+  "walkingPaths": "Прогулочные дорожки"
+},
+
+"intro": {
+  "title": "Всё, что вы видите на фотографиях, ждёт вас здесь.",
+  "description": "Изучите жилые помещения вашей виллы, бассейн, сад и общие зоны по категориям. Нажмите на любую фотографию, чтобы открыть её в полноэкранном режиме."
+},
+
+"groups": {
+  "description": "Фотографии: {category}.",
+  "photoCount": "{count, plural, one {# фотография} few {# фотографии} many {# фотографий} other {# фотографии}}",
+  "viewImage": "{caption} — увеличить"
+},
+
+"lightbox": {
+  "label": "Просмотр фотографий",
+  "close": "Закрыть",
+  "previous": "Предыдущая фотография",
+  "next": "Следующая фотография",
+  "counter": "{current, number} / {total, number}",
+  "position": "Фотография {current, number} из {total, number}"
+},
+
+"captions": {
+  "outdoorActivity": "Зона активного отдыха на территории Minta Hills",
+  "villaGarden": "Сад виллы Minta Hills",
+  "gardenLawn": "Газон в саду виллы",
+  "palmGarden": "Сад с пальмами",
+  "gardenFlowers": "Цветы и ландшафтный дизайн сада",
+  "gardenPlants": "Садовые растения Minta Hills",
+  "gardenAtDusk": "Сад Minta Hills в сумерках",
+  "illuminatedGarden": "Сад виллы с вечерним освещением",
+  "villaAtNight": "Виллы Minta Hills ночью",
+  "illuminatedPath": "Освещённая прогулочная дорожка",
+  "poolAtNight": "Бассейн с ночным освещением",
+  "outdoorPool": "Открытый бассейн Minta Hills",
+  "poolDetail": "Вид на бассейн",
+  "poolAndVillas": "Вид на бассейн и виллы",
+  "poolGarden": "Зелёная зона вокруг бассейна",
+  "cafeteria": "Зона кафетерия Minta Hills",
+  "cafeteriaBuilding": "Здание кафетерия Minta Hills",
+  "outdoorSeating": "Зона отдыха на открытом воздухе",
+  "eveningSeating": "Зона отдыха в вечернее время",
+  "villaExterior": "Внешний вид виллы Minta Hills",
+  "villaTerrace": "Терраса виллы",
+  "villaEntrance": "Входная зона виллы",
+  "livingRoom": "Гостиная виллы",
+  "villaKitchen": "Кухня виллы",
+  "villaBedroom": "Спальня виллы",
+  "villaBathroom": "Ванная комната виллы",
+  "gardenPath": "Прогулочная дорожка в саду",
+  "villaPath": "Прогулочная дорожка вдоль вилл"
+}
 }
 }

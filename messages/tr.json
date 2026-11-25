@@ -712,5 +712,82 @@
     "bathrooms": "BANYO · {toilets, number} TUVALET",
     "balconies": "BALKON"
   }
+},
+
+"GalleryPage": {
+  "hero": {
+    "eyebrow": "Minta Hills · Kemer",
+    "title": "Villayı gelmeden önce keşfedin.",
+    "imageAlt": "Minta Hills havuz ve villa görünümü",
+    "photoCount": "{count, number} gerçek fotoğraf",
+    "villa": "Havuzlu villa",
+    "location": "Kemer · Antalya"
+  },
+
+  "filters": {
+  "label": "Fotoğraf kategorileri",
+  "all": "Tümü",
+  "activities": "Aktiviteler",
+  "garden": "Bahçe",
+  "gardenEvening": "Bahçe & Akşam",
+  "pool": "Havuz",
+  "poolOutdoor": "Havuz & Dış Alan",
+  "cafeteria": "Kafeterya",
+  "socialArea": "Sosyal Alan",
+  "villaExterior": "Villa Dış Görünüm",
+  "villaInterior": "Villa İç Mekân",
+  "walkingPaths": "Yürüyüş Yolları"
+},
+
+"intro": {
+  "title": "Fotoğraflarda ne görüyorsanız, burada o var.",
+  "description": "Konaklayacağınız villanın yaşam alanlarını, havuzu, bahçeyi ve ortak alanları kategori kategori inceleyin. Fotoğrafa tıklayarak tam ekran görüntüleyebilirsiniz."
+},
+
+"groups": {
+  "description": "{category} fotoğrafları.",
+  "photoCount": "{count, number} fotoğraf",
+  "viewImage": "{caption} — büyüt"
+},
+
+"lightbox": {
+  "label": "Fotoğraf görüntüleyici",
+  "close": "Kapat",
+  "previous": "Önceki fotoğraf",
+  "next": "Sonraki fotoğraf",
+  "counter": "{current, number} / {total, number}",
+  "position": "{total, number} fotoğraftan {current, number}. fotoğraf"
+},
+
+"captions": {
+  "outdoorActivity": "Minta Hills açık hava etkinlik alanı",
+  "villaGarden": "Minta Hills villa bahçesi",
+  "gardenLawn": "Villaların çim bahçesi",
+  "palmGarden": "Palmiye ağaçlarıyla çevrili bahçe",
+  "gardenFlowers": "Bahçedeki çiçekler ve peyzaj",
+  "gardenPlants": "Minta Hills bahçe bitkileri",
+  "gardenAtDusk": "Akşam saatlerinde Minta Hills bahçesi",
+  "illuminatedGarden": "Aydınlatılmış villa bahçesi",
+  "villaAtNight": "Minta Hills villalarının gece görünümü",
+  "illuminatedPath": "Aydınlatılmış yürüyüş yolu",
+  "poolAtNight": "Gece aydınlatmasıyla yüzme havuzu",
+  "outdoorPool": "Minta Hills açık yüzme havuzu",
+  "poolDetail": "Yüzme havuzundan bir görünüm",
+  "poolAndVillas": "Havuz ve villaların genel görünümü",
+  "poolGarden": "Havuz çevresindeki yeşil alan",
+  "cafeteria": "Minta Hills kafeterya alanı",
+  "cafeteriaBuilding": "Minta Hills kafeterya binası",
+  "outdoorSeating": "Açık hava oturma alanı",
+  "eveningSeating": "Akşam saatlerinde oturma alanı",
+  "villaExterior": "Minta Hills villa dış görünümü",
+  "villaTerrace": "Villanın teras alanı",
+  "villaEntrance": "Villanın giriş alanı",
+  "livingRoom": "Villanın yaşam alanı",
+  "villaKitchen": "Villanın mutfağı",
+  "villaBedroom": "Villanın yatak odası",
+  "villaBathroom": "Villanın banyosu",
+  "gardenPath": "Bahçe içerisindeki yürüyüş yolu",
+  "villaPath": "Villaların yanındaki yürüyüş yolu"
+}
 }
 }

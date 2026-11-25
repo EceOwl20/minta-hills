@@ -3,9 +3,9 @@ export const siteConfig = {
   logo: "/images/branding/logo-crest.png",
 
   phone: {
-    display: "+90 530 220 59 96",
-    href: "tel:+905302205996",
-    whatsapp: "905302205996",
+    display: "+90 242 212 02 94",
+    href: "tel:+902422120294",
+    whatsapp: "902422120294",
   },
 
   reservation: {
@@ -23,6 +23,6 @@ export const siteConfig = {
 
   social: {
     instagram: "https://www.instagram.com/mintahillskemer/",
-    whatsapp: "https://wa.me/905302205996",
+    whatsapp: "https://wa.me/902422120294",
   },
 } as const;
