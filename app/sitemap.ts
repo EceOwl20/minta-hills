@@ -1,46 +1,54 @@
-import "server-only";
-
 import type { MetadataRoute } from "next";
 
 import { routing } from "@/i18n/routing";
 
-import { getPublishedBlogPosts } from "@/lib/blog";
+import { getLocalizedAbsoluteUrl } from "@/lib/blogSeo";
+import { getBlogSitemapEntries } from "@/lib/blogSitemap";
 
-import { getBlogAlternates } from "@/lib/blogSeo";
+const staticPaths = [
+  "/",
+  "/hakkimizda",
+  "/hospitality",
+  "/experiences",
+  "/villas",
+  "/gallery",
+  "/contact",
+] as const;
 
-export function getBlogSitemapEntries(): MetadataRoute.Sitemap {
-  const posts = getPublishedBlogPosts();
+export default function sitemap(): MetadataRoute.Sitemap {
+  const staticEntries: MetadataRoute.Sitemap =
+    staticPaths.flatMap((pathname) => {
+      const languages: Record<string, string> =
+        Object.fromEntries(
+          routing.locales.map((locale) => [
+            locale,
+            getLocalizedAbsoluteUrl(
+              pathname,
+              locale
+            ),
+          ])
+        );
 
-  return routing.locales.flatMap((locale) => {
-    const listingAlternates =
-      getBlogAlternates(locale);
+      languages["x-default"] =
+        getLocalizedAbsoluteUrl(
+          pathname,
+          routing.defaultLocale
+        );
 
-    const listing: MetadataRoute.Sitemap[number] = {
-      url: listingAlternates.canonical,
-
-      alternates: {
-        languages: listingAlternates.languages,
-      },
-    };
-
-    const articles = posts.map((post) => {
-      const alternates = getBlogAlternates(
-        locale,
-        post
-      );
-
-      return {
-        url: alternates.canonical,
-
-        lastModified:
-          post.updatedAt ?? post.publishedAt,
+      return routing.locales.map((locale) => ({
+        url: getLocalizedAbsoluteUrl(
+          pathname,
+          locale
+        ),
 
         alternates: {
-          languages: alternates.languages,
+          languages,
         },
-      };
+      }));
     });
 
-    return [listing, ...articles];
-  });
+  return [
+    ...staticEntries,
+    ...getBlogSitemapEntries(),
+  ];
 }

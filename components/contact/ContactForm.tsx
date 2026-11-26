@@ -1,12 +1,43 @@
 "use client";
 
+import { useRef, useState } from "react";
 import type { FormEvent } from "react";
+
 import { useTranslations } from "next-intl";
 
 import {
   contactSubjects,
   contactFormLimits,
 } from "@/data/contact";
+
+type Props = {
+  enabled: boolean;
+};
+
+type ContactField =
+  | "name"
+  | "email"
+  | "phone"
+  | "subject"
+  | "message";
+
+type FieldErrors = Partial<
+  Record<ContactField, boolean>
+>;
+
+type FormStatus =
+  | "idle"
+  | "success"
+  | "validation"
+  | "general"
+  | "rateLimit"
+  | "unavailable";
+
+type ContactApiResponse = {
+  ok: boolean;
+  code?: string;
+  errors?: FieldErrors;
+};
 
 const labelClassName = `
   mb-2.5 block
@@ -37,24 +68,183 @@ const inputClassName = `
   focus:border-brand-dark
   focus:ring-1 focus:ring-brand-dark
 
+  disabled:cursor-not-allowed
+  disabled:opacity-70
+
   motion-reduce:transition-none
 `;
 
-export default function ContactForm() {
+export default function ContactForm({
+  enabled,
+}: Props) {
   const t = useTranslations("ContactPage.form");
 
-  function handleSubmit(
+  const [isSubmitting, setIsSubmitting] =
+    useState(false);
+
+  const [status, setStatus] =
+    useState<FormStatus>("idle");
+
+  const [errors, setErrors] =
+    useState<FieldErrors>({});
+
+  const submittingRef = useRef(false);
+
+  const disabled = isSubmitting || !enabled;
+
+  function getInputClassName(
+    field: ContactField
+  ) {
+    return `
+      ${inputClassName}
+      ${errors[field] ? "border-red-700" : ""}
+    `;
+  }
+
+  function renderFieldError(
+    field: ContactField
+  ) {
+    if (!errors[field]) return null;
+
+    return (
+      <p
+        id={`contact-error-${field}`}
+        className="mt-2 font-sans text-xs text-red-700"
+      >
+        {t(`errors.${field}`)}
+      </p>
+    );
+  }
+
+  function clearFieldError(
+    field: ContactField
+  ) {
+    setErrors((previous) => {
+      if (!previous[field]) return previous;
+
+      const next = { ...previous };
+
+      delete next[field];
+
+      return next;
+    });
+
+    setStatus("idle");
+  }
+
+  async function handleSubmit(
     event: FormEvent<HTMLFormElement>
   ) {
-    // Submission will be implemented with the contact API.
     event.preventDefault();
+
+    if (!enabled || submittingRef.current) {
+      return;
+    }
+
+    const form = event.currentTarget;
+
+    const formData = new FormData(form);
+
+    const payload = {
+      name: String(
+        formData.get("name") ?? ""
+      ),
+
+      email: String(
+        formData.get("email") ?? ""
+      ),
+
+      phone: String(
+        formData.get("phone") ?? ""
+      ),
+
+      subject: String(
+        formData.get("subject") ?? ""
+      ),
+
+      message: String(
+        formData.get("message") ?? ""
+      ),
+
+      website: String(
+        formData.get("website") ?? ""
+      ),
+    };
+
+    submittingRef.current = true;
+
+    setIsSubmitting(true);
+    setStatus("idle");
+    setErrors({});
+
+    try {
+      const response = await fetch(
+        "/api/contact",
+        {
+          method: "POST",
+
+          headers: {
+            "Content-Type": "application/json",
+          },
+
+          body: JSON.stringify(payload),
+
+          credentials: "same-origin",
+          cache: "no-store",
+        }
+      );
+
+      const result =
+        (await response.json()) as ContactApiResponse;
+
+      if (
+        response.ok &&
+        result.ok === true
+      ) {
+        setStatus("success");
+        form.reset();
+
+        return;
+      }
+
+      if (
+        response.status === 422 &&
+        result.code === "validation"
+      ) {
+        setErrors(result.errors ?? {});
+        setStatus("validation");
+
+        return;
+      }
+
+      if (response.status === 429) {
+        setStatus("rateLimit");
+
+        return;
+      }
+
+      if (response.status === 503) {
+        setStatus("unavailable");
+
+        return;
+      }
+
+      setStatus("general");
+    } catch {
+      setStatus("general");
+    } finally {
+      submittingRef.current = false;
+      setIsSubmitting(false);
+    }
   }
 
   return (
     <form
       id="contactForm"
+      action="/api/contact"
       method="post"
       onSubmit={handleSubmit}
+      aria-busy={isSubmitting}
       className="
         grid min-w-0
         grid-cols-1
@@ -70,6 +260,21 @@ export default function ContactForm() {
         xl:p-12
       "
     >
+      {/* Honeypot */}
+      <div hidden aria-hidden="true">
+        <label htmlFor="contactWebsite">
+          Website
+        </label>
+
+        <input
+          id="contactWebsite"
+          name="website"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
+
       {/* Name */}
       <div className="min-w-0">
         <label
@@ -86,8 +291,20 @@ export default function ContactForm() {
           autoComplete="name"
           maxLength={contactFormLimits.name}
           required
-          className={inputClassName}
+          disabled={disabled}
+          aria-invalid={!!errors.name}
+          aria-describedby={
+            errors.name
+              ? "contact-error-name"
+              : undefined
+          }
+          onChange={() =>
+            clearFieldError("name")
+          }
+          className={getInputClassName("name")}
         />
+
+        {renderFieldError("name")}
       </div>
 
       {/* Email */}
@@ -106,8 +323,20 @@ export default function ContactForm() {
           autoComplete="email"
           maxLength={contactFormLimits.email}
           required
-          className={inputClassName}
+          disabled={disabled}
+          aria-invalid={!!errors.email}
+          aria-describedby={
+            errors.email
+              ? "contact-error-email"
+              : undefined
+          }
+          onChange={() =>
+            clearFieldError("email")
+          }
+          className={getInputClassName("email")}
         />
+
+        {renderFieldError("email")}
       </div>
 
       {/* Phone */}
@@ -125,8 +354,20 @@ export default function ContactForm() {
           type="tel"
           autoComplete="tel"
           maxLength={contactFormLimits.phone}
-          className={inputClassName}
+          disabled={disabled}
+          aria-invalid={!!errors.phone}
+          aria-describedby={
+            errors.phone
+              ? "contact-error-phone"
+              : undefined
+          }
+          onChange={() =>
+            clearFieldError("phone")
+          }
+          className={getInputClassName("phone")}
         />
+
+        {renderFieldError("phone")}
       </div>
 
       {/* Subject */}
@@ -143,8 +384,18 @@ export default function ContactForm() {
           name="subject"
           defaultValue="reservation"
           required
+          disabled={disabled}
+          aria-invalid={!!errors.subject}
+          aria-describedby={
+            errors.subject
+              ? "contact-error-subject"
+              : undefined
+          }
+          onChange={() =>
+            clearFieldError("subject")
+          }
           className={`
-            ${inputClassName}
+            ${getInputClassName("subject")}
             cursor-pointer
           `}
         >
@@ -157,6 +408,8 @@ export default function ContactForm() {
             </option>
           ))}
         </select>
+
+        {renderFieldError("subject")}
       </div>
 
       {/* Message */}
@@ -174,21 +427,33 @@ export default function ContactForm() {
           rows={5}
           maxLength={contactFormLimits.message}
           required
+          disabled={disabled}
+          aria-invalid={!!errors.message}
+          aria-describedby={
+            errors.message
+              ? "contact-error-message"
+              : undefined
+          }
+          onChange={() =>
+            clearFieldError("message")
+          }
           className={`
-            ${inputClassName}
+            ${getInputClassName("message")}
 
             h-auto min-h-[132px]
             resize-y py-3
             leading-relaxed
           `}
         />
+
+        {renderFieldError("message")}
       </div>
 
-      {/* Submit button */}
+      {/* Submit */}
       <div className="mt-2 sm:col-span-2">
         <button
           type="submit"
-          disabled
+          disabled={disabled}
           aria-describedby="contactFormNote"
           className="
             group
@@ -206,11 +471,11 @@ export default function ContactForm() {
             text-white
 
             transition-colors duration-300
+
             hover:bg-brand-charcoal
 
             focus-visible:outline-2
             focus-visible:outline-offset-4
-            focus-visible:outline-brand-dark
 
             disabled:cursor-not-allowed
             disabled:opacity-60
@@ -218,23 +483,41 @@ export default function ContactForm() {
             motion-reduce:transition-none
           "
         >
-          {t("submit")}
+          {isSubmitting
+            ? t("sending")
+            : t("submit")}
 
-          <span
-            aria-hidden="true"
-            className="
-              text-[17px]
-              leading-none
+          {isSubmitting ? (
+            <span
+              aria-hidden="true"
+              className="
+                h-4 w-4
+                animate-spin
+                rounded-full
 
-              transition-transform duration-300
-              group-enabled:group-hover:translate-x-1
+                border-2
+                border-white/40
+                border-t-white
 
-              motion-reduce:transition-none
-              motion-reduce:transform-none
-            "
-          >
-            →
-          </span>
+                motion-reduce:animate-none
+              "
+            />
+          ) : (
+            <span
+              aria-hidden="true"
+              className="
+                text-[17px] leading-none
+
+                transition-transform duration-300
+                group-enabled:group-hover:translate-x-1
+
+                motion-reduce:transition-none
+                motion-reduce:transform-none
+              "
+            >
+              →
+            </span>
+          )}
         </button>
       </div>
 
@@ -249,8 +532,43 @@ export default function ContactForm() {
           sm:col-span-2
         "
       >
-        {t("unavailable")}
+        {enabled
+          ? t("note")
+          : t("unavailable")}
       </p>
+
+      {/* Form status */}
+      <div
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+        className="empty:hidden sm:col-span-2"
+      >
+        {status === "success" && (
+          <p className="font-sans text-sm text-green-800">
+            {t("success")}
+          </p>
+        )}
+
+        {(status === "general" ||
+          status === "validation") && (
+          <p className="font-sans text-sm text-red-700">
+            {t("errors.general")}
+          </p>
+        )}
+
+        {status === "rateLimit" && (
+          <p className="font-sans text-sm text-red-700">
+            {t("errors.rateLimit")}
+          </p>
+        )}
+
+        {status === "unavailable" && (
+          <p className="font-sans text-sm text-red-700">
+            {t("unavailable")}
+          </p>
+        )}
+      </div>
     </form>
   );
 }

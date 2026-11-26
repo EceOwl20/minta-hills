@@ -181,7 +181,11 @@ export default async function ContactFormSection() {
         </div>
 
         {/* Right — Contact form */}
-        <ContactForm />
+        <ContactForm
+  enabled={
+    process.env.CONTACT_FORM_ENABLED === "true"
+  }
+/>
       </div>
     </section>
   );

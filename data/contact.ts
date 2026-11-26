@@ -50,7 +50,7 @@ export type ContactSubject =
 
 export const contactFormLimits = {
   name: 100,
-  email: 190,
+  email: 254,
   phone: 30,
   message: 3000,
 } as const;

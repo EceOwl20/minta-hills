@@ -1171,7 +1171,7 @@
   },
   "submit": "Nachricht senden",
   "sending": "Wird gesendet...",
-  "note": "Ihre Nachricht wird im Kontaktsystem von Minta Hills gespeichert. Bei dringenden Anfragen erreichen Sie uns am schnellsten über WhatsApp.",
+  "note": "Ihre Nachricht wird per E-Mail an das Team von Minta Hills weitergeleitet. Bei dringenden Anfragen erreichen Sie uns am schnellsten über WhatsApp.",
   "unavailable": "Das Senden von Nachrichten ist derzeit nicht verfügbar. Sie können uns über WhatsApp kontaktieren.",
   "success": "Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns so schnell wie möglich bei Ihnen.",
   "errors": {
@@ -1214,5 +1214,11 @@
   "villas": "Unterkünfte entdecken",
   "whatsappMessage": "Hallo Minta Hills, ich möchte mich über Verfügbarkeit und Preise informieren."
 }
+},
+
+"NotFoundPage": {
+  "title": "Seite nicht gefunden.",
+  "description": "Die gesuchte Seite wurde möglicherweise verschoben oder ist nicht mehr verfügbar.",
+  "backToHome": "Zur Startseite"
 }
 }

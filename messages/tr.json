@@ -1170,7 +1170,7 @@
   },
   "submit": "Mesajı gönder",
   "sending": "Gönderiliyor...",
-  "note": "Mesajınız Minta Hills iletişim sistemine kaydedilir. Acil talepleriniz için WhatsApp daha hızlıdır.",
+  "note": "Mesajınız e-posta yoluyla Minta Hills ekibine iletilir. Acil talepleriniz için WhatsApp daha hızlıdır.",
   "unavailable": "Mesaj gönderimi şu anda kullanılamıyor. Bizimle WhatsApp üzerinden iletişime geçebilirsiniz.",
   "success": "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
   "errors": {
@@ -1213,5 +1213,11 @@
   "villas": "Konaklamayı görün",
   "whatsappMessage": "Merhaba Minta Hills, uygunluk ve fiyat bilgisi almak istiyorum."
 }
+},
+
+"NotFoundPage": {
+  "title": "Sayfa bulunamadı.",
+  "description": "Aradığınız adres taşınmış veya artık mevcut değil.",
+  "backToHome": "Ana sayfaya dön"
 }
 }

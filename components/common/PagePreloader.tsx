@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 import { siteConfig } from "@/data/site";
@@ -9,8 +9,6 @@ const FADE_DURATION = 900;
 const MAX_WAIT_DURATION = 5000;
 
 export default function PagePreloader() {
-  const preloaderRef = useRef<HTMLDivElement>(null);
-
   const [isLeaving, setIsLeaving] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
 
@@ -70,9 +68,6 @@ export default function PagePreloader() {
 
       window.clearTimeout(fallbackTimeout);
       window.clearTimeout(removalTimeout);
-
-      // Also remove the overlay if the component is unmounted.
-      preloaderRef.current?.style.removeProperty("opacity");
     };
   }, []);
 
@@ -80,15 +75,19 @@ export default function PagePreloader() {
 
   return (
     <div
-      ref={preloaderRef}
       aria-hidden="true"
-      className={`animate-preloader-safety
+      className={`
+        animate-preloader-safety
+
         fixed inset-0 z-[9999]
         flex items-center justify-center
         bg-black
+
         transition-opacity duration-[900ms]
         ease-in-out
+
         motion-reduce:transition-none
+
         ${
           isLeaving
             ? "pointer-events-none opacity-0"
@@ -97,25 +96,25 @@ export default function PagePreloader() {
       `}
     >
       <Image
-  src={siteConfig.logo}
-  alt=""
-  width={320}
-  height={320}
-  loading="eager"
-  sizes="(min-width: 768px) 200px, 150px"
-  className={`
-    size-[150px] object-contain
+        src={siteConfig.logo}
+        alt=""
+        width={320}
+        height={320}
+        loading="eager"
+        sizes="(min-width: 768px) 200px, 150px"
+        className={`
+          size-[150px] object-contain
 
-    transition-transform duration-[900ms]
-    ease-in-out
+          transition-transform duration-[900ms]
+          ease-in-out
 
-    md:size-[200px]
+          md:size-[200px]
 
-    motion-reduce:transition-none
+          motion-reduce:transition-none
 
-    ${isLeaving ? "scale-105" : "scale-100"}
-  `}
-/>
+          ${isLeaving ? "scale-105" : "scale-100"}
+        `}
+      />
     </div>
   );
 }

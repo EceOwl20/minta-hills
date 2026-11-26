@@ -27,8 +27,6 @@ import {
   buildBlogArticleJsonLd,
 } from "@/lib/blogSeo";
 
-import type { BlogLocale } from "@/data/blog";
-
 type Props = {
   params: Promise<{
     locale: string;
@@ -39,10 +37,16 @@ type Props = {
 export function generateStaticParams({
   params,
 }: {
-  params: { locale: BlogLocale };
+  params: { locale: string };
 }) {
+  const { locale } = params;
+
+  if (!hasLocale(routing.locales, locale)) {
+    return [];
+  }
+
   return getPublishedBlogPosts().map((post) => ({
-    slug: post.slugs[params.locale],
+    slug: post.slugs[locale],
   }));
 }
 

@@ -155,40 +155,71 @@ export const galleryPhotos: readonly GalleryPhoto[] = [
   ),
 
   // Pool
+
   createPhoto(
-    "pool01", "pool", "exteriors",
-    "pool-1.jpg", 1400, 933, "poolAtNight"
+    "pool01", "pool", "gallery",
+    "CURJ0855.JPG", 1536, 2040, "outdoorPool"
   ),
   createPhoto(
-    "pool02", "pool", "exteriors",
-    "pool-2.jpg", 1400, 933, "outdoorPool"
+    "pool02", "pool", "gallery",
+    "DCSD8156.JPG", 1536, 2040, "poolAtNight"
   ),
   createPhoto(
-    "pool03", "pool", "exteriors",
-    "pool-detail.jpg", 1400, 933, "poolDetail"
+    "pool03", "pool", "gallery",
+    "RCNX1457.JPG", 1536, 2040, "poolAtNight"
   ),
+
 
   // Pool & Outdoor Areas
   createPhoto(
     "poolOutdoor01", "poolOutdoor", "exteriors",
     "pool-wide.jpg", 1400, 933, "poolAndVillas"
   ),
+  
   createPhoto(
     "poolOutdoor02", "poolOutdoor", "gallery",
-    "CURJ0855.JPG", 1536, 2040, "outdoorPool"
-  ),
-  createPhoto(
-    "poolOutdoor03", "poolOutdoor", "gallery",
-    "DCSD8156.JPG", 1536, 2040, "poolAtNight"
-  ),
-  createPhoto(
-    "poolOutdoor04", "poolOutdoor", "gallery",
     "JRML8039.JPG", 1536, 2040, "poolGarden"
   ),
-  createPhoto(
-    "poolOutdoor05", "poolOutdoor", "gallery",
-    "RCNX1457.JPG", 1536, 2040, "poolAtNight"
+
+    createPhoto(
+    "poolOutdoor03", "poolOutdoor", "exteriors",
+    "pool-1.jpg", 1400, 933, "poolAtNight"
   ),
+  createPhoto(
+    "poolOutdoor04", "poolOutdoor", "exteriors",
+    "pool-2.jpg", 1400, 933, "outdoorPool"
+  ),
+  createPhoto(
+    "poolOutdoor05", "poolOutdoor", "exteriors",
+    "pool-detail.jpg", 1400, 933, "poolDetail"
+  ),
+
+    createPhoto(
+    "poolOutdoor06", "poolOutdoor", "exteriors",
+    "villa-night.jpg", 1400, 933, "poolDetail"
+  ),
+
+     createPhoto(
+    "poolOutdoor07", "poolOutdoor", "exteriors",
+    "villa-2.jpg", 1400, 933, "poolDetail"
+  ),
+
+       createPhoto(
+    "poolOutdoor08", "poolOutdoor", "exteriors",
+    "dusk-1.jpg", 1400, 1050, "poolDetail"
+  ),
+  
+       createPhoto(
+    "poolOutdoor09", "poolOutdoor", "exteriors",
+    "hero-2.jpg", 1600, 900, "poolDetail"
+  ),
+
+         createPhoto(
+    "poolOutdoor09", "poolOutdoor", "exteriors",
+    "villa-1.jpg", 1400, 950, "poolDetail"
+  ),
+
+
 
   // Cafeteria
   createPhoto(

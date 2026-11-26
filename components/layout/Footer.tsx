@@ -61,8 +61,8 @@ export default async function Footer() {
 
                 <p
                   className="
-                    mt-3 text-[10px] font-normal
-                    tracking-[0.17em] text-white/60
+                    mt-3 text-[9px] font-normal
+                    tracking-[0.17em] text-white/80
                   "
                 >
                   {t("location")}
@@ -74,9 +74,9 @@ export default async function Footer() {
             <div
               className="
                 border-t border-white/15 pt-4
-                text-[10px] font-normal
+                text-[8px] font-normal
                 leading-relaxed tracking-[0.08em]
-                text-white/60
+                text-[#7c7c7c]
               "
             >
               <p>{t("ministry")}</p>
@@ -128,7 +128,7 @@ export default async function Footer() {
           >
             <h2
               className="
-                mb-5 text-[10px] font-medium
+                mb-5 text-[9px] font-medium
                 tracking-[0.16em] text-white/60
               "
             >
@@ -141,7 +141,7 @@ export default async function Footer() {
                   <Link
                     href={item.href}
                     className="
-                      text-[13px] font-light
+                      text-[12px] font-light
                       capitalize leading-relaxed
                       text-white/85
                       transition-colors duration-200
@@ -232,7 +232,7 @@ export default async function Footer() {
           <div className="flex flex-col items-start">
             <h2
               className="
-                mb-5 text-[10px] font-medium
+                mb-5 text-[9px] font-medium
                 tracking-[0.16em] text-white/60
               "
             >
@@ -329,19 +329,19 @@ export default async function Footer() {
           className="
             flex flex-col items-start justify-between
             gap-4 border-t border-white/15 py-6
-            text-[9px] font-normal
+            text-[7px] font-normal
             leading-relaxed tracking-[0.1em]
             text-white/60
-            md:flex-row md:items-center
+            md:flex-row md:items-center 
           "
         >
-          <p>
+          <p className="font-light text-[]">
             © {year} MINTA HILLS. {t("rights")}
           </p>
 
           <Link
             href="/contact"
-            className="transition-colors hover:text-white"
+            className="transition-colors  hover:text-white"
           >
             {t("privacy")}
           </Link>
