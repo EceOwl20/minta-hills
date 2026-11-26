@@ -117,14 +117,17 @@
   }
 }
 
-/* Keep Connexease above the back-to-top action. */
+/* Keep the Connexease launcher close to the lower-right corner. */
 html body #web-messenger-container {
-  bottom: 78px !important;
+  bottom: 8px !important;
+  left: auto !important;
+  right: 8px !important;
 }
 
 @media (min-width: 768px) {
   html body #web-messenger-container {
-    bottom: 88px !important;
+    bottom: 14px !important;
+    right: 14px !important;
   }
 }
 

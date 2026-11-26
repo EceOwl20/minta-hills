@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 
 import { Link } from "@/i18n/navigation";
 import { getLocalizedBlogSlug } from "@/lib/blog";
+import { getReservationUrl } from "@/lib/reservation";
 
 import type {
   BlogLocale,
@@ -13,8 +14,7 @@ import type {
 type ArticlePageHref =
   | "/contact"
   | "/villas"
-  | "/gallery"
-  | "/reservation";
+  | "/gallery";
 
 const linkClassName = `
   text-brand-dark
@@ -50,7 +50,10 @@ export function createArticleRichText(
 
     return (
       <Link
-        href={`/blog/${slug}`}
+        href={{
+          pathname: "/blog/[slug]",
+          params: { slug },
+        }}
         locale={locale}
         className={linkClassName}
       >
@@ -99,8 +102,14 @@ export function createArticleRichText(
     gallery: (chunks: ReactNode) =>
       pageLink("/gallery", chunks),
 
-    reservation: (chunks: ReactNode) =>
-      pageLink("/reservation", chunks),
+    reservation: (chunks: ReactNode) => (
+      <a
+        href={getReservationUrl(locale)}
+        className={linkClassName}
+      >
+        {chunks}
+      </a>
+    ),
 
     strong: (chunks: ReactNode) => (
       <strong className="font-bold">

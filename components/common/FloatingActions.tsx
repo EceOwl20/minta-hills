@@ -63,15 +63,19 @@ export default function FloatingActions() {
   return (
     <div
       className={`
-        fixed right-7 z-[90] bottom-[106px]
+        fixed right-2 z-[90]
         flex flex-col items-center gap-3
 
         transition-[bottom] duration-300 ease-out
         motion-reduce:transition-none
 
-        md:bottom-28 md:right-6
+        md:right-3.5
 
-        ${isCookieBannerVisible ? "bottom-[220px]" : "bottom-3.5"}
+        ${
+          isCookieBannerVisible
+            ? "bottom-[220px]"
+            : "bottom-[102px] md:bottom-[108px]"
+        }
       `}
     >
       {/* Back to top */}

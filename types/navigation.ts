@@ -1,5 +1,10 @@
+import type {
+  AppPathname,
+  StaticAppPathname,
+} from "@/i18n/routing";
+
 export type MenuItem = {
-  href: string;
+  href: StaticAppPathname;
   label: string;
 };
 
@@ -22,5 +27,5 @@ export type HeaderProps = {
 export type MobileMenuProps = HeaderProps & {
   open: boolean;
   onClose: () => void;
-  pathname: string;
+  pathname: AppPathname;
 };

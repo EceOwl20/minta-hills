@@ -17,7 +17,10 @@ export default async function BlogCard({
 }: Props) {
   const t = await getTranslations("BlogPage");
 
-  const href = `/blog/${post.slug}` as const;
+  const href = {
+    pathname: "/blog/[slug]" as const,
+    params: { slug: post.slug },
+  };
 
   return (
     <article

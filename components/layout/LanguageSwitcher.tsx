@@ -2,11 +2,12 @@
 
 import { useTransition } from "react";
 import { hasLocale, useLocale } from "next-intl";
+import { useParams } from "next/navigation";
 
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 
-import { getLocalizedBlogPathname } from "@/lib/blogRouting";
+import { getLocalizedBlogSlug } from "@/lib/blogRouting";
 
 type Props = {
   label: string;
@@ -16,6 +17,7 @@ export default function LanguageSwitcher({ label }: Props) {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
+  const params = useParams();
 
   const [isPending, startTransition] = useTransition();
 
@@ -27,21 +29,35 @@ export default function LanguageSwitcher({ label }: Props) {
 
     if (nextLocale === locale) return;
 
-    const localizedPathname = getLocalizedBlogPathname(
-      pathname,
-      locale,
-      nextLocale
-    );
+    const localizedParams = { ...params };
 
-    const currentUrl =
-      localizedPathname +
-      window.location.search +
-      window.location.hash;
+    if (
+      pathname === "/blog/[slug]" &&
+      typeof params.slug === "string"
+    ) {
+      const localizedSlug = getLocalizedBlogSlug(
+        params.slug,
+        locale,
+        nextLocale
+      );
+
+      if (localizedSlug) {
+        localizedParams.slug = localizedSlug;
+      }
+    }
 
     startTransition(() => {
-      router.replace(currentUrl, {
-        locale: nextLocale,
-      });
+      router.replace(
+        // The pathname and params originate from the same active route.
+        // @ts-expect-error next-intl cannot infer this runtime relationship.
+        {
+          pathname,
+          params: localizedParams,
+          query: window.location.search,
+          hash: window.location.hash,
+        },
+        { locale: nextLocale }
+      );
     });
   }
 

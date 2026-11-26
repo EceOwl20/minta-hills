@@ -3,30 +3,16 @@ import {
   type BlogLocale,
 } from "@/data/blog";
 
-export function getLocalizedBlogPathname(
-  pathname: string,
+export function getLocalizedBlogSlug(
+  currentSlug: string,
   currentLocale: BlogLocale,
   targetLocale: BlogLocale
-): string {
-  const match = /^\/blog\/([^/]+)\/?$/.exec(pathname);
-
-  // Preserve the pathname for non-blog pages.
-  if (!match) {
-    return pathname;
-  }
-
-  const currentSlug = match[1];
-
+): string | undefined {
   const post = blogPosts.find(
     (post) =>
       post.status === "published" &&
       post.slugs[currentLocale] === currentSlug
   );
 
-  // Fall back to the blog listing if the post is unavailable.
-  if (!post) {
-    return "/blog";
-  }
-
-  return `/blog/${post.slugs[targetLocale]}`;
+  return post?.slugs[targetLocale];
 }

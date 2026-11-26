@@ -2,7 +2,11 @@ import "server-only";
 
 import type { Metadata } from "next";
 
-import { routing } from "@/i18n/routing";
+import { getPathname } from "@/i18n/navigation";
+import {
+  routing,
+  type StaticAppPathname,
+} from "@/i18n/routing";
 import { siteConfig } from "@/data/site";
 
 import type {
@@ -27,16 +31,28 @@ type BlogAlternates = {
 
 
 export function getLocalizedAbsoluteUrl(
-  pathname: string,
+  pathname: StaticAppPathname | `/blog/${string}`,
   locale: BlogLocale
 ): string {
-  const prefix =
-    locale === routing.defaultLocale
-      ? ""
-      : `/${locale}`;
+  const blogArticleMatch = /^\/blog\/([^/]+)$/.exec(
+    pathname
+  );
+
+  const localizedPathname = blogArticleMatch
+    ? getPathname({
+        locale,
+        href: {
+          pathname: "/blog/[slug]",
+          params: { slug: blogArticleMatch[1] },
+        },
+      })
+    : getPathname({
+        locale,
+        href: pathname as StaticAppPathname,
+      });
 
   return new URL(
-    `${prefix}${pathname}`,
+    localizedPathname,
     siteConfig.url
   ).toString();
 }
@@ -45,7 +61,9 @@ export function getBlogAlternates(
   locale: BlogLocale,
   post?: BlogPostConfig
 ): BlogAlternates {
-  const getPath = (language: BlogLocale) =>
+  const getPath = (
+    language: BlogLocale
+  ): StaticAppPathname | `/blog/${string}` =>
     post
       ? `/blog/${post.slugs[language]}`
       : "/blog";

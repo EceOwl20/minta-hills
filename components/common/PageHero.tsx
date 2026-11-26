@@ -1,10 +1,11 @@
 import Image, { type StaticImageData } from "next/image";
 
 import { Link } from "@/i18n/navigation";
+import type { StaticAppPathname } from "@/i18n/routing";
 
 type BreadcrumbItem = {
   label: string;
-  href?: string;
+  href?: StaticAppPathname;
 };
 
 type Props = {
