@@ -185,7 +185,8 @@
 },
 "FloatingActions": {
   "backToTop": "Sayfanın başına dön",
-  "whatsapp": "WhatsApp üzerinden iletişime geçin"
+  "whatsapp": "WhatsApp üzerinden iletişime geçin",
+  "liveChat": "Canlı sohbeti aç"
 },
 
 "AboutPage": {

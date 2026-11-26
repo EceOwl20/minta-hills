@@ -3,7 +3,6 @@
 import { useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 
-import { siteConfig } from "@/data/site";
 import {
   getCookieConsent,
   subscribeToCookieConsent,
@@ -43,12 +42,12 @@ export default function FloatingActions() {
   );
 
   const consent = useSyncExternalStore(
-  subscribeToCookieConsent,
-  getCookieConsent,
-  getServerConsentSnapshot
-);
+    subscribeToCookieConsent,
+    getCookieConsent,
+    getServerConsentSnapshot
+  );
 
-const isCookieBannerVisible = consent === null;
+  const isCookieBannerVisible = consent === null;
 
   function handleBackToTop() {
     const reducedMotion = window.matchMedia(
@@ -62,60 +61,19 @@ const isCookieBannerVisible = consent === null;
   }
 
   return (
-<div
-  className={`
-    fixed right-3.5 z-[90]
-    flex flex-col items-center gap-3
+    <div
+      className={`
+        fixed right-7 z-[90] bottom-[106px]
+        flex flex-col items-center gap-3
 
-    transition-[bottom] duration-300 ease-out
-    motion-reduce:transition-none
+        transition-[bottom] duration-300 ease-out
+        motion-reduce:transition-none
 
-    md:bottom-6 md:right-6
+        md:bottom-28 md:right-6
 
-    ${
-      isCookieBannerVisible
-        ? "bottom-[220px]"
-        : "bottom-3.5"
-    }
-  `}
->
-      {/* WhatsApp */}
-      <a
-        href={siteConfig.social.whatsapp}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={t("whatsapp")}
-        title={t("whatsapp")}
-        className="
-          grid size-12 place-items-center
-          rounded-full
-          border border-white/25
-          bg-brand-dark text-white
-
-          shadow-[0_4px_20px_rgba(0,0,0,0.12)]
-
-          transition-colors duration-200
-          hover:bg-white hover:text-brand-dark
-          motion-reduce:transition-none
-        "
-      >
-        <svg
-          width={22}
-          height={22}
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden="true"
-        >
-          <path
-            d="M21 11.5a9 9 0 0 1-13.4 7.9L3 21l1.6-4.6A9 9 0 1 1 21 11.5Z"
-          />
-        </svg>
-      </a>
-
+        ${isCookieBannerVisible ? "bottom-[220px]" : "bottom-3.5"}
+      `}
+    >
       {/* Back to top */}
       {showBackToTop && (
         <button
@@ -124,7 +82,7 @@ const isCookieBannerVisible = consent === null;
           title={t("backToTop")}
           onClick={handleBackToTop}
           className="
-            grid size-12 place-items-center
+            grid size-10 md:size-12 place-items-center
             rounded-full border border-black/10
             bg-white text-brand-dark
 

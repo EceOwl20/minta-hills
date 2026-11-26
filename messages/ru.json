@@ -185,7 +185,8 @@
 },
 "FloatingActions": {
   "backToTop": "Вернуться наверх",
-  "whatsapp": "Свяжитесь с нами через WhatsApp"
+  "whatsapp": "Свяжитесь с нами через WhatsApp",
+  "liveChat": "Открыть онлайн-чат"
 },
 
 "AboutPage": {

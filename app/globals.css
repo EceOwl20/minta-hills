@@ -117,6 +117,17 @@
   }
 }
 
+/* Keep Connexease above the back-to-top action. */
+html body #web-messenger-container {
+  bottom: 78px !important;
+}
+
+@media (min-width: 768px) {
+  html body #web-messenger-container {
+    bottom: 88px !important;
+  }
+}
+
 @media (max-width: 1050px) {
   :root {
     --header-height: 86px;

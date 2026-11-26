@@ -5,7 +5,11 @@ type Locale = (typeof routing.locales)[number];
 export const siteConfig = {
   name: "Minta Hills",
   logo: "/images/branding/logo-crest.png",
-   url: "https://mintahills.com",
+  url: "https://mintahills.com",
+
+  connexease: {
+    messengerId: "7cc8027f-e833-435e-b40f-230f07e38f8f",
+  },
 
   phone: {
     display: "+90 242 212 02 94",

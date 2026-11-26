@@ -10,6 +10,7 @@ import Footer from "@/components/layout/Footer";
 import CookieConsent from "@/components/common/CookieConsent";
 import FloatingActions from "@/components/common/FloatingActions";
 import PagePreloader from "@/components/common/PagePreloader";
+import ConnexeaseLiveChat from "@/components/common/ConnexeaseLiveChat";
 
 const montserrat = Montserrat({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -57,25 +58,23 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-  <html
-    lang={locale}
-    className={`${montserrat.variable} ${cormorantGaramond.variable}`}
-  >
-    <body>
-      <NextIntlClientProvider>
-           <PagePreloader />
-        <Header />
+    <html
+      lang={locale}
+      className={`${montserrat.variable} ${cormorantGaramond.variable}`}
+    >
+      <body>
+        <NextIntlClientProvider>
+          <PagePreloader />
+          <Header />
 
-        {children}
+          {children}
 
-        <Footer />
-
-        <FloatingActions />
-
-        <CookieConsent />
-        
-      </NextIntlClientProvider>
-    </body>
-  </html>
-);
+          <Footer />
+          <FloatingActions />
+          <CookieConsent />
+          <ConnexeaseLiveChat />
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
 }
