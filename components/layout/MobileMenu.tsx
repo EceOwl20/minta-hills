@@ -1,9 +1,12 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useLocale } from "next-intl";
 
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/data/site";
+import { getReservationUrl } from "@/lib/reservation";
+
 import type { MobileMenuProps } from "@/types/navigation";
 
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -17,6 +20,10 @@ export default function MobileMenu({
   pathname,
   labels,
 }: MobileMenuProps) {
+  const locale = useLocale();
+
+  const reservationHref = getReservationUrl(locale);
+
   const dialogRef = useRef<HTMLDialogElement>(null);
 
   // Open and close the dialog with animation.
@@ -213,12 +220,14 @@ export default function MobileMenu({
             {siteConfig.phone.display}
           </a>
 
-          <Link
-            href={siteConfig.reservation.href}
-            onClick={onClose}
-          >
-            {labels.reservation}
-          </Link>
+           <a
+    href={reservationHref}
+    target="_blank"
+    rel="noopener noreferrer"
+    onClick={onClose}
+  >
+    {labels.reservation}
+  </a>
         </div>
       </div>
     </dialog>

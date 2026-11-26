@@ -2,80 +2,77 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-
 import { Link, usePathname } from "@/i18n/navigation";
 import { siteConfig } from "@/data/site";
 import type { HeaderProps } from "@/types/navigation";
-
 import LanguageSwitcher from "./LanguageSwitcher";
 import MobileMenu from "./MobileMenu";
+import { useLocale } from "next-intl";
+import { getReservationUrl } from "@/lib/reservation";
 
 export default function HeaderClient({ items, labels }: HeaderProps) {
   const pathname = usePathname();
+  const locale = useLocale();
+
+  const reservationHref = getReservationUrl(locale);
 
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const progressRef = useRef<HTMLDivElement>(null);
 
-useEffect(() => {
-  let animationFrame: number | null = null;
+  useEffect(() => {
+    let animationFrame: number | null = null;
 
-  function updateScroll() {
-    const scrollY = window.scrollY;
+    function updateScroll() {
+      const scrollY = window.scrollY;
 
-    const scrollableHeight =
-      document.documentElement.scrollHeight -
-      window.innerHeight;
+      const scrollableHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
 
-    const progress =
-      scrollableHeight > 0
-        ? Math.min(
-            Math.max(scrollY / scrollableHeight, 0),
-            1
-          )
-        : 0;
+      const progress =
+        scrollableHeight > 0
+          ? Math.min(Math.max(scrollY / scrollableHeight, 0), 1)
+          : 0;
 
-    setIsScrolled(scrollY > 50);
+      setIsScrolled(scrollY > 50);
 
-    if (progressRef.current) {
-      progressRef.current.style.transform =
-        `scaleX(${progress})`;
+      if (progressRef.current) {
+        progressRef.current.style.transform = `scaleX(${progress})`;
+      }
+
+      animationFrame = null;
     }
 
-    animationFrame = null;
-  }
+    function handleScroll() {
+      if (animationFrame !== null) return;
 
-  function handleScroll() {
-    if (animationFrame !== null) return;
-
-    animationFrame =
-      window.requestAnimationFrame(updateScroll);
-  }
-
-  updateScroll();
-
-  window.addEventListener("scroll", handleScroll, {
-    passive: true,
-  });
-
-  window.addEventListener("resize", handleScroll);
-
-  const resizeObserver = new ResizeObserver(handleScroll);
-
-  resizeObserver.observe(document.body);
-
-  return () => {
-    window.removeEventListener("scroll", handleScroll);
-    window.removeEventListener("resize", handleScroll);
-
-    resizeObserver.disconnect();
-
-    if (animationFrame !== null) {
-      window.cancelAnimationFrame(animationFrame);
+      animationFrame = window.requestAnimationFrame(updateScroll);
     }
-  };
-}, []);
+
+    updateScroll();
+
+    window.addEventListener("scroll", handleScroll, {
+      passive: true,
+    });
+
+    window.addEventListener("resize", handleScroll);
+
+    const resizeObserver = new ResizeObserver(handleScroll);
+
+    resizeObserver.observe(document.body);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+
+      resizeObserver.disconnect();
+
+      if (animationFrame !== null) {
+        window.cancelAnimationFrame(animationFrame);
+      }
+    };
+  }, []);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 1280px)");
@@ -101,24 +98,24 @@ useEffect(() => {
 
   return (
     <>
-    {/* Scroll Progress Bar */}
-{/* Scroll Progress Bar */}
-<div
-  aria-hidden="true"
-  className="
+      {/* Scroll Progress Bar */}
+      {/* Scroll Progress Bar */}
+      <div
+        aria-hidden="true"
+        className="
     pointer-events-none fixed inset-x-0 top-0
     z-[100] h-[2px]
   "
->
-  <div
-    ref={progressRef}
-    className="h-full w-full origin-left bg-white"
-    style={{ transform: "scaleX(0)" }}
-  />
-</div>
+      >
+        <div
+          ref={progressRef}
+          className="h-full w-full origin-left bg-white"
+          style={{ transform: "scaleX(0)" }}
+        />
+      </div>
 
-  <header
-  className={`
+      <header
+        className={`
     inset-x-0 top-0 z-50
     h-(--header-height) w-full text-white
     ${
@@ -127,7 +124,7 @@ useEffect(() => {
         : "absolute bg-[linear-gradient(180deg,rgba(7,11,13,0.88)_0%,rgba(7,11,13,0.56)_64%,rgba(7,11,13,0)_100%)]"
     }
   `}
->
+      >
         <nav
           aria-label={labels.mainMenu}
           className="
@@ -227,23 +224,22 @@ useEffect(() => {
               <LanguageSwitcher label={labels.chooseLanguage} />
 
               {/* Reservation */}
-              <Link
-                href={siteConfig.reservation.href}
-                aria-current={
-                  isActive(siteConfig.reservation.href) ? "page" : undefined
-                }
+              <a
+                href={reservationHref}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="
-                  inline-flex h-[34px] min-w-[112px]
-                  items-center justify-center whitespace-nowrap
-                  rounded-full border border-white/55 px-3
-                  text-[9px] font-medium tracking-widest
-                  transition-colors duration-200
-                  hover:border-white hover:bg-white
-                  hover:text-brand-dark
-                "
+    inline-flex h-[34px] min-w-[112px]
+    items-center justify-center whitespace-nowrap
+    rounded-full border border-white/55 px-3
+    text-[9px] font-medium tracking-widest
+    transition-colors duration-200
+    hover:border-white hover:bg-white
+    hover:text-brand-dark
+  "
               >
                 {labels.reservation}
-              </Link>
+              </a>
             </div>
 
             {/* Mobile menu toggle */}

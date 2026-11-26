@@ -1,3 +1,7 @@
+import type { routing } from "@/i18n/routing";
+
+type Locale = (typeof routing.locales)[number];
+
 export const siteConfig = {
   name: "Minta Hills",
   logo: "/images/branding/logo-crest.png",
@@ -11,9 +15,14 @@ export const siteConfig = {
 
   email: "info@mintahills.com",
 
-  reservation: {
-    href: "/reservation",
-  },
+reservation: {
+  urls: {
+    tr: "https://minta-hills-kemer.rezervasyonal.com/",
+    en: "https://minta-hills-kemer.rezervasyonal.com/en/",
+    de: "https://minta-hills-kemer.rezervasyonal.com/en/",
+    ru: "https://minta-hills-kemer.rezervasyonal.com/ru/",
+  } satisfies Record<Locale, string>,
+},
 
   address: {
     street: "Arslanbucak Mah. 282. Sok. No:10",
